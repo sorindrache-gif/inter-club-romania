@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T16:25:00+02:00",
+  "updated": "2026-11-13T16:40:00+02:00",
   "headline": {
     "date": "2026-11-13",
     "title": "Infirmeria înainte de Bergamo: Thuram doar obosit, Bonny și Stanković out o lună",
@@ -343,6 +343,34 @@
   "news": [
     {
       "date": "2026-11-13",
+      "cat": "club",
+      "title": "Carlos Augusto, la un pas de prelungirea până în 2031",
+      "text": "Potrivit Sky Sport și Corriere dello Sport, negocierile pentru noul contract al brazilianului, valabil până în iunie 2031, sunt în faza finală, iar comunicatul oficial ar putea veni curând. Pachetul ar depăși 4 milioane de euro pe sezon cu bonusuri; contractul actual expiră în 2028.",
+      "sources": [
+        [
+          "FC Inter News",
+          "https://www.fcinternews.it/rassegna/i-cds-i-carlos-augusto-passo-rinnovo-inter-questione-soldi-1023096"
+        ],
+        [
+          "FC Inter 1908",
+          "https://www.fcinter1908.it/calciomercato/mercato-inter/sky-carlos-augusto-ci-siamo-rinnovo-con-linter-a-un-passo-presto-il-comunicato-i-dettagli/"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "cat": "antrenament",
+      "title": "Antrenament vineri la Inter Training Center",
+      "text": "Lotul redus de pauza internațională s-a antrenat vineri la Appiano Gentile sub comanda lui Chivu. Printre jucătorii surprinși în fotografiile oficiale ale ședinței se numără Lautaro Martínez, Stones și Bisseck.",
+      "sources": [
+        [
+          "Inter.it",
+          "https://www.inter.it/en/news/inter-training-13-november-2026"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-13",
       "cat": "antrenament",
       "title": "Luis Henrique s-a întors la antrenamentele cu grupul",
       "text": "Brazilianul, care acuzase o problemă la adductorul lung al coapsei stângi înainte de meciul cu Fiorentina din 25 octombrie, s-a antrenat cu grupul la Appiano Gentile. Este o veste bună pentru Chivu înaintea reluării campionatului.",
@@ -494,18 +522,6 @@
       ]
     },
     {
-      "date": "2026-11",
-      "cat": "club",
-      "title": "Carlos Augusto: acord pe durată, distanță la salariu",
-      "text": "Clubul și fundașul brazilian s-au înțeles asupra unei prelungiri până în 2031, dar încă negociază suma. Sunt în discuție și reînnoirile lui Dimarco, Çalhanoğlu și Thuram.",
-      "sources": [
-        [
-          "Calciomercato",
-          "https://www.calciomercato.com/notizie/inter-nuova-strategia-per-i-rinnovi-di-contratto-tutte-le-novita-sul-futuro-di-carlos-augusto-federico-dimarco-hakan-calhanoglu-e-marcus-thuram/blt44ee50bfda0d46c2"
-        ]
-      ]
-    },
-    {
       "date": "2026-10-31",
       "cat": "antrenor",
       "title": "Chivu după derby: „Trebuie să ne punem întrebări”",
@@ -541,7 +557,7 @@
     {
       "player": "Lautaro Martínez",
       "status": "doubt",
-      "note": "Leziune la ischiogambierii stângi din 15 octombrie. Țintă: Atalanta (22 nov) sau Stuttgart (25 nov)."
+      "note": "Problemă la flexorii coapsei stângi din meciul cu Club Brugge (13 octombrie). Ar putea reveni în grup cu 3–4 zile înainte de Atalanta (22 nov); altfel Stuttgart (25 nov)."
     },
     {
       "player": "Luis Henrique",
@@ -568,9 +584,9 @@
     },
     {
       "title": "Prelungire Carlos Augusto până în 2031",
-      "text": "Durata e stabilită, salariul încă în discuție.",
-      "level": 3,
-      "source": "https://sempreinter.com/latest-news/"
+      "text": "Negocieri în faza finală, potrivit Sky Sport; se așteaptă comunicatul oficial.",
+      "level": 4,
+      "source": "https://www.fcinter1908.it/calciomercato/mercato-inter/sky-carlos-augusto-ci-siamo-rinnovo-con-linter-a-un-passo-presto-il-comunicato-i-dettagli/"
     },
     {
       "title": "Un fundaș central în ianuarie",
