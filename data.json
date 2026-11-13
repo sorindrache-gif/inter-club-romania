@@ -1,21 +1,21 @@
 {
-  "updated": "2026-11-13T16:40:00+02:00",
+  "updated": "2026-11-14T00:50:00+02:00",
   "headline": {
     "date": "2026-11-13",
-    "title": "Infirmeria înainte de Bergamo: Thuram doar obosit, Bonny și Stanković out o lună",
-    "text": "Potrivit Sky Sport și Gazzetta dello Sport, analizele lui Thuram au arătat doar oboseală musculară la bicepsul femural drept, fără leziune; francezul lucrează separat și speră să revină pentru Atalanta (22 noiembrie). Bonny (flexorii coapsei drepte) și Stanković (leziune la adductorul drept, la naționala Serbiei) sunt estimați la aproximativ o lună de pauză. Lautaro țintește meciul de la Bergamo, iar Luis Henrique s-a întors în grup.",
+    "title": "Pio Esposito, dublă cu Franța: Italia câștigă 3–1 pe San Siro",
+    "text": "Atacantul Interului a egalat în minutul 26 și a stabilit scorul din penalty în minutul 75, după ce Olise deschisese scorul pentru Franța și Frattesi întorsese rezultatul. Italia urcă pe primul loc în grupa A1 din Nations League, cu 10 puncte. Barella și Bastoni au fost titulari, iar Dimarco a intrat după pauză; Gazzetta i-a dat lui Esposito nota 8, cea mai mare din echipă.",
     "sources": [
       [
+        "UEFA",
+        "https://it.uefa.com/uefanationsleague/news/02ab-220e5fe4cf12-c1ec99ac8bc4-1000--highlights-quinta-giornata-uefa-nations-league-l-italia-ste/"
+      ],
+      [
+        "Sofascore",
+        "https://www.sofascore.com/news/italy-france-3-1-pio-espositos-brace-sends-mancinis-azzurri-to-the-top-of-the-nations-league"
+      ],
+      [
         "FC Inter 1908",
-        "https://fcinter1908.it/news/infortuni/thuram-affaticamento-atalanta-inter-cosa-filtra"
-      ],
-      [
-        "Calciomercato",
-        "https://www.calciomercato.com/notizie/inter-i-tempi-di-recupero-di-tutti-gli-infortunati-ecco-quando-tornano-in-campo/blt9db58fac046425e6"
-      ],
-      [
-        "Football Italia",
-        "https://football-italia.net/inter-relief-thuram-injury-muscular-issues/"
+        "https://www.fcinter1908.it/nazionali/italia-francia-pio-esposito-risultato-dimarco/"
       ]
     ]
   },
@@ -343,6 +343,46 @@
   "news": [
     {
       "date": "2026-11-13",
+      "cat": "meci",
+      "title": "Italia – Franța 3–1: Pio Esposito, dublă la națională",
+      "text": "În etapa a 5-a din Nations League, Esposito a marcat de două ori (26', 75' din penalty), iar Italia a urcat pe primul loc în grupă. Barella și Bastoni au jucat ca titulari, Dimarco a intrat în repriza a doua.",
+      "sources": [
+        [
+          "UEFA",
+          "https://it.uefa.com/uefanationsleague/news/02ab-220e5fe4cf12-c1ec99ac8bc4-1000--highlights-quinta-giornata-uefa-nations-league-l-italia-ste/"
+        ],
+        [
+          "Sofascore",
+          "https://www.sofascore.com/news/italy-france-3-1-pio-espositos-brace-sends-mancinis-azzurri-to-the-top-of-the-nations-league"
+        ],
+        [
+          "FC Inter 1908",
+          "https://www.fcinter1908.it/nazionali/italia-francia-pio-esposito-risultato-dimarco/"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "cat": "accidentare",
+      "title": "Lautaro, așteptat în grup de luni",
+      "text": "Potrivit Gazzetta dello Sport, căpitanul ar urma să reia antrenamentele cu grupul luni, la Appiano Gentile, cu ținta meciului de la Bergamo. Corriere dello Sport avertizează că nu există garanții absolute, iar revenirea ar putea aluneca spre meciul cu Stuttgart. „Mă simt bine, sper să revin curând”, a spus Lautaro pentru Sky Sport.",
+      "sources": [
+        [
+          "FC Inter News",
+          "https://www.fcinternews.it/rassegna/i-gds-i-lautaro-lunedi-stones-jones-appiano-punto-1022940"
+        ],
+        [
+          "Calciomercato",
+          "https://www.calciomercato.com/liste/inter-quando-torna-lautaro-sto-bene-spero-di-tornare-presto-scudetto-campionato-equilibrato-come-un-anno-fa/blt6a0bf360cb37bf21"
+        ],
+        [
+          "FC Inter News",
+          "https://www.fcinternews.it/in-primo-piano/i-cds-i-atalanta-inter-cautela-lautaro-thuram-gioca-davanti-1022944"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-13",
       "cat": "club",
       "title": "Carlos Augusto, la un pas de prelungirea până în 2031",
       "text": "Potrivit Sky Sport și Corriere dello Sport, negocierile pentru noul contract al brazilianului, valabil până în iunie 2031, sunt în faza finală, iar comunicatul oficial ar putea veni curând. Pachetul ar depăși 4 milioane de euro pe sezon cu bonusuri; contractul actual expiră în 2028.",
@@ -557,7 +597,7 @@
     {
       "player": "Lautaro Martínez",
       "status": "doubt",
-      "note": "Problemă la flexorii coapsei stângi din meciul cu Club Brugge (13 octombrie). Ar putea reveni în grup cu 3–4 zile înainte de Atalanta (22 nov); altfel Stuttgart (25 nov)."
+      "note": "Problemă la flexorii coapsei stângi din meciul cu Club Brugge (13 octombrie). Așteptat în grup luni, 16 noiembrie; țintă Atalanta (22 nov), altfel Stuttgart (25 nov)."
     },
     {
       "player": "Luis Henrique",
