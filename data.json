@@ -1,95 +1,600 @@
 {
-  "updated": "2026-11-13T15:00:00+02:00",
+  "updated": "2026-11-13T16:25:00+02:00",
   "headline": {
-    "date": "2026-11-12",
-    "title": "Atac decimat înainte de Bergamo: Thuram și Bonny out, Lautaro în cursa pentru revenire",
-    "text": "Thuram a acuzat o tensiune la bicepsul femural drept în meciul cu Como și a părăsit cantonamentul Franței; presa italiană vorbește de aproximativ o lună de pauză. Bonny are o problemă la flexorii coapsei drepte și ar putea rata cel puțin patru meciuri. Lautaro, accidentat din 15 octombrie, țintește meciul cu Atalanta din 22 noiembrie. Pio Esposito, care a scăpat de suspendare, rămâne singurul vârf sigur disponibil.",
+    "date": "2026-11-13",
+    "title": "Infirmeria înainte de Bergamo: Thuram doar obosit, Bonny și Stanković out o lună",
+    "text": "Potrivit Sky Sport și Gazzetta dello Sport, analizele lui Thuram au arătat doar oboseală musculară la bicepsul femural drept, fără leziune; francezul lucrează separat și speră să revină pentru Atalanta (22 noiembrie). Bonny (flexorii coapsei drepte) și Stanković (leziune la adductorul drept, la naționala Serbiei) sunt estimați la aproximativ o lună de pauză. Lautaro țintește meciul de la Bergamo, iar Luis Henrique s-a întors în grup.",
     "sources": [
-      ["Calciomercato", "https://www.calciomercato.com/notizie/inter-i-tempi-di-recupero-di-tutti-gli-infortunati-ecco-quando-tornano-in-campo/blt9db58fac046425e6"],
-      ["Sportmediaset", "https://www.sportmediaset.mediaset.it/calcio/inter/inter-tegola-infortuni-bonny-thuram-tempi-recupero_118833779-202602k.shtml"],
-      ["SempreInter", "https://sempreinter.com/2026/11/10/bonny-joins-lautaro-on-inters-injury-list-before-atalanta-and-stuttgart/"]
+      [
+        "FC Inter 1908",
+        "https://fcinter1908.it/news/infortuni/thuram-affaticamento-atalanta-inter-cosa-filtra"
+      ],
+      [
+        "Calciomercato",
+        "https://www.calciomercato.com/notizie/inter-i-tempi-di-recupero-di-tutti-gli-infortunati-ecco-quando-tornano-in-campo/blt9db58fac046425e6"
+      ],
+      [
+        "Football Italia",
+        "https://football-italia.net/inter-relief-thuram-injury-muscular-issues/"
+      ]
     ]
   },
   "fixtures": [
-    {"date": "2026-11-22", "time": "21:45", "comp": "sa", "round": "Etapa 12", "home": "Atalanta", "away": "Inter"},
-    {"date": "2026-11-25", "time": "22:00", "comp": "ucl", "round": "Faza ligii, etapa 5", "home": "Inter", "away": "Stuttgart"},
-    {"date": "2026-11-28", "time": "21:45", "comp": "sa", "round": "Etapa 13", "home": "Inter", "away": "Genoa"},
-    {"date": "2026-12-01", "time": "22:00", "comp": "ci", "round": "Optimi", "home": "Inter", "away": "Genoa"},
-    {"date": "2026-12-05", "time": "19:00", "comp": "sa", "round": "Etapa 14", "home": "Frosinone", "away": "Inter"},
-    {"date": "2026-12-09", "time": "22:00", "comp": "ucl", "round": "Faza ligii, etapa 6", "home": "Borussia Dortmund", "away": "Inter"},
-    {"date": "2026-12-13", "time": "16:00", "comp": "sa", "round": "Etapa 15", "home": "Inter", "away": "Torino"},
-    {"date": "2026-12-18", "time": "21:45", "comp": "sa", "round": "Etapa 16", "home": "Lecce", "away": "Inter"},
-    {"date": "2026-12-22", "time": "22:00", "comp": "sc", "round": "Supercoppa", "home": "Inter", "away": "Lazio"}
+    {
+      "date": "2026-11-22",
+      "time": "21:45",
+      "comp": "sa",
+      "round": "Etapa 12",
+      "home": "Atalanta",
+      "away": "Inter"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "22:00",
+      "comp": "ucl",
+      "round": "Faza ligii, etapa 5",
+      "home": "Inter",
+      "away": "Stuttgart"
+    },
+    {
+      "date": "2026-11-28",
+      "time": "21:45",
+      "comp": "sa",
+      "round": "Etapa 13",
+      "home": "Inter",
+      "away": "Genoa"
+    },
+    {
+      "date": "2026-12-01",
+      "time": "22:00",
+      "comp": "ci",
+      "round": "Optimi",
+      "home": "Inter",
+      "away": "Genoa"
+    },
+    {
+      "date": "2026-12-05",
+      "time": "19:00",
+      "comp": "sa",
+      "round": "Etapa 14",
+      "home": "Frosinone",
+      "away": "Inter"
+    },
+    {
+      "date": "2026-12-09",
+      "time": "22:00",
+      "comp": "ucl",
+      "round": "Faza ligii, etapa 6",
+      "home": "Borussia Dortmund",
+      "away": "Inter"
+    },
+    {
+      "date": "2026-12-13",
+      "time": "16:00",
+      "comp": "sa",
+      "round": "Etapa 15",
+      "home": "Inter",
+      "away": "Torino"
+    },
+    {
+      "date": "2026-12-18",
+      "time": "21:45",
+      "comp": "sa",
+      "round": "Etapa 16",
+      "home": "Lecce",
+      "away": "Inter"
+    },
+    {
+      "date": "2026-12-22",
+      "time": "22:00",
+      "comp": "sc",
+      "round": "Supercoppa",
+      "home": "Inter",
+      "away": "Lazio"
+    }
   ],
   "results": [
-    {"date": "2026-11-08", "comp": "sa", "round": "Etapa 11", "home": "Inter", "away": "Como", "hs": 2, "as": 0, "scorers": "Pio Esposito, Thuram"},
-    {"date": "2026-11-03", "comp": "ucl", "round": "Faza ligii, etapa 4", "home": "Feyenoord", "away": "Inter", "hs": 0, "as": 3, "scorers": "Bisseck, Pio Esposito, Zieliński"},
-    {"date": "2026-10-31", "comp": "sa", "round": "Etapa 10", "home": "Milan", "away": "Inter", "hs": 3, "as": 1, "scorers": "Bastoni 22' · Milan: Pulisic 4', Rabiot 10', Moreira 43'"},
-    {"date": "2026-10-28", "comp": "sa", "round": "Etapa 9", "home": "Venezia", "away": "Inter", "hs": 0, "as": 2, "scorers": ""},
-    {"date": "2026-10-25", "comp": "sa", "round": "Etapa 8", "home": "Inter", "away": "Fiorentina", "hs": 2, "as": 1, "scorers": ""},
-    {"date": "2026-10-21", "comp": "ucl", "round": "Faza ligii, etapa 3", "home": "Inter", "away": "Shakhtar Donețk", "hs": 1, "as": 0, "scorers": ""},
-    {"date": "2026-10-17", "comp": "sa", "round": "Etapa 7", "home": "Bologna", "away": "Inter", "hs": 1, "as": 3, "scorers": ""},
-    {"date": "2026-10-13", "comp": "ucl", "round": "Faza ligii, etapa 2", "home": "Inter", "away": "Club Brugge", "hs": 3, "as": 4, "scorers": ""},
-    {"date": "2026-10-10", "comp": "sa", "round": "Etapa 6", "home": "Inter", "away": "Parma", "hs": 3, "as": 0, "scorers": ""},
-    {"date": "2026-09-19", "comp": "sa", "round": "Etapa 5", "home": "Roma", "away": "Inter", "hs": 2, "as": 2, "scorers": ""},
-    {"date": "2026-09-14", "comp": "sa", "round": "Etapa 4", "home": "Inter", "away": "Udinese", "hs": 5, "as": 3, "scorers": "C. Augusto 26', Barella 35', Thuram 57', Pio Esposito 67', Bonny 79'"},
-    {"date": "2026-09-08", "comp": "ucl", "round": "Faza ligii, etapa 1", "home": "Real Madrid", "away": "Inter", "hs": 2, "as": 1, "scorers": ""},
-    {"date": "2026-09-05", "comp": "sa", "round": "Etapa 3", "home": "Inter", "away": "Napoli", "hs": 3, "as": 2, "scorers": ""},
-    {"date": "2026-08-30", "comp": "sa", "round": "Etapa 2", "home": "Cagliari", "away": "Inter", "hs": 0, "as": 1, "scorers": "Çalhanoğlu 9'"},
-    {"date": "2026-08-22", "comp": "sa", "round": "Etapa 1", "home": "Inter", "away": "Monza", "hs": 4, "as": 1, "scorers": "Çalhanoğlu, Zieliński, Pio Esposito, Bisseck"}
+    {
+      "date": "2026-11-08",
+      "comp": "sa",
+      "round": "Etapa 11",
+      "home": "Inter",
+      "away": "Como",
+      "hs": 2,
+      "as": 0,
+      "scorers": "Pio Esposito, Thuram"
+    },
+    {
+      "date": "2026-11-03",
+      "comp": "ucl",
+      "round": "Faza ligii, etapa 4",
+      "home": "Feyenoord",
+      "away": "Inter",
+      "hs": 0,
+      "as": 3,
+      "scorers": "Bisseck, Pio Esposito, Zieliński"
+    },
+    {
+      "date": "2026-10-31",
+      "comp": "sa",
+      "round": "Etapa 10",
+      "home": "Milan",
+      "away": "Inter",
+      "hs": 3,
+      "as": 1,
+      "scorers": "Bastoni 22' · Milan: Pulisic 4', Rabiot 10', Moreira 43'"
+    },
+    {
+      "date": "2026-10-28",
+      "comp": "sa",
+      "round": "Etapa 9",
+      "home": "Venezia",
+      "away": "Inter",
+      "hs": 0,
+      "as": 2,
+      "scorers": ""
+    },
+    {
+      "date": "2026-10-25",
+      "comp": "sa",
+      "round": "Etapa 8",
+      "home": "Inter",
+      "away": "Fiorentina",
+      "hs": 2,
+      "as": 1,
+      "scorers": ""
+    },
+    {
+      "date": "2026-10-21",
+      "comp": "ucl",
+      "round": "Faza ligii, etapa 3",
+      "home": "Inter",
+      "away": "Shakhtar Donețk",
+      "hs": 1,
+      "as": 0,
+      "scorers": ""
+    },
+    {
+      "date": "2026-10-17",
+      "comp": "sa",
+      "round": "Etapa 7",
+      "home": "Bologna",
+      "away": "Inter",
+      "hs": 1,
+      "as": 3,
+      "scorers": ""
+    },
+    {
+      "date": "2026-10-13",
+      "comp": "ucl",
+      "round": "Faza ligii, etapa 2",
+      "home": "Inter",
+      "away": "Club Brugge",
+      "hs": 3,
+      "as": 4,
+      "scorers": ""
+    },
+    {
+      "date": "2026-10-10",
+      "comp": "sa",
+      "round": "Etapa 6",
+      "home": "Inter",
+      "away": "Parma",
+      "hs": 3,
+      "as": 0,
+      "scorers": ""
+    },
+    {
+      "date": "2026-09-19",
+      "comp": "sa",
+      "round": "Etapa 5",
+      "home": "Roma",
+      "away": "Inter",
+      "hs": 2,
+      "as": 2,
+      "scorers": ""
+    },
+    {
+      "date": "2026-09-14",
+      "comp": "sa",
+      "round": "Etapa 4",
+      "home": "Inter",
+      "away": "Udinese",
+      "hs": 5,
+      "as": 3,
+      "scorers": "C. Augusto 26', Barella 35', Thuram 57', Pio Esposito 67', Bonny 79'"
+    },
+    {
+      "date": "2026-09-08",
+      "comp": "ucl",
+      "round": "Faza ligii, etapa 1",
+      "home": "Real Madrid",
+      "away": "Inter",
+      "hs": 2,
+      "as": 1,
+      "scorers": ""
+    },
+    {
+      "date": "2026-09-05",
+      "comp": "sa",
+      "round": "Etapa 3",
+      "home": "Inter",
+      "away": "Napoli",
+      "hs": 3,
+      "as": 2,
+      "scorers": ""
+    },
+    {
+      "date": "2026-08-30",
+      "comp": "sa",
+      "round": "Etapa 2",
+      "home": "Cagliari",
+      "away": "Inter",
+      "hs": 0,
+      "as": 1,
+      "scorers": "Çalhanoğlu 9'"
+    },
+    {
+      "date": "2026-08-22",
+      "comp": "sa",
+      "round": "Etapa 1",
+      "home": "Inter",
+      "away": "Monza",
+      "hs": 4,
+      "as": 1,
+      "scorers": "Çalhanoğlu, Zieliński, Pio Esposito, Bisseck"
+    }
   ],
   "table": {
     "after": 11,
     "rows": [
-      {"team": "Lazio", "pts": 29},
-      {"team": "Inter", "pts": 28},
-      {"team": "Roma", "pts": 27},
-      {"team": "Milan", "pts": 24},
-      {"team": "Como", "pts": 23},
-      {"team": "Frosinone", "pts": 20},
-      {"team": "Juventus", "pts": 18},
-      {"team": "Bologna", "pts": 17},
-      {"team": "Cagliari", "pts": 16},
-      {"team": "Napoli", "pts": 15},
-      {"team": "Torino", "pts": 14},
-      {"team": "Atalanta", "pts": 14},
-      {"team": "Genoa", "pts": 13},
-      {"team": "Lecce", "pts": 10},
-      {"team": "Fiorentina", "pts": 9},
-      {"team": "Parma", "pts": 8},
-      {"team": "Sassuolo", "pts": 8},
-      {"team": "Monza", "pts": 7},
-      {"team": "Venezia", "pts": 6},
-      {"team": "Udinese", "pts": 5}
+      {
+        "team": "Lazio",
+        "pts": 29
+      },
+      {
+        "team": "Inter",
+        "pts": 28
+      },
+      {
+        "team": "Roma",
+        "pts": 27
+      },
+      {
+        "team": "Milan",
+        "pts": 24
+      },
+      {
+        "team": "Como",
+        "pts": 23
+      },
+      {
+        "team": "Frosinone",
+        "pts": 20
+      },
+      {
+        "team": "Juventus",
+        "pts": 18
+      },
+      {
+        "team": "Bologna",
+        "pts": 17
+      },
+      {
+        "team": "Cagliari",
+        "pts": 16
+      },
+      {
+        "team": "Napoli",
+        "pts": 15
+      },
+      {
+        "team": "Torino",
+        "pts": 14
+      },
+      {
+        "team": "Atalanta",
+        "pts": 14
+      },
+      {
+        "team": "Genoa",
+        "pts": 13
+      },
+      {
+        "team": "Lecce",
+        "pts": 10
+      },
+      {
+        "team": "Fiorentina",
+        "pts": 9
+      },
+      {
+        "team": "Parma",
+        "pts": 8
+      },
+      {
+        "team": "Sassuolo",
+        "pts": 8
+      },
+      {
+        "team": "Monza",
+        "pts": 7
+      },
+      {
+        "team": "Venezia",
+        "pts": 6
+      },
+      {
+        "team": "Udinese",
+        "pts": 5
+      }
     ]
   },
-  "ucl": {"played": 4, "w": 2, "d": 0, "l": 2, "gf": 8, "ga": 6, "pts": 6, "pos": null},
+  "ucl": {
+    "played": 4,
+    "w": 2,
+    "d": 0,
+    "l": 2,
+    "gf": 8,
+    "ga": 6,
+    "pts": 6,
+    "pos": null
+  },
   "news": [
-    {"date": "2026-11-13", "cat": "antrenament", "title": "Chivu le dă jucătorilor weekendul liber; accidentații continuă tratamentul", "text": "Potrivit Gazzetta dello Sport, lotul rămas la Appiano are două zile libere sâmbătă și duminică. Thuram, Bonny și Stanković, întorși de la naționale, continuă terapiile, iar Lautaro lucrează pentru a-și recăpăta forma.", "sources": [["FC Inter News", "https://www.fcinternews.it/rassegna/chivu-concede-weekend-riposo-squadra-terapie-infortunati-1023022"]]},
-    {"date": "2026-11-12", "cat": "antrenament", "title": "Antrenament cu lot redus la Appiano Gentile", "text": "Cu mulți jucători plecați la echipele naționale, Chivu a lucrat joi cu un grup restrâns, în pregătirea reluării campionatului de la Bergamo.", "sources": [["Inter.it", "https://www.inter.it/en/news/training-inter-12-november-2026"]]},
-    {"date": "2026-11-12", "cat": "accidentare", "title": "Thuram, aproximativ o lună de pauză", "text": "Francezul a acuzat o tensiune la bicepsul femural drept în meciul cu Como. Revenirea e estimată pentru Inter – Torino (13 decembrie) sau Lecce – Inter (18 decembrie).", "sources": [["Calciomercato", "https://www.calciomercato.com/notizie/inter-i-tempi-di-recupero-di-tutti-gli-infortunati-ecco-quando-tornano-in-campo/blt9db58fac046425e6"]]},
-    {"date": "2026-11-10", "cat": "accidentare", "title": "Bonny se alătură listei de accidentați", "text": "Analizele au arătat o problemă musculară la flexorii coapsei drepte. Atacantul s-a întors la Milano în loc să meargă la națională și ar putea lipsi cel puțin patru meciuri.", "sources": [["SempreInter", "https://sempreinter.com/2026/11/10/bonny-joins-lautaro-on-inters-injury-list-before-atalanta-and-stuttgart/"], ["Sportmediaset", "https://www.sportmediaset.mediaset.it/calcio/inter/inter-tegola-infortuni-bonny-thuram-tempi-recupero_118833779-202602k.shtml"]]},
-    {"date": "2026-11-10", "cat": "meci", "title": "Pio Esposito scapă de suspendare și poate conduce atacul la Bergamo", "text": "Deciziile comisiei de disciplină după etapa 11 îl lasă disponibil pe Esposito, cel mai probabil titular în vârful atacului cu Atalanta.", "sources": [["SempreInter", "https://sempreinter.com/2026/11/10/bonny-joins-lautaro-on-inters-injury-list-before-atalanta-and-stuttgart/"]]},
-    {"date": "2026-11-08", "cat": "meci", "title": "Inter – Como 2–0: Esposito și Thuram decid meciul de pe San Siro", "text": "A doua victorie la rând după derby. Inter urcă la 28 de puncte, la una de liderul Lazio. Succesul a costat însă: Thuram a ieșit cu o problemă musculară.", "sources": [["FotMob", "https://www.fotmob.com/matches/inter-vs-como/2xaxi8"]]},
-    {"date": "2026-11-03", "cat": "meci", "title": "Feyenoord – Inter 0–3: a doua victorie consecutivă în Champions League", "text": "Bisseck, Pio Esposito și Zieliński au marcat la Rotterdam. Înainte de meci, Chivu și-a fixat ținta de 16 puncte în faza ligii; Inter are acum 6.", "sources": [["Inter.it", "https://www.inter.it/en/news/standings-league-phase-inter-fixtures-champions-league-26-27"], ["SempreInter", "https://sempreinter.com/2026/11/03/chivu-sets-16-point-target-as-depleted-inter-20th-in-europe-travel-to-feyenoord/"]]},
-    {"date": "2026-11-02", "cat": "club", "title": "Achizițiile din Premier League, mai mult la recuperare decât pe teren", "text": "Corriere dello Sport notează că Jones, Stones și Spence, aduși în vară din Anglia, au fost mai des indisponibili decât la dispoziția lui Chivu.", "sources": [["Corriere dello Sport", "https://www.corrieredellosport.it/news/calcio/calcio-mercato/inter/2026/11/02-152319602/inter_il_mercato_non_si_vede_i_rinforzi_dalla_premier_frenati_dagli_infortuni"]]},
-    {"date": "2026-10-31", "cat": "antrenor", "title": "Chivu după derby: „Trebuie să ne punem întrebări”", "text": "Milan a câștigat 3–1 (Pulisic, Rabiot, Moreira; Bastoni pentru Inter) și a încheiat seria de nouă meciuri fără înfrângere a nerazzurrilor în campionat. Inter nu a mai învins Milanul de șapte derbiuri.", "sources": [["SempreInter", "https://sempreinter.com/2026/10/31/chivu-admits-inter-must-ask-questions-after-seven-derbies-without-beating-milan/"], ["AC Milan", "https://www.acmilan.com/en/news/articles/serie-a/2026-10-31/ac-milan-wins-the-derby"]]},
-    {"date": "2026-11", "cat": "transfer", "title": "Stones, sub observație: dacă pleacă în ianuarie, vine un alt fundaș", "text": "Fundașul englez s-a refăcut, dar e monitorizat după problemele fizice repetate. Gazzetta scrie că o plecare a lui ar deschide drumul pentru un nou fundaș central la iarnă.", "sources": [["Calciomercato", "https://www.calciomercato.com/liste/inter-stones-sotto-esame-se-parte-a-gennaio-puo-arrivare-un-altro-difensore/blt02a8c907ecc6af48"]]},
-    {"date": "2026-11", "cat": "club", "title": "Carlos Augusto: acord pe durată, distanță la salariu", "text": "Clubul și fundașul brazilian s-au înțeles asupra unei prelungiri până în 2031, dar încă negociază suma. Sunt în discuție și reînnoirile lui Dimarco, Çalhanoğlu și Thuram.", "sources": [["Calciomercato", "https://www.calciomercato.com/notizie/inter-nuova-strategia-per-i-rinnovi-di-contratto-tutte-le-novita-sul-futuro-di-carlos-augusto-federico-dimarco-hakan-calhanoglu-e-marcus-thuram/blt44ee50bfda0d46c2"]]}
+    {
+      "date": "2026-11-13",
+      "cat": "antrenament",
+      "title": "Luis Henrique s-a întors la antrenamentele cu grupul",
+      "text": "Brazilianul, care acuzase o problemă la adductorul lung al coapsei stângi înainte de meciul cu Fiorentina din 25 octombrie, s-a antrenat cu grupul la Appiano Gentile. Este o veste bună pentru Chivu înaintea reluării campionatului.",
+      "sources": [
+        [
+          "FC Inter News",
+          "https://www.fcinternews.it/copertina/i-sky-i-chivu-recupera-altra-pedina-luis-henrique-allenato-1023043"
+        ],
+        [
+          "Calciomercato",
+          "https://www.calciomercato.com/notizie/inter-buona-notizia-per-chivu-luis-henrique-e-tornato-in-gruppo/blt197e5f174ba45d66"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "cat": "antrenament",
+      "title": "Chivu le dă jucătorilor weekendul liber; accidentații continuă tratamentul",
+      "text": "Potrivit Gazzetta dello Sport, lotul rămas la Appiano are două zile libere sâmbătă și duminică. Thuram, Bonny și Stanković, întorși de la naționale, continuă terapiile, iar Lautaro lucrează pentru a-și recăpăta forma.",
+      "sources": [
+        [
+          "FC Inter News",
+          "https://www.fcinternews.it/rassegna/chivu-concede-weekend-riposo-squadra-terapie-infortunati-1023022"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "cat": "accidentare",
+      "title": "Thuram: doar oboseală musculară, fără leziune",
+      "text": "Sky Sport și Gazzetta dello Sport scriu că investigațiile nu au arătat nicio leziune la bicepsul femural drept al francezului. Thuram va lucra separat în zilele următoare, iar Inter speră să-l aibă înapoi în grup înainte de meciul cu Atalanta; varianta prudentă este Genoa, pe 28 noiembrie.",
+      "sources": [
+        [
+          "FC Inter 1908",
+          "https://fcinter1908.it/news/infortuni/thuram-affaticamento-atalanta-inter-cosa-filtra"
+        ],
+        [
+          "Football Italia",
+          "https://football-italia.net/inter-relief-thuram-injury-muscular-issues/"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "cat": "antrenament",
+      "title": "Antrenament cu lot redus la Appiano Gentile",
+      "text": "Cu mulți jucători plecați la echipele naționale, Chivu a lucrat joi cu un grup restrâns, în pregătirea reluării campionatului de la Bergamo.",
+      "sources": [
+        [
+          "Inter.it",
+          "https://www.inter.it/en/news/training-inter-12-november-2026"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "cat": "accidentare",
+      "title": "Stanković părăsește naționala Serbiei: leziune la adductor",
+      "text": "Federația sârbă a anunțat o leziune la adductorul coapsei drepte, apărută la un antrenament. Mijlocașul s-a întors la Milano și ar urma să lipsească aproximativ o lună, cu revenire estimată pentru 13 sau 18 decembrie.",
+      "sources": [
+        [
+          "FC Inter 1908",
+          "https://www.fcinter1908.it/news/infortuni/inter-uno-stop-dietro-laltro-anche-stankovic-torna-a-milano-la-serbia-lesione-alladduttore/"
+        ],
+        [
+          "Calciomercato",
+          "https://www.calciomercato.com/liste/inter-altro-infortunio-in-nazionale-si-ferma-stankovic-lesione-alla-coscia-destra/blt0fbd659daeec9173"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "cat": "accidentare",
+      "title": "Bonny se alătură listei de accidentați",
+      "text": "Analizele au arătat o problemă musculară la flexorii coapsei drepte. Atacantul s-a întors la Milano în loc să meargă la națională și ar putea lipsi cel puțin patru meciuri.",
+      "sources": [
+        [
+          "SempreInter",
+          "https://sempreinter.com/2026/11/10/bonny-joins-lautaro-on-inters-injury-list-before-atalanta-and-stuttgart/"
+        ],
+        [
+          "Sportmediaset",
+          "https://www.sportmediaset.mediaset.it/calcio/inter/inter-tegola-infortuni-bonny-thuram-tempi-recupero_118833779-202602k.shtml"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "cat": "meci",
+      "title": "Pio Esposito scapă de suspendare și poate conduce atacul la Bergamo",
+      "text": "Deciziile comisiei de disciplină după etapa 11 îl lasă disponibil pe Esposito, cel mai probabil titular în vârful atacului cu Atalanta.",
+      "sources": [
+        [
+          "SempreInter",
+          "https://sempreinter.com/2026/11/10/bonny-joins-lautaro-on-inters-injury-list-before-atalanta-and-stuttgart/"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "cat": "meci",
+      "title": "Inter – Como 2–0: Esposito și Thuram decid meciul de pe San Siro",
+      "text": "A doua victorie la rând după derby. Inter urcă la 28 de puncte, la una de liderul Lazio. Succesul a costat însă: Thuram a ieșit cu o problemă musculară.",
+      "sources": [
+        [
+          "FotMob",
+          "https://www.fotmob.com/matches/inter-vs-como/2xaxi8"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "cat": "meci",
+      "title": "Feyenoord – Inter 0–3: a doua victorie consecutivă în Champions League",
+      "text": "Bisseck, Pio Esposito și Zieliński au marcat la Rotterdam. Înainte de meci, Chivu și-a fixat ținta de 16 puncte în faza ligii; Inter are acum 6.",
+      "sources": [
+        [
+          "Inter.it",
+          "https://www.inter.it/en/news/standings-league-phase-inter-fixtures-champions-league-26-27"
+        ],
+        [
+          "SempreInter",
+          "https://sempreinter.com/2026/11/03/chivu-sets-16-point-target-as-depleted-inter-20th-in-europe-travel-to-feyenoord/"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "cat": "club",
+      "title": "Achizițiile din Premier League, mai mult la recuperare decât pe teren",
+      "text": "Corriere dello Sport notează că Jones, Stones și Spence, aduși în vară din Anglia, au fost mai des indisponibili decât la dispoziția lui Chivu.",
+      "sources": [
+        [
+          "Corriere dello Sport",
+          "https://www.corrieredellosport.it/news/calcio/calcio-mercato/inter/2026/11/02-152319602/inter_il_mercato_non_si_vede_i_rinforzi_dalla_premier_frenati_dagli_infortuni"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11",
+      "cat": "transfer",
+      "title": "Stones, sub observație: dacă pleacă în ianuarie, vine un alt fundaș",
+      "text": "Fundașul englez s-a refăcut, dar e monitorizat după problemele fizice repetate. Gazzetta scrie că o plecare a lui ar deschide drumul pentru un nou fundaș central la iarnă.",
+      "sources": [
+        [
+          "Calciomercato",
+          "https://www.calciomercato.com/liste/inter-stones-sotto-esame-se-parte-a-gennaio-puo-arrivare-un-altro-difensore/blt02a8c907ecc6af48"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11",
+      "cat": "club",
+      "title": "Carlos Augusto: acord pe durată, distanță la salariu",
+      "text": "Clubul și fundașul brazilian s-au înțeles asupra unei prelungiri până în 2031, dar încă negociază suma. Sunt în discuție și reînnoirile lui Dimarco, Çalhanoğlu și Thuram.",
+      "sources": [
+        [
+          "Calciomercato",
+          "https://www.calciomercato.com/notizie/inter-nuova-strategia-per-i-rinnovi-di-contratto-tutte-le-novita-sul-futuro-di-carlos-augusto-federico-dimarco-hakan-calhanoglu-e-marcus-thuram/blt44ee50bfda0d46c2"
+        ]
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "cat": "antrenor",
+      "title": "Chivu după derby: „Trebuie să ne punem întrebări”",
+      "text": "Milan a câștigat 3–1 (Pulisic, Rabiot, Moreira; Bastoni pentru Inter) și a încheiat seria de nouă meciuri fără înfrângere a nerazzurrilor în campionat. Inter nu a mai învins Milanul de șapte derbiuri.",
+      "sources": [
+        [
+          "SempreInter",
+          "https://sempreinter.com/2026/10/31/chivu-admits-inter-must-ask-questions-after-seven-derbies-without-beating-milan/"
+        ],
+        [
+          "AC Milan",
+          "https://www.acmilan.com/en/news/articles/serie-a/2026-10-31/ac-milan-wins-the-derby"
+        ]
+      ]
+    }
   ],
   "injuries": [
-    {"player": "Marcus Thuram", "status": "out", "note": "Tensiune la bicepsul femural drept (meciul cu Como). Revenire estimată: 13 sau 18 decembrie."},
-    {"player": "Ange-Yoan Bonny", "status": "out", "note": "Problemă la flexorii coapsei drepte. Cel puțin 4 meciuri."},
-    {"player": "Lautaro Martínez", "status": "doubt", "note": "Leziune la ischiogambierii stângi din 15 octombrie. Țintă: Atalanta (22 nov) sau Stuttgart (25 nov)."},
-    {"player": "Aleksandar Stanković", "status": "doubt", "note": "Face terapie la Appiano după revenirea de la națională."},
-    {"player": "John Stones", "status": "back", "note": "Refăcut, dar monitorizat. Ar trebui să fie disponibil pe 22 noiembrie."},
-    {"player": "Curtis Jones", "status": "back", "note": "Aproape refăcut, disponibil după pauza internațională."}
+    {
+      "player": "Ange-Yoan Bonny",
+      "status": "out",
+      "note": "Problemă la flexorii coapsei drepte. Aproximativ o lună; revenire estimată 13 sau 18 decembrie (alte surse: 5 sau 9 decembrie)."
+    },
+    {
+      "player": "Aleksandar Stanković",
+      "status": "out",
+      "note": "Leziune la adductorul coapsei drepte (naționala Serbiei). Revenire estimată 13 sau 18 decembrie."
+    },
+    {
+      "player": "Marcus Thuram",
+      "status": "doubt",
+      "note": "Oboseală musculară la bicepsul femural drept, fără leziune. Țintă: Atalanta (22 nov); altfel Stuttgart (25 nov) sau Genoa (28 nov)."
+    },
+    {
+      "player": "Lautaro Martínez",
+      "status": "doubt",
+      "note": "Leziune la ischiogambierii stângi din 15 octombrie. Țintă: Atalanta (22 nov) sau Stuttgart (25 nov)."
+    },
+    {
+      "player": "Luis Henrique",
+      "status": "back",
+      "note": "Problemă la adductorul stâng din 25 octombrie; s-a întors în grup pe 13 noiembrie."
+    },
+    {
+      "player": "John Stones",
+      "status": "back",
+      "note": "Refăcut, dar monitorizat. Ar trebui să fie disponibil pe 22 noiembrie."
+    },
+    {
+      "player": "Curtis Jones",
+      "status": "back",
+      "note": "Aproape refăcut, disponibil după pauza internațională."
+    }
   ],
   "mercato": [
-    {"title": "Prelungire Dimarco până în 2031", "text": "Semnătura e aproape, potrivit presei italiene.", "level": 4, "source": "https://www.calciomercato.com/notizie/inter-nuova-strategia-per-i-rinnovi-di-contratto-tutte-le-novita-sul-futuro-di-carlos-augusto-federico-dimarco-hakan-calhanoglu-e-marcus-thuram/blt44ee50bfda0d46c2"},
-    {"title": "Prelungire Carlos Augusto până în 2031", "text": "Durata e stabilită, salariul încă în discuție.", "level": 3, "source": "https://sempreinter.com/latest-news/"},
-    {"title": "Un fundaș central în ianuarie", "text": "Depinde de situația lui Stones. Inter vrea și un jucător de bandă.", "level": 2, "source": "https://www.calciomercato.com/liste/inter-due-obiettivi-per-il-mercato-di-gennaio-strategie-diverse-per-esterno-e-difensore-il-punto/bltfc9d781aed2df9d2"},
-    {"title": "Reînnoirile Çalhanoğlu și Thuram", "text": "Clubul a schimbat strategia pentru contractele veteranilor. Nimic semnat.", "level": 2, "source": "https://www.calciomercato.com/notizie/inter-nuova-strategia-per-i-rinnovi-di-contratto-tutte-le-novita-sul-futuro-di-carlos-augusto-federico-dimarco-hakan-calhanoglu-e-marcus-thuram/blt44ee50bfda0d46c2"},
-    {"title": "Chivu, prelungire până în 2028", "text": "Se vorbește de un contract nou cu salariu mărit. Neconfirmat de club.", "level": 1, "source": "https://www.fcinternews.it/copertina/i-sm-i-il-punto-sul-mercato-dell-inter-dalla-difesa-ai-rinnovi-1010122"}
+    {
+      "title": "Prelungire Dimarco până în 2031",
+      "text": "Semnătura e aproape, potrivit presei italiene.",
+      "level": 4,
+      "source": "https://www.calciomercato.com/notizie/inter-nuova-strategia-per-i-rinnovi-di-contratto-tutte-le-novita-sul-futuro-di-carlos-augusto-federico-dimarco-hakan-calhanoglu-e-marcus-thuram/blt44ee50bfda0d46c2"
+    },
+    {
+      "title": "Prelungire Carlos Augusto până în 2031",
+      "text": "Durata e stabilită, salariul încă în discuție.",
+      "level": 3,
+      "source": "https://sempreinter.com/latest-news/"
+    },
+    {
+      "title": "Un fundaș central în ianuarie",
+      "text": "Depinde de situația lui Stones. Inter vrea și un jucător de bandă.",
+      "level": 2,
+      "source": "https://www.calciomercato.com/liste/inter-due-obiettivi-per-il-mercato-di-gennaio-strategie-diverse-per-esterno-e-difensore-il-punto/bltfc9d781aed2df9d2"
+    },
+    {
+      "title": "Reînnoirile Çalhanoğlu și Thuram",
+      "text": "Clubul a schimbat strategia pentru contractele veteranilor. Nimic semnat.",
+      "level": 2,
+      "source": "https://www.calciomercato.com/notizie/inter-nuova-strategia-per-i-rinnovi-di-contratto-tutte-le-novita-sul-futuro-di-carlos-augusto-federico-dimarco-hakan-calhanoglu-e-marcus-thuram/blt44ee50bfda0d46c2"
+    },
+    {
+      "title": "Chivu, prelungire până în 2028",
+      "text": "Se vorbește de un contract nou cu salariu mărit. Neconfirmat de club.",
+      "level": 1,
+      "source": "https://www.fcinternews.it/copertina/i-sm-i-il-punto-sul-mercato-dell-inter-dalla-difesa-ai-rinnovi-1010122"
+    },
+    {
+      "title": "Jeltsch (Stuttgart), țintă pentru apărare",
+      "text": "Presa italiană îl indică pe fundașul lui Stuttgart drept principala țintă pentru apărare; evaluat la 35–40 de milioane, e dorit și de Bayern, Barcelona și Real Madrid.",
+      "level": 1,
+      "source": "https://www.fcinter1908.it/calciomercato/mercato-inter/difesa-linter-pensa-al-grande-colpo-centrale-e-braccetto-fra-2-settimane-sara-a-san-siro/"
+    }
   ]
 }
