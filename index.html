@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Inter Club România: știri, rezultate, program, clasament, accidentări și mercato despre FC Internazionale Milano, în limba română.">
+<title>Inter Club România</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
+<style>
+/* Layout: striped nerazzurri masthead → next-match strip → two-column body (news left, results/table/injuries right) → sources */
+:root{
+  --bg:#F2F4F9; --surface:#FFFFFF; --fg:#0C1630; --muted:#56607A; --line:#DCE1EC;
+  --blue:#0B4CD4; --blue-soft:#E3EBFC; --gold:#A8842C; --gold-soft:#F5EDD8;
+  --stripe-a:#0A0E1A; --stripe-b:#0B3FB0; --on-stripe:#FFFFFF;
+  --win:#167A4A; --win-soft:#DDF2E6; --draw:#8A6A12; --draw-soft:#F6EDCF; --loss:#B42335; --loss-soft:#F8DEE2;
+  --display:"Barlow Condensed","Arial Narrow",Impact,sans-serif;
+  --body:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  --r:10px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#070B16; --surface:#0E1527; --fg:#E6EBF7; --muted:#97A2BD; --line:#1F2A44;
+  --blue:#5A8DFF; --blue-soft:#14234A; --gold:#DDB960; --gold-soft:#2A2412;
+  --stripe-a:#04070F; --stripe-b:#0A3596;
+  --win:#4CC98A; --win-soft:#0F2A1E; --draw:#E2C15E; --draw-soft:#2B2410; --loss:#FF7083; --loss-soft:#33141B;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#070B16; --surface:#0E1527; --fg:#E6EBF7; --muted:#97A2BD; --line:#1F2A44;
+  --blue:#5A8DFF; --blue-soft:#14234A; --gold:#DDB960; --gold-soft:#2A2412;
+  --stripe-a:#04070F; --stripe-b:#0A3596;
+  --win:#4CC98A; --win-soft:#0F2A1E; --draw:#E2C15E; --draw-soft:#2B2410; --loss:#FF7083; --loss-soft:#33141B;
+  color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:var(--blue)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--gold);outline-offset:2px;border-radius:4px}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{text-wrap:balance}
+.eyebrow{font:600 12px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+
+/* Masthead */
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--stripe-a)}
+.mast{background:repeating-linear-gradient(90deg,var(--stripe-a) 0 56px,var(--stripe-b) 56px 112px);color:var(--on-stripe);position:relative;overflow:hidden}
+.mast::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 30%,rgba(0,0,0,.45));pointer-events:none}
+.mast .wrap{position:relative;z-index:1;padding-block:28px 22px;display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px}
+.brand{display:flex;flex-direction:column;gap:6px}
+.brand .kick{font:600 12px/1 var(--body);letter-spacing:.2em;text-transform:uppercase;opacity:.85;display:flex;align-items:center;gap:8px}
+.brand .kick .stars{color:#E9C86A;letter-spacing:.05em}
+.brand h1{margin:0;font:800 clamp(52px,10vw,104px)/.86 var(--display);text-transform:uppercase;letter-spacing:-.01em}
+.brand h1 span{color:#E9C86A}
+.brand p{margin:4px 0 0;font-size:14px;opacity:.9}
+.mast-meta{font-size:13px;text-align:right;opacity:.9}
+.mast-meta strong{display:block;font:700 22px/1.1 var(--display);letter-spacing:.02em;text-transform:uppercase}
+
+nav.tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--stripe-a);border-bottom:3px solid var(--blue)}
+nav.tabs .wrap{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+nav.tabs a{color:#C9D3EA;text-decoration:none;font:700 15px/1 var(--display);letter-spacing:.08em;text-transform:uppercase;padding:14px 12px;white-space:nowrap}
+nav.tabs a:hover{color:#fff}
+
+/* Next match strip */
+.next{background:var(--surface);border-bottom:1px solid var(--line)}
+.next .wrap{display:flex;gap:12px;overflow-x:auto;padding-block:14px}
+.fx{flex:0 0 auto;min-width:200px;border:1px solid var(--line);border-radius:var(--r);padding:10px 12px;display:grid;gap:4px;background:var(--bg)}
+.fx:first-child{background:var(--blue);border-color:var(--blue);color:#fff}
+.fx:first-child .eyebrow,.fx:first-child .fx-when{color:rgba(255,255,255,.85)}
+.fx-teams{font:700 19px/1.1 var(--display);text-transform:uppercase;letter-spacing:.02em}
+.fx-when{font-size:12.5px;color:var(--muted)}
+
+/* Body grid */
+main .wrap{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:36px;padding-block:32px 48px}
+@media (max-width:900px){main .wrap{grid-template-columns:minmax(0,1fr)}}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;border-bottom:2px solid var(--fg);padding-bottom:8px;margin-bottom:16px}
+.sec-head h2{margin:0;font:800 30px/1 var(--display);text-transform:uppercase;letter-spacing:.01em}
+section{scroll-margin-top:64px}
+.col{display:flex;flex-direction:column;gap:40px;min-width:0}
+
+/* Lead */
+.lead{display:grid;gap:10px;padding:22px;border-radius:var(--r);background:var(--surface);border:1px solid var(--line);position:relative;overflow:hidden}
+.lead::before{content:"";position:absolute;inset:0 auto 0 0;width:6px;background:repeating-linear-gradient(180deg,var(--stripe-a) 0 14px,var(--blue) 14px 28px)}
+.lead h3{margin:0;font:800 clamp(28px,4vw,40px)/1.02 var(--display);text-transform:uppercase}
+.lead p{margin:0;max-width:62ch;color:var(--fg)}
+
+/* Filters */
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:600 12.5px/1 var(--body);border:1px solid var(--line);background:var(--surface);color:var(--fg);padding:8px 11px;border-radius:999px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+
+/* News list */
+.news{display:flex;flex-direction:column}
+.item{display:grid;grid-template-columns:72px minmax(0,1fr);gap:14px;padding:16px 0;border-bottom:1px solid var(--line)}
+.item time{font:700 13px/1.2 var(--mono);color:var(--muted);padding-top:3px}
+.item h4{margin:4px 0 6px;font:700 17.5px/1.3 var(--body)}
+.item p{margin:0;color:var(--muted);max-width:66ch}
+.item .src{margin-top:8px;font-size:12.5px}
+.tag{display:inline-block;font:700 10.5px/1 var(--body);letter-spacing:.1em;text-transform:uppercase;padding:4px 7px;border-radius:4px}
+.t-meci{background:var(--blue-soft);color:var(--blue)}
+.t-antrenament{background:var(--win-soft);color:var(--win)}
+.t-transfer{background:var(--gold-soft);color:var(--gold)}
+.t-accidentare{background:var(--loss-soft);color:var(--loss)}
+.t-antrenor{background:var(--draw-soft);color:var(--draw)}
+.t-club{background:var(--bg);color:var(--muted);border:1px solid var(--line)}
+@media (max-width:520px){.item{grid-template-columns:minmax(0,1fr);gap:4px}}
+
+/* Results */
+.form{display:flex;gap:5px;align-items:center}
+.pill{display:inline-grid;place-items:center;width:24px;height:24px;border-radius:5px;font:700 12px/1 var(--mono)}
+.V{background:var(--win-soft);color:var(--win)} .E{background:var(--draw-soft);color:var(--draw)} .I{background:var(--loss-soft);color:var(--loss)}
+.res{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.row{display:grid;grid-template-columns:54px minmax(0,1fr) auto 26px;gap:10px;align-items:center;padding:10px 12px;border-top:1px solid var(--line)}
+.row:first-child{border-top:0}
+.row .d{font:500 12px/1.2 var(--mono);color:var(--muted)}
+.row .m{min-width:0}
+.row .m b{font:700 15px/1.2 var(--body);display:block}
+.row .m small{color:var(--muted);font-size:12px;display:block;overflow-wrap:anywhere}
+.row .sc{font:700 17px/1 var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.res-sub{font-size:12.5px;color:var(--muted);margin:10px 2px 0}
+
+/* Table */
+.tbl-wrap{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{padding:7px 10px;text-align:left;border-top:1px solid var(--line)}
+th{font:600 11px/1 var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border-top:0}
+td.p,th.p{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
+tr.inter td{background:var(--blue-soft);font-weight:700;color:var(--blue)}
+tr.ucl td:first-child{box-shadow:inset 3px 0 0 var(--blue)}
+.tbl-toggle{margin-top:8px;background:none;border:0;color:var(--blue);font:600 13px var(--body);cursor:pointer;padding:4px 0}
+
+/* Injuries */
+.inj{display:flex;flex-direction:column;gap:8px}
+.inj-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 10px;padding:12px 14px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
+.inj-row b{font:700 18px/1.1 var(--display);text-transform:uppercase;letter-spacing:.02em}
+.inj-row small{grid-column:1/-1;color:var(--muted);font-size:13px}
+.status{font:700 11px/1 var(--body);letter-spacing:.08em;text-transform:uppercase;padding:5px 8px;border-radius:999px;align-self:start;white-space:nowrap}
+.s-out{background:var(--loss-soft);color:var(--loss)} .s-doubt{background:var(--draw-soft);color:var(--draw)} .s-back{background:var(--win-soft);color:var(--win)}
+
+/* Mercato meter */
+.mk{display:flex;flex-direction:column;gap:10px}
+.mk-row{padding:12px 14px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);display:grid;gap:6px}
+.mk-row b{font-weight:700}
+.mk-row small{color:var(--muted);font-size:13px}
+.meter{display:flex;gap:3px}
+.meter i{flex:1;height:5px;border-radius:2px;background:var(--line)}
+.meter i.on{background:var(--gold)}
+.mk-lab{display:flex;justify-content:space-between;font-size:11.5px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+
+/* Sources */
+.sources{background:var(--surface);border-top:1px solid var(--line)}
+.sources .wrap{padding-block:32px;display:grid;gap:16px}
+.src-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.src-grid a{display:block;padding:12px 14px;border:1px solid var(--line);border-radius:var(--r);text-decoration:none;color:var(--fg);background:var(--bg)}
+.src-grid a span{display:block;font-size:12.5px;color:var(--muted)}
+.src-grid a:hover{border-color:var(--blue)}
+footer{background:var(--stripe-a);color:#AEB8D2;font-size:13px}
+footer .wrap{padding-block:20px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px}
+@media (prefers-reduced-motion:no-preference){.item,.row{transition:background .15s}.item:hover{background:linear-gradient(90deg,var(--blue-soft),transparent 70%)}}
+</style>
+</head>
+<body>
+
+<header class="mast">
+  <div class="wrap">
+    <div class="brand">
+      <div class="kick"><span class="stars">★★</span> FC Internazionale Milano · din 1908</div>
+      <h1>Inter Club <span>România</span></h1>
+      <p>Știrile, rezultatele și programul Interului, în limba română.</p>
+    </div>
+    <div class="mast-meta">
+      <strong id="mastPos">Serie A</strong>
+      <span id="mastSub">Se încarcă datele…</span><br>
+      <span id="mastUpd" style="opacity:.8"></span>
+    </div>
+  </div>
+</header>
+
+<nav class="tabs" aria-label="Secțiuni">
+  <div class="wrap">
+    <a href="#stiri">Știri</a>
+    <a href="#rezultate">Rezultate</a>
+    <a href="#clasament">Clasament</a>
+    <a href="#infirmerie">Infirmerie</a>
+    <a href="#mercato">Mercato</a>
+    <a href="#surse">Surse</a>
+  </div>
+</nav>
+
+<div class="next" aria-label="Meciurile următoare">
+  <div class="wrap" id="fixtures"></div>
+</div>
+
+<main>
+  <div class="wrap">
+    <div class="col">
+      <section id="stiri">
+        <article class="lead" id="lead"><span class="eyebrow">Se încarcă…</span></article>
+
+        <div class="sec-head" style="margin-top:28px">
+          <h2>Ultimele știri</h2>
+          <div class="chips" id="newsFilters" role="group" aria-label="Filtrează știrile"></div>
+        </div>
+        <div class="news" id="newsList"></div>
+      </section>
+
+      <section id="mercato">
+        <div class="sec-head"><h2>Mercato</h2><span class="eyebrow">Zvonuri și contracte</span></div>
+        <div class="mk" id="mercatoList"></div>
+      </section>
+    </div>
+
+    <aside class="col">
+      <section id="rezultate">
+        <div class="sec-head">
+          <h2>Rezultate</h2>
+          <div class="form" id="formGuide" aria-label="Forma ultimelor 5 meciuri"></div>
+        </div>
+        <div class="chips" id="compFilters" role="group" aria-label="Competiție" style="margin-bottom:12px"></div>
+        <div class="res" id="resList"></div>
+        <p class="res-sub" id="resSub"></p>
+      </section>
+
+      <section id="clasament">
+        <div class="sec-head"><h2>Serie A</h2><span class="eyebrow" id="tblAfter"></span></div>
+        <div class="tbl-wrap">
+          <table>
+            <thead id="tblHead"></thead>
+            <tbody id="tblBody"></tbody>
+          </table>
+        </div>
+        <button class="tbl-toggle" id="tblToggle" type="button">Arată tot clasamentul</button>
+        <p class="res-sub" id="tblNote"></p>
+      </section>
+
+      <section id="infirmerie">
+        <div class="sec-head"><h2>Infirmerie</h2><span class="eyebrow" id="injAsOf"></span></div>
+        <div class="inj" id="injList"></div>
+      </section>
+    </aside>
+  </div>
+</main>
+
+<section class="sources" id="surse">
+  <div class="wrap">
+    <div class="sec-head" style="margin:0"><h2>Surse</h2><span class="eyebrow">de unde adunăm știrile</span></div>
+    <p style="margin:0;max-width:70ch;color:var(--muted)">Fiecare știre are linkul către articolul original. Comunitatea nerazzurra și presa italiană pe care le urmărim:</p>
+    <div class="src-grid">
+      <a href="https://www.reddit.com/r/FCInterMilan/" target="_blank" rel="noopener">r/FCInterMilan<span>Comunitatea de pe Reddit</span></a>
+      <a href="https://forzainterforums.com/index.php" target="_blank" rel="noopener">Forza Inter Forums<span>Forumul suporterilor</span></a>
+      <a href="https://interfans.org/" target="_blank" rel="noopener">InterFans<span>Știri și analize ale fanilor</span></a>
+      <a href="https://forzaim.com/" target="_blank" rel="noopener">ForzaIM<span>Știri și opinii</span></a>
+      <a href="https://www.gazzetta.it/" target="_blank" rel="noopener">La Gazzetta dello Sport<span>Cotidian sportiv, Milano</span></a>
+      <a href="https://www.corrieredellosport.it/" target="_blank" rel="noopener">Corriere dello Sport<span>Cotidian sportiv, Roma</span></a>
+      <a href="https://www.inter.it/it" target="_blank" rel="noopener">Inter.it<span>Site-ul oficial al clubului</span></a>
+      <a href="https://www.flashscore.ro/echipa/inter/Iw7eKK25/" target="_blank" rel="noopener">Flashscore<span>Rezultate și program</span></a>
+      <a href="https://www.sofascore.com/team/football/inter/2697" target="_blank" rel="noopener">Sofascore<span>Rezultate și statistici</span></a>
+      <a href="https://www.fotmob.com/teams/8636/overview/inter" target="_blank" rel="noopener">FotMob<span>Rezultate și clasament</span></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>Inter Club România · site neoficial al suporterilor</span>
+    <span>Rezultate verificate pe FotMob, Sofascore și Flashscore · ore în ora României</span>
+  </div>
+</footer>
+
+<script>
+const COMP = {all:"Toate", sa:"Serie A", ucl:"Champions League", ci:"Coppa Italia", sc:"Supercoppa"};
+const COMP_SHORT = {sa:"Serie A", ucl:"Champions League", ci:"Coppa Italia", sc:"Supercoppa"};
+const CATS = {meci:"Meci", antrenament:"Antrenament", transfer:"Transferuri", accidentare:"Accidentări", antrenor:"Antrenor", club:"Club & contracte"};
+const INJ_LAB = {out:"Out", doubt:"Incert", back:"Revine"};
+const STAGES = ["Zvon","Discuții","Negocieri","Aproape","Oficial"];
+const LUNI = ["ian","feb","mar","apr","mai","iun","iul","aug","sep","oct","nov","dec"];
+const ZILE = ["Dum","Lun","Mar","Mie","Joi","Vin","Sâm"];
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[ch]));
+const store = { get(k){try{return localStorage.getItem(k)}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,v)}catch(e){}} };
+function parts(d){ const m = String(d||"").match(/^(\d{4})-(\d{2})(?:-(\d{2}))?/); return m ? {y:+m[1], mo:+m[2], d:m[3]?+m[3]:null} : null; }
+function fmtDay(d){ const p = parts(d); if(!p) return ""; return p.d ? `${p.d} ${LUNI[p.mo-1]}` : LUNI[p.mo-1]; }
+function weekday(d){ const p = parts(d); if(!p||!p.d) return ""; return ZILE[new Date(Date.UTC(p.y,p.mo-1,p.d)).getUTCDay()]; }
+function outcome(r){ const inter = r.home==="Inter" ? r.hs : r.as, opp = r.home==="Inter" ? r.as : r.hs; return inter>opp?"V":inter<opp?"I":"E"; }
+const pillTxt = o => o==="I" ? "Î" : o;
+const srcLinks = list => (list||[]).map(([t,u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)}</a>`).join(" · ");
+
+let DATA = null, newsCat = store.get("icr-cat") || "all", comp = store.get("icr-comp") || "all", full = false;
+
+function renderAll(){
+  const D = DATA;
+  // masthead
+  const rows = D.table?.rows || [];
+  const pos = rows.findIndex(r => r.team==="Inter")+1;
+  const inter = rows[pos-1];
+  $("mastPos").textContent = pos ? `Serie A · locul ${pos}` : "Serie A";
+  $("mastSub").textContent = inter ? `${inter.pts} puncte după ${D.table.after} etape` : "";
+  const u = new Date(D.updated);
+  $("mastUpd").textContent = isNaN(u) ? "" : "Actualizat " + u.toLocaleString("ro-RO",{day:"numeric",month:"long",hour:"2-digit",minute:"2-digit",timeZone:"Europe/Bucharest"});
+
+  // fixtures
+  $("fixtures").innerHTML = (D.fixtures||[]).map(f => `<div class="fx"><span class="eyebrow">${esc(COMP_SHORT[f.comp]||f.comp)} · ${esc(f.round)}</span><span class="fx-teams">${esc(f.home)} – ${esc(f.away)}</span><span class="fx-when">${weekday(f.date)} ${fmtDay(f.date)}${f.time?` · ${esc(f.time)}`:""}</span></div>`).join("") || `<div class="fx"><span class="fx-teams">Program în curs de anunțare</span></div>`;
+
+  // lead
+  const h = D.headline;
+  $("lead").innerHTML = h ? `<span class="eyebrow">Subiectul zilei · ${fmtDay(h.date)}</span><h3>${esc(h.title)}</h3><p>${esc(h.text)}</p><span class="src">Surse: ${srcLinks(h.sources)}</span>` : "";
+  $("lead").hidden = !h;
+
+  renderNews(); renderResults(); renderTable();
+
+  $("injAsOf").textContent = isNaN(u) ? "" : "situația la " + u.toLocaleDateString("ro-RO",{day:"numeric",month:"short",timeZone:"Europe/Bucharest"});
+  $("injList").innerHTML = (D.injuries||[]).map(i => `<div class="inj-row"><b>${esc(i.player)}</b><span class="status s-${esc(i.status)}">${INJ_LAB[i.status]||esc(i.status)}</span><small>${esc(i.note)}</small></div>`).join("") || `<p style="color:var(--muted)">Lotul este complet. Niciun jucător accidentat.</p>`;
+
+  $("mercatoList").innerHTML = (D.mercato||[]).map(m => { const lvl = Math.min(5,Math.max(1,m.level|0)); return `
+    <div class="mk-row">
+      <b>${esc(m.title)}</b>
+      <small>${esc(m.text)} ${m.source?`<a href="${esc(m.source)}" target="_blank" rel="noopener">Sursă</a>`:""}</small>
+      <div class="meter" aria-label="Stadiu: ${STAGES[lvl-1]}">${STAGES.map((_,i)=>`<i class="${i<lvl?"on":""}"></i>`).join("")}</div>
+      <div class="mk-lab"><span>Stadiu: ${STAGES[lvl-1]}</span><span>${lvl}/5</span></div>
+    </div>`; }).join("");
+}
+
+function renderNews(){
+  const opts = [["all","Toate"], ...Object.entries(CATS)];
+  $("newsFilters").innerHTML = opts.map(([k,v]) => `<button class="chip" type="button" data-k="${k}" aria-pressed="${k===newsCat}">${v}</button>`).join("");
+  const list = (DATA.news||[]).filter(n => newsCat==="all" || n.cat===newsCat);
+  $("newsList").innerHTML = list.length ? list.map(n => `
+    <article class="item">
+      <time>${fmtDay(n.date)}</time>
+      <div>
+        <span class="tag t-${esc(n.cat)}">${CATS[n.cat]||esc(n.cat)}</span>
+        <h4>${esc(n.title)}</h4>
+        <p>${esc(n.text)}</p>
+        <div class="src">Sursă: ${srcLinks(n.sources)}</div>
+      </div>
+    </article>`).join("") : `<p style="color:var(--muted);padding:16px 0">Nicio știre în această categorie deocamdată.</p>`;
+}
+
+function renderResults(){
+  const all = DATA.results||[];
+  $("formGuide").innerHTML = all.slice(0,5).map(r => { const o = outcome(r); return `<span class="pill ${o}" title="${esc(r.home)} ${r.hs}–${r.as} ${esc(r.away)}">${pillTxt(o)}</span>`; }).join("");
+  const comps = ["all", ...["sa","ucl","ci","sc"].filter(c => c!=="sc" || all.some(r=>r.comp===c) || (DATA.fixtures||[]).some(f=>f.comp===c))];
+  $("compFilters").innerHTML = comps.map(k => `<button class="chip" type="button" data-k="${k}" aria-pressed="${k===comp}">${COMP[k]}</button>`).join("");
+  const rows = all.filter(r => comp==="all" || r.comp===comp);
+  if(rows.length){
+    $("resList").innerHTML = rows.map(r => { const o = outcome(r); return `
+      <div class="row">
+        <span class="d">${fmtDay(r.date)}</span>
+        <span class="m"><b>${esc(r.home)} – ${esc(r.away)}</b><small>${esc(COMP_SHORT[r.comp])} · ${esc(r.round)}${r.scorers?` · ${esc(r.scorers)}`:""}</small></span>
+        <span class="sc">${r.hs}–${r.as}</span>
+        <span class="pill ${o}">${pillTxt(o)}</span>
+      </div>`; }).join("");
+  } else {
+    const nx = (DATA.fixtures||[]).filter(f => f.comp===comp);
+    $("resList").innerHTML = `<div class="row" style="grid-template-columns:1fr"><span class="m"><b>Niciun meci jucat încă</b><small>${nx.map(f=>`${esc(f.round)}: ${esc(f.home)} – ${esc(f.away)}, ${weekday(f.date)} ${fmtDay(f.date)} ${esc(f.time||"")}`).join("<br>")||"Programul va fi anunțat."}</small></span></div>`;
+  }
+  let sub = "";
+  if(comp==="all") sub = "Sezonul 2026/27 · cele mai recente primele. Ore în ora României.";
+  else if(comp==="ucl" && DATA.ucl){ const u = DATA.ucl; sub = `Faza ligii: ${u.pts} puncte după ${u.played} etape (${u.w}V ${u.d}E ${u.l}Î, golaveraj ${u.gf}–${u.ga})${u.pos?` · locul ${u.pos}`:""}.`; }
+  else { const r = rows.map(outcome); sub = rows.length ? `${r.filter(x=>x==="V").length}V ${r.filter(x=>x==="E").length}E ${r.filter(x=>x==="I").length}Î în ${COMP[comp]}.` : ""; }
+  $("resSub").textContent = sub;
+}
+
+function renderTable(){
+  const T = DATA.table || {rows:[]};
+  const cols = [["p","J"],["w","V"],["d","E"],["l","Î"],["gd","GD"]].filter(([k]) => T.rows.length && T.rows.every(r => k==="gd" ? (r.gf!=null && r.ga!=null) : r[k]!=null));
+  $("tblAfter").textContent = T.after ? `după etapa ${T.after}` : "";
+  $("tblHead").innerHTML = `<tr><th>#</th><th>Echipa</th>${cols.map(([,l])=>`<th class="p">${l}</th>`).join("")}<th class="p">Pct</th></tr>`;
+  const rows = full ? T.rows : T.rows.slice(0,8);
+  $("tblBody").innerHTML = rows.map((r,i) => `<tr class="${r.team==="Inter"?"inter":""} ${i<4?"ucl":""}"><td class="num">${i+1}</td><td>${esc(r.team)}</td>${cols.map(([k])=>`<td class="p">${k==="gd"?((r.gf-r.ga>0?"+":"")+(r.gf-r.ga)):r[k]}</td>`).join("")}<td class="p"><b>${r.pts}</b></td></tr>`).join("");
+  $("tblToggle").textContent = full ? "Arată doar primele 8" : "Arată tot clasamentul";
+  $("tblToggle").hidden = T.rows.length <= 8;
+  const sa = (DATA.results||[]).filter(r => r.comp==="sa").map(outcome);
+  const gf = (DATA.results||[]).filter(r => r.comp==="sa").reduce((a,r)=>a+(r.home==="Inter"?r.hs:r.as),0);
+  const ga = (DATA.results||[]).filter(r => r.comp==="sa").reduce((a,r)=>a+(r.home==="Inter"?r.as:r.hs),0);
+  $("tblNote").textContent = sa.length ? `Inter: ${sa.filter(x=>x==="V").length} victorii, ${sa.filter(x=>x==="E").length} egal(uri), ${sa.filter(x=>x==="I").length} înfrângere(i) · golaveraj ${gf}–${ga}. Bara albastră marchează locurile de Champions League.` : "";
+}
+
+$("newsFilters").addEventListener("click", e => { const b = e.target.closest("button"); if(!b||!DATA) return; newsCat = b.dataset.k; store.set("icr-cat", newsCat); renderNews(); });
+$("compFilters").addEventListener("click", e => { const b = e.target.closest("button"); if(!b||!DATA) return; comp = b.dataset.k; store.set("icr-comp", comp); renderResults(); });
+$("tblToggle").addEventListener("click", () => { full = !full; renderTable(); });
+
+fetch("data.json?v=" + Date.now(), {cache:"no-store"})
+  .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
+  .then(d => { DATA = d; if(!COMP[comp]) comp = "all"; if(!CATS[newsCat] && newsCat!=="all") newsCat = "all"; renderAll(); })
+  .catch(() => { $("mastSub").textContent = "Datele nu s-au putut încărca. Reîncarcă pagina."; $("newsList").innerHTML = `<p style="color:var(--muted)">Datele nu s-au putut încărca. Reîncarcă pagina peste câteva momente.</p>`; });
+</script>
+
+</body>
+</html>
