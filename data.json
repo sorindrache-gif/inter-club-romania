@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T00:50:00+02:00",
+  "updated": "2026-11-14T12:50:00+02:00",
   "headline": {
     "date": "2026-11-13",
     "title": "Pio Esposito, dublă cu Franța: Italia câștigă 3–1 pe San Siro",
@@ -342,6 +342,18 @@
   },
   "news": [
     {
+      "date": "2026-11-14",
+      "cat": "antrenament",
+      "title": "Reluarea antrenamentelor marți: Lautaro țintește Atalanta, dar revenirea rămâne incertă",
+      "text": "Corriere dello Sport scrie că lotul se reunește marți la Appiano, iar antrenamentele de săptămâna viitoare vor decide dacă Lautaro poate fi convocat la Bergamo; Chivu nu vrea să forțeze revenirea. Pentru Bonny, ținta este meciul cu Frosinone (5 decembrie) sau cel cu Borussia Dortmund (9 decembrie).",
+      "sources": [
+        [
+          "FC Inter News",
+          "https://www.fcinternews.it/rassegna/i-cds-i-martedi-ripresa-lautaro-punta-atalanta-rientro-resta-dubbio-1023177"
+        ]
+      ]
+    },
+    {
       "date": "2026-11-13",
       "cat": "meci",
       "title": "Italia – Franța 3–1: Pio Esposito, dublă la națională",
@@ -382,10 +394,10 @@
       ]
     },
     {
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "cat": "club",
       "title": "Carlos Augusto, la un pas de prelungirea până în 2031",
-      "text": "Potrivit Sky Sport și Corriere dello Sport, negocierile pentru noul contract al brazilianului, valabil până în iunie 2031, sunt în faza finală, iar comunicatul oficial ar putea veni curând. Pachetul ar depăși 4 milioane de euro pe sezon cu bonusuri; contractul actual expiră în 2028.",
+      "text": "Potrivit Sky Sport, Corriere dello Sport și Gazzetta dello Sport, negocierile pentru noul contract al brazilianului, valabil până în iunie 2031, sunt în faza finală; Gazzetta estimează semnătura în cel mult 15 zile. Salariul ar urca de la 2,2 la aproximativ 3,5 milioane de euro net pe sezon, plus bonusuri; contractul actual expiră în 2028.",
       "sources": [
         [
           "FC Inter News",
@@ -394,6 +406,10 @@
         [
           "FC Inter 1908",
           "https://www.fcinter1908.it/calciomercato/mercato-inter/sky-carlos-augusto-ci-siamo-rinnovo-con-linter-a-un-passo-presto-il-comunicato-i-dettagli/"
+        ],
+        [
+          "FC Inter News",
+          "https://www.fcinternews.it/in-primo-piano/i-gds-i-inter-rinnovi-avanti-penna-mano-1023092"
         ]
       ]
     },
@@ -582,7 +598,7 @@
     {
       "player": "Ange-Yoan Bonny",
       "status": "out",
-      "note": "Problemă la flexorii coapsei drepte. Aproximativ o lună; revenire estimată 13 sau 18 decembrie (alte surse: 5 sau 9 decembrie)."
+      "note": "Problemă la flexorii coapsei drepte. Țintă: Frosinone (5 dec) sau Borussia Dortmund (9 dec); alte surse indică 13 sau 18 decembrie."
     },
     {
       "player": "Aleksandar Stanković",
@@ -597,7 +613,7 @@
     {
       "player": "Lautaro Martínez",
       "status": "doubt",
-      "note": "Problemă la flexorii coapsei stângi din meciul cu Club Brugge (13 octombrie). Așteptat în grup luni, 16 noiembrie; țintă Atalanta (22 nov), altfel Stuttgart (25 nov)."
+      "note": "Problemă la flexorii coapsei stângi din meciul cu Club Brugge (13 octombrie). Revine în grup la reluarea antrenamentelor (luni sau marți, după surse); țintă Atalanta (22 nov), altfel Stuttgart (25 nov)."
     },
     {
       "player": "Luis Henrique",
@@ -624,7 +640,7 @@
     },
     {
       "title": "Prelungire Carlos Augusto până în 2031",
-      "text": "Negocieri în faza finală, potrivit Sky Sport; se așteaptă comunicatul oficial.",
+      "text": "Negocieri în faza finală; Gazzetta estimează semnătura în cel mult 15 zile, la circa 3,5 milioane net plus bonusuri.",
       "level": 4,
       "source": "https://www.fcinter1908.it/calciomercato/mercato-inter/sky-carlos-augusto-ci-siamo-rinnovo-con-linter-a-un-passo-presto-il-comunicato-i-dettagli/"
     },
