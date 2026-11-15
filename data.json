@@ -1,21 +1,21 @@
 {
-  "updated": "2026-11-15T12:55:00+02:00",
+  "updated": "2026-11-16T00:50:00+02:00",
   "headline": {
-    "date": "2026-11-13",
-    "title": "Pio Esposito, dublă cu Franța: Italia câștigă 3–1 pe San Siro",
-    "text": "Atacantul Interului a egalat în minutul 26 și a stabilit scorul din penalty în minutul 75, după ce Olise deschisese scorul pentru Franța și Frattesi întorsese rezultatul. Italia urcă pe primul loc în grupa A1 din Nations League, cu 10 puncte. Barella și Bastoni au fost titulari, iar Dimarco a intrat după pauză; Gazzetta i-a dat lui Esposito nota 8, cea mai mare din echipă.",
+    "date": "2026-11-15",
+    "title": "Săptămână decisivă înainte de Bergamo: Lautaro și Thuram, aproape de revenire",
+    "text": "Interul reia antrenamentele cu lotul complet după pauza internațională, iar zilele următoare vor decide dacă Lautaro poate juca pe 22 noiembrie cu Atalanta; și dacă intră, minutele vor fi dozate, pentru că Stuttgart urmează după trei zile. Thuram ar reveni în grup la mijlocul săptămânii. Pio Esposito a marcat trei goluri pentru Italia în această pauză, dar Bonny și Stanković rămân indisponibili aproximativ o lună.",
     "sources": [
       [
-        "UEFA",
-        "https://it.uefa.com/uefanationsleague/news/02ab-220e5fe4cf12-c1ec99ac8bc4-1000--highlights-quinta-giornata-uefa-nations-league-l-italia-ste/"
+        "Corriere dello Sport",
+        "https://www.corrieredellosport.it/news/calcio/serie-a/inter/2026/11/15-152601044/inter_lautaro_spinge_per_rientrare_settimana_decisiva"
       ],
       [
-        "Sofascore",
-        "https://www.sofascore.com/news/italy-france-3-1-pio-espositos-brace-sends-mancinis-azzurri-to-the-top-of-the-nations-league"
+        "FC Inter News",
+        "https://www.fcinternews.it/rassegna/i-cds-i-chivu-ritrova-nazionali-scaletta-rientri-1023246"
       ],
       [
         "FC Inter 1908",
-        "https://www.fcinter1908.it/nazionali/italia-francia-pio-esposito-risultato-dimarco/"
+        "https://www.fcinter1908.it/nazionali/esposito-non-basta-belgio-italia-4-1/"
       ]
     ]
   },
@@ -343,6 +343,26 @@
   "news": [
     {
       "date": "2026-11-15",
+      "cat": "meci",
+      "title": "Belgia – Italia 4–1: golul lui Pio Esposito nu ajunge, azzurrii ies din Nations League",
+      "text": "Esposito a deschis scorul în minutul 11, dar Belgia a răspuns prin De Cuyper, Ngoy și Doku în mai puțin de un sfert de oră, iar Moreira a stabilit scorul în minutul 80. Atacantul Interului a ratat și un penalty în final. Bastoni, Barella și Esposito au jucat tot meciul, iar Italia termină grupa pe locul 3.",
+      "sources": [
+        [
+          "FotMob",
+          "https://www.fotmob.com/news/dk1ziedtr59615csw6wl45fl7-belgium-4-1-italy-van-bommels-side-clinch-quarter-final-spot-comeback-win"
+        ],
+        [
+          "Sofascore",
+          "https://www.sofascore.com/news/belgium-italy-4-1-azzurri-collapse-in-nations-league-pio-esposito-not-enough-mancini-out-of-quarterfinals"
+        ],
+        [
+          "FC Inter 1908",
+          "https://www.fcinter1908.it/nazionali/esposito-non-basta-belgio-italia-4-1/"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-15",
       "cat": "accidentare",
       "title": "Lautaro, săptămână decisivă; Thuram ar reveni în grup la mijlocul săptămânii",
       "text": "Corriere dello Sport scrie că revenirea căpitanului la Bergamo nu e sigură, iar antrenamentele din zilele următoare vor decide; chiar dacă joacă, minutele vor fi dozate, pentru că după trei zile urmează Stuttgart în Champions League. Thuram ar urma să se antreneze din nou cu colegii la mijlocul săptămânii.",
@@ -626,22 +646,6 @@
         [
           "Calciomercato",
           "https://www.calciomercato.com/liste/inter-stones-sotto-esame-se-parte-a-gennaio-puo-arrivare-un-altro-difensore/blt02a8c907ecc6af48"
-        ]
-      ]
-    },
-    {
-      "date": "2026-10-31",
-      "cat": "antrenor",
-      "title": "Chivu după derby: „Trebuie să ne punem întrebări”",
-      "text": "Milan a câștigat 3–1 (Pulisic, Rabiot, Moreira; Bastoni pentru Inter) și a încheiat seria de nouă meciuri fără înfrângere a nerazzurrilor în campionat. Inter nu a mai învins Milanul de șapte derbiuri.",
-      "sources": [
-        [
-          "SempreInter",
-          "https://sempreinter.com/2026/10/31/chivu-admits-inter-must-ask-questions-after-seven-derbies-without-beating-milan/"
-        ],
-        [
-          "AC Milan",
-          "https://www.acmilan.com/en/news/articles/serie-a/2026-10-31/ac-milan-wins-the-derby"
         ]
       ]
     }
