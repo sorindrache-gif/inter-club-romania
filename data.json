@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T00:55:00+02:00",
+  "updated": "2026-11-15T12:55:00+02:00",
   "headline": {
     "date": "2026-11-13",
     "title": "Pio Esposito, dublă cu Franța: Italia câștigă 3–1 pe San Siro",
@@ -342,6 +342,38 @@
   },
   "news": [
     {
+      "date": "2026-11-15",
+      "cat": "accidentare",
+      "title": "Lautaro, săptămână decisivă; Thuram ar reveni în grup la mijlocul săptămânii",
+      "text": "Corriere dello Sport scrie că revenirea căpitanului la Bergamo nu e sigură, iar antrenamentele din zilele următoare vor decide; chiar dacă joacă, minutele vor fi dozate, pentru că după trei zile urmează Stuttgart în Champions League. Thuram ar urma să se antreneze din nou cu colegii la mijlocul săptămânii.",
+      "sources": [
+        [
+          "Corriere dello Sport",
+          "https://www.corrieredellosport.it/news/calcio/serie-a/inter/2026/11/15-152601044/inter_lautaro_spinge_per_rientrare_settimana_decisiva"
+        ],
+        [
+          "FC Inter News",
+          "https://www.fcinternews.it/rassegna/i-cds-i-chivu-ritrova-nazionali-scaletta-rientri-1023246"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "cat": "club",
+      "title": "Çalhanoğlu: negocierile pentru prelungire intră în faza decisivă",
+      "text": "Corriere dello Sport și Tuttosport scriu că mijlocașul turc s-a arătat dispus să accepte un salariu mai mic decât cel actual, de aproximativ 6 milioane de euro. Contractul expiră pe 30 iunie 2027, iar conducerea vrea o direcție clară până în ianuarie, după ce încheie prelungirea lui Carlos Augusto; Juventus urmărește situația.",
+      "sources": [
+        [
+          "Corriere dello Sport",
+          "https://www.corrieredellosport.it/news/calcio/serie-a/inter/2026/11/15-152601050/rinnovo_calhanoglu_la_trattativa_con_l_inter_entra_nel_vivo"
+        ],
+        [
+          "FC Inter News",
+          "https://www.fcinternews.it/focus/i-ts-i-calhanoglu-passi-rinnovo-apertura-ingaggio-1023243"
+        ]
+      ]
+    },
+    {
       "date": "2026-11-14",
       "cat": "antrenament",
       "title": "Reluarea antrenamentelor marți: Lautaro țintește Atalanta, dar revenirea rămâne incertă",
@@ -628,12 +660,12 @@
     {
       "player": "Marcus Thuram",
       "status": "doubt",
-      "note": "Oboseală musculară la bicepsul femural drept, fără leziune. Țintă: Atalanta (22 nov); altfel Stuttgart (25 nov) sau Genoa (28 nov)."
+      "note": "Oboseală musculară la bicepsul femural drept, fără leziune. Ar reveni în grup la mijlocul săptămânii; țintă Atalanta (22 nov), altfel Stuttgart (25 nov) sau Genoa (28 nov)."
     },
     {
       "player": "Lautaro Martínez",
       "status": "doubt",
-      "note": "Problemă la flexorii coapsei stângi din meciul cu Club Brugge (13 octombrie). Revine în grup la reluarea antrenamentelor (luni sau marți, după surse); țintă Atalanta (22 nov), altfel Stuttgart (25 nov)."
+      "note": "Problemă la flexorii coapsei stângi din meciul cu Club Brugge (13 octombrie). Săptămâna aceasta decide dacă joacă la Bergamo (22 nov), cu minute dozate; altfel Stuttgart (25 nov)."
     },
     {
       "player": "Djed Spence",
@@ -668,6 +700,12 @@
       "text": "Negocieri în faza finală; Gazzetta estimează semnătura în cel mult 15 zile, la circa 3,5 milioane net plus bonusuri.",
       "level": 4,
       "source": "https://www.fcinter1908.it/calciomercato/mercato-inter/sky-carlos-augusto-ci-siamo-rinnovo-con-linter-a-un-passo-presto-il-comunicato-i-dettagli/"
+    },
+    {
+      "title": "Prelungire Çalhanoğlu",
+      "text": "Negocierile au intrat în faza decisivă: jucătorul acceptă un salariu mai mic, clubul vrea o decizie până în ianuarie. Juventus pândește.",
+      "level": 3,
+      "source": "https://www.corrieredellosport.it/news/calcio/serie-a/inter/2026/11/15-152601050/rinnovo_calhanoglu_la_trattativa_con_l_inter_entra_nel_vivo"
     },
     {
       "title": "Un fundaș central în ianuarie",
