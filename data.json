@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T12:55:00+02:00",
+  "updated": "2026-11-17T00:50:00+02:00",
   "headline": {
     "date": "2026-11-15",
     "title": "Săptămână decisivă înainte de Bergamo: Lautaro și Thuram, aproape de revenire",
@@ -343,6 +343,22 @@
   "news": [
     {
       "date": "2026-11-16",
+      "cat": "club",
+      "title": "Carlos Augusto: draftul noului contract, aproape de finalizare",
+      "text": "Fabrizio Romano scrie că Inter și Carlos Augusto sunt aproape de a închide draftul acordului de prelungire, iar Sky vorbește de poziții tot mai apropiate pentru un contract până în iunie 2031. Semnătura ar putea veni între sfârșitul lui noiembrie și mijlocul lui decembrie. Brazilianul a jucat 90 de minute în amicalul pierdut de Brazilia cu Japonia, 2–3.",
+      "sources": [
+        [
+          "FC Inter 1908",
+          "https://fcinter1908.it/calciomercato/mercato-inter/romano-rinnovo-carlos-augusto-inter-chiusura-tempistiche"
+        ],
+        [
+          "SempreInter",
+          "https://sempreinter.com/2026/11/15/carlos-augusto-brazil-japan-singapore-full-90-minutes/"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-16",
       "cat": "accidentare",
       "title": "Zieliński, problemă la picior la naționala Poloniei; Akanji e refăcut",
       "text": "Mijlocașul nu a jucat cu România: jurnaliști polonezi spun că a ajuns în cantonament cu o durere la talpa piciorului care îl împiedică să alerge, iar Tuttosport scrie că selecționerul Urban nu a vrut să riște. Zieliński rămâne deocamdată cu Polonia, iar situația lui pentru Atalanta e incertă. Tot Tuttosport notează că Akanji este refăcut.",
@@ -644,22 +660,6 @@
           "https://www.fotmob.com/matches/inter-vs-como/2xaxi8"
         ]
       ]
-    },
-    {
-      "date": "2026-11-03",
-      "cat": "meci",
-      "title": "Feyenoord – Inter 0–3: a doua victorie consecutivă în Champions League",
-      "text": "Bisseck, Pio Esposito și Zieliński au marcat la Rotterdam. Înainte de meci, Chivu și-a fixat ținta de 16 puncte în faza ligii; Inter are acum 6.",
-      "sources": [
-        [
-          "Inter.it",
-          "https://www.inter.it/en/news/standings-league-phase-inter-fixtures-champions-league-26-27"
-        ],
-        [
-          "SempreInter",
-          "https://sempreinter.com/2026/11/03/chivu-sets-16-point-target-as-depleted-inter-20th-in-europe-travel-to-feyenoord/"
-        ]
-      ]
     }
   ],
   "injuries": [
@@ -686,7 +686,7 @@
     {
       "player": "Piotr Zieliński",
       "status": "doubt",
-      "note": "Durere la talpa piciorului; nu a jucat cu România la naționala Poloniei. Situația pentru Atalanta (22 nov) e incertă."
+      "note": "Durere la talpa piciorului; nu a jucat cu România la naționala Poloniei. Selecționerul Urban nu știe dacă problema durează trei zile sau trei săptămâni; incert pentru Atalanta (22 nov)."
     },
     {
       "player": "Luis Henrique",
@@ -713,7 +713,7 @@
     },
     {
       "title": "Prelungire Carlos Augusto până în 2031",
-      "text": "Negocieri în faza finală; Gazzetta estimează semnătura în cel mult 15 zile, la circa 3,5 milioane net plus bonusuri.",
+      "text": "Draftul acordului e aproape de finalizare, potrivit lui Fabrizio Romano; semnătura ar putea veni până la mijlocul lui decembrie, la circa 3,5 milioane net plus bonusuri.",
       "level": 4,
       "source": "https://www.fcinter1908.it/calciomercato/mercato-inter/sky-carlos-augusto-ci-siamo-rinnovo-con-linter-a-un-passo-presto-il-comunicato-i-dettagli/"
     },
