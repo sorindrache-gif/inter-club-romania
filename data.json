@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T00:50:00+02:00",
+  "updated": "2026-11-16T12:55:00+02:00",
   "headline": {
     "date": "2026-11-15",
     "title": "Săptămână decisivă înainte de Bergamo: Lautaro și Thuram, aproape de revenire",
@@ -342,6 +342,42 @@
   },
   "news": [
     {
+      "date": "2026-11-16",
+      "cat": "accidentare",
+      "title": "Zieliński, problemă la picior la naționala Poloniei; Akanji e refăcut",
+      "text": "Mijlocașul nu a jucat cu România: jurnaliști polonezi spun că a ajuns în cantonament cu o durere la talpa piciorului care îl împiedică să alerge, iar Tuttosport scrie că selecționerul Urban nu a vrut să riște. Zieliński rămâne deocamdată cu Polonia, iar situația lui pentru Atalanta e incertă. Tot Tuttosport notează că Akanji este refăcut.",
+      "sources": [
+        [
+          "Tuttosport",
+          "https://www.tuttosport.com/news/calcio/serie-a/inter/2026/11/16-152630081/akanji_ok_giallo_zielinski_e_come_sta_lautaro_il_punto_sugli_infortuni_inter"
+        ],
+        [
+          "Calciomercato",
+          "https://www.calciomercato.com/notizie/dalla-polonia-inter-allarme-per-zielinski-e-arrivato-con-un-infortunio-al-piede-fa-fatica-a-correre/blt73541a970d2bf31d"
+        ],
+        [
+          "FC Inter News",
+          "https://www.fcinternews.it/rassegna/i-ts-i-zielinski-tiene-ansia-chivu-decisivi-prossimi-allenamenti-1023252"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "cat": "meci",
+      "title": "Spence intră pe teren în victoria Angliei la Madrid, 3–2 cu Spania",
+      "text": "Fundașul Interului, refăcut după oboseala musculară, l-a înlocuit pe Bellingham în minutul 83. Anglia a câștigat cu 10 oameni, a încheiat seria de 43 de meciuri fără înfrângere a Spaniei și a terminat pe primul loc în grupă.",
+      "sources": [
+        [
+          "FotMob",
+          "https://www.fotmob.com/news/1ul3akcb44gh1nqw9jqto2r7s-spain-2-3-england-tuchels-10-men-hold-snap-world-champions-unbeaten-streak"
+        ],
+        [
+          "Sofascore",
+          "https://www.sofascore.com/news/spain-2-3-england-nations-league-match-report"
+        ]
+      ]
+    },
+    {
       "date": "2026-11-15",
       "cat": "meci",
       "title": "Belgia – Italia 4–1: golul lui Pio Esposito nu ajunge, azzurrii ies din Nations League",
@@ -406,6 +442,26 @@
       ]
     },
     {
+      "date": "2026-11-14",
+      "cat": "club",
+      "title": "Carlos Augusto, la un pas de prelungirea până în 2031",
+      "text": "Potrivit Sky Sport, Corriere dello Sport și Gazzetta dello Sport, negocierile pentru noul contract al brazilianului, valabil până în iunie 2031, sunt în faza finală; Gazzetta estimează semnătura în cel mult 15 zile. Salariul ar urca de la 2,2 la aproximativ 3,5 milioane de euro net pe sezon, plus bonusuri; contractul actual expiră în 2028.",
+      "sources": [
+        [
+          "FC Inter News",
+          "https://www.fcinternews.it/rassegna/i-cds-i-carlos-augusto-passo-rinnovo-inter-questione-soldi-1023096"
+        ],
+        [
+          "FC Inter 1908",
+          "https://www.fcinter1908.it/calciomercato/mercato-inter/sky-carlos-augusto-ci-siamo-rinnovo-con-linter-a-un-passo-presto-il-comunicato-i-dettagli/"
+        ],
+        [
+          "FC Inter News",
+          "https://www.fcinternews.it/in-primo-piano/i-gds-i-inter-rinnovi-avanti-penna-mano-1023092"
+        ]
+      ]
+    },
+    {
       "date": "2026-11-13",
       "cat": "meci",
       "title": "Italia – Franța 3–1: Pio Esposito, dublă la națională",
@@ -442,26 +498,6 @@
         [
           "FC Inter News",
           "https://www.fcinternews.it/in-primo-piano/i-cds-i-atalanta-inter-cautela-lautaro-thuram-gioca-davanti-1022944"
-        ]
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "cat": "club",
-      "title": "Carlos Augusto, la un pas de prelungirea până în 2031",
-      "text": "Potrivit Sky Sport, Corriere dello Sport și Gazzetta dello Sport, negocierile pentru noul contract al brazilianului, valabil până în iunie 2031, sunt în faza finală; Gazzetta estimează semnătura în cel mult 15 zile. Salariul ar urca de la 2,2 la aproximativ 3,5 milioane de euro net pe sezon, plus bonusuri; contractul actual expiră în 2028.",
-      "sources": [
-        [
-          "FC Inter News",
-          "https://www.fcinternews.it/rassegna/i-cds-i-carlos-augusto-passo-rinnovo-inter-questione-soldi-1023096"
-        ],
-        [
-          "FC Inter 1908",
-          "https://www.fcinter1908.it/calciomercato/mercato-inter/sky-carlos-augusto-ci-siamo-rinnovo-con-linter-a-un-passo-presto-il-comunicato-i-dettagli/"
-        ],
-        [
-          "FC Inter News",
-          "https://www.fcinternews.it/in-primo-piano/i-gds-i-inter-rinnovi-avanti-penna-mano-1023092"
         ]
       ]
     },
@@ -624,30 +660,6 @@
           "https://sempreinter.com/2026/11/03/chivu-sets-16-point-target-as-depleted-inter-20th-in-europe-travel-to-feyenoord/"
         ]
       ]
-    },
-    {
-      "date": "2026-11-02",
-      "cat": "club",
-      "title": "Achizițiile din Premier League, mai mult la recuperare decât pe teren",
-      "text": "Corriere dello Sport notează că Jones, Stones și Spence, aduși în vară din Anglia, au fost mai des indisponibili decât la dispoziția lui Chivu.",
-      "sources": [
-        [
-          "Corriere dello Sport",
-          "https://www.corrieredellosport.it/news/calcio/calcio-mercato/inter/2026/11/02-152319602/inter_il_mercato_non_si_vede_i_rinforzi_dalla_premier_frenati_dagli_infortuni"
-        ]
-      ]
-    },
-    {
-      "date": "2026-11",
-      "cat": "transfer",
-      "title": "Stones, sub observație: dacă pleacă în ianuarie, vine un alt fundaș",
-      "text": "Fundașul englez s-a refăcut, dar e monitorizat după problemele fizice repetate. Gazzetta scrie că o plecare a lui ar deschide drumul pentru un nou fundaș central la iarnă.",
-      "sources": [
-        [
-          "Calciomercato",
-          "https://www.calciomercato.com/liste/inter-stones-sotto-esame-se-parte-a-gennaio-puo-arrivare-un-altro-difensore/blt02a8c907ecc6af48"
-        ]
-      ]
     }
   ],
   "injuries": [
@@ -664,17 +676,17 @@
     {
       "player": "Marcus Thuram",
       "status": "doubt",
-      "note": "Oboseală musculară la bicepsul femural drept, fără leziune. Ar reveni în grup la mijlocul săptămânii; țintă Atalanta (22 nov), altfel Stuttgart (25 nov) sau Genoa (28 nov)."
+      "note": "Oboseală musculară la bicepsul femural drept, fără leziune. Ar putea reveni în grup în această săptămână; ar trebui să fie disponibil cu Atalanta (22 nov)."
     },
     {
       "player": "Lautaro Martínez",
       "status": "doubt",
-      "note": "Problemă la flexorii coapsei stângi din meciul cu Club Brugge (13 octombrie). Săptămâna aceasta decide dacă joacă la Bergamo (22 nov), cu minute dozate; altfel Stuttgart (25 nov)."
+      "note": "Problemă la flexorii coapsei stângi din meciul cu Club Brugge (13 octombrie). Recuperare avansată: ar putea fi pe bancă la Bergamo (22 nov) sau reveni cu Stuttgart (25 nov)."
     },
     {
-      "player": "Djed Spence",
+      "player": "Piotr Zieliński",
       "status": "doubt",
-      "note": "Oboseală musculară la naționala Angliei; a ratat meciul cu Croația (12 nov). Ar trebui să fie disponibil pentru meciul cu Spania (15 nov)."
+      "note": "Durere la talpa piciorului; nu a jucat cu România la naționala Poloniei. Situația pentru Atalanta (22 nov) e incertă."
     },
     {
       "player": "Luis Henrique",
