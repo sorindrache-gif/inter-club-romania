@@ -1,25 +1,21 @@
 {
-  "updated": "2026-11-17T12:55:00+02:00",
+  "updated": "2026-11-17T18:15:00+02:00",
   "headline": {
-    "date": "2026-11-16",
-    "title": "Chivu, Panchina d'Oro: cel mai bun antrenor al sezonului trecut în Italia",
-    "text": "Antrenorul Interului a primit 16 din cele 43 de voturi ale colegilor, înaintea lui Cesc Fàbregas (12) și Gian Piero Gasperini (9), pentru sezonul în care a câștigat campionatul și Cupa Italiei. Premiul i-a fost înmânat luni la Coverciano. Chivu este al treilea antrenor străin care câștigă trofeul și primul de la José Mourinho, în 2009/10. Interul se întoarce duminică în campionat, la Bergamo cu Atalanta; Lautaro lucrează încă separat și ar putea începe pe bancă.",
+    "date": "2026-11-17",
+    "title": "Lautaro și Thuram, din nou cu grupul înainte de Bergamo",
+    "text": "Căpitanul s-a antrenat marți pentru prima dată cu echipa după aproape cinci săptămâni de pauză, iar Thuram a revenit și el după oboseala musculară de la naționala Franței. Convocarea amândurora pentru Atalanta – Inter, duminică, pare aproape sigură; Lautaro va fi gestionat cu prudență, pentru că miercuri urmează Stuttgart în Champions League. Bonny și Stanković rămân indisponibili.",
     "sources": [
       [
-        "Inter.it",
-        "https://www.inter.it/it/notizie/cristian-chivu-inter-panchina-oro-2026"
+        "Sky Sport",
+        "https://sport.sky.it/calcio/serie-a/2026/11/17/inter-lautaro-thuram-infortunio-news-video"
       ],
       [
         "Corriere dello Sport",
-        "https://www.corrieredellosport.it/news/calcio/serie-a/inter/2026/11/16-152633574/chivu_vince_la_panchina_d_oro_2026_battuti_fabregas_e_gasperini_premiato_anche_alvini"
+        "https://www.corrieredellosport.it/news/calcio/serie-a/inter/2026/11/17-152654693/inter_lautaro_martinez_tornato_in_gruppo_primo_allenamento_in_squadra_dopo_l_infortunio"
       ],
       [
-        "ANSA",
-        "https://www.ansa.it/english/news/sports/2026/11/16/inters-chivu-wins-italys-coach-of-the-season-award_3b5babd3-8f75-4872-a68b-3980422d29a4.html"
-      ],
-      [
-        "FC Inter 1908",
-        "https://fcinter1908.it/news/infortuni/inter-lautaor-thuram-atalanta-chivu-gestione"
+        "Gianluca Di Marzio",
+        "https://www.gianlucadimarzio.com/news-calcio/inter-lautaro-martinez-thuram-serie-a-499601"
       ]
     ]
   },
@@ -388,6 +384,26 @@
         "pts": 9
       },
       {
+        "pos": 9,
+        "team": "Club Brugge",
+        "pts": 9
+      },
+      {
+        "pos": 10,
+        "team": "Sporting CP",
+        "pts": 9
+      },
+      {
+        "pos": 11,
+        "team": "Real Betis",
+        "pts": 9
+      },
+      {
+        "pos": 12,
+        "team": "Borussia Dortmund",
+        "pts": 9
+      },
+      {
         "pos": 13,
         "team": "Bayern München",
         "pts": 8
@@ -410,6 +426,26 @@
     ]
   },
   "news": [
+    {
+      "date": "2026-11-17",
+      "cat": "antrenament",
+      "title": "Lautaro și Thuram s-au întors la antrenamentele cu grupul",
+      "text": "Marți după-amiază, la Appiano Gentile, căpitanul s-a antrenat pentru prima dată cu echipa după problema la flexorii coapsei stângi care l-a ținut departe de teren șapte meciuri. Thuram, refăcut după oboseala musculară, a lucrat și el cu grupul. Corriere dello Sport consideră convocarea amândurora pentru Atalanta aproape sigură, rămâne de văzut cât vor juca.",
+      "sources": [
+        [
+          "Sky Sport",
+          "https://sport.sky.it/calcio/serie-a/2026/11/17/inter-lautaro-thuram-infortunio-news-video"
+        ],
+        [
+          "Corriere dello Sport",
+          "https://www.corrieredellosport.it/news/calcio/serie-a/inter/2026/11/17-152654693/inter_lautaro_martinez_tornato_in_gruppo_primo_allenamento_in_squadra_dopo_l_infortunio"
+        ],
+        [
+          "Gianluca Di Marzio",
+          "https://www.gianlucadimarzio.com/news-calcio/inter-lautaro-martinez-thuram-serie-a-499601"
+        ]
+      ]
+    },
     {
       "date": "2026-11-17",
       "cat": "accidentare",
@@ -729,49 +765,33 @@
           "https://www.calciomercato.com/liste/inter-altro-infortunio-in-nazionale-si-ferma-stankovic-lesione-alla-coscia-destra/blt0fbd659daeec9173"
         ]
       ]
-    },
-    {
-      "date": "2026-11-10",
-      "cat": "accidentare",
-      "title": "Bonny se alătură listei de accidentați",
-      "text": "Analizele au arătat o problemă musculară la flexorii coapsei drepte. Atacantul s-a întors la Milano în loc să meargă la națională și ar putea lipsi cel puțin patru meciuri.",
-      "sources": [
-        [
-          "SempreInter",
-          "https://sempreinter.com/2026/11/10/bonny-joins-lautaro-on-inters-injury-list-before-atalanta-and-stuttgart/"
-        ],
-        [
-          "Sportmediaset",
-          "https://www.sportmediaset.mediaset.it/calcio/inter/inter-tegola-infortuni-bonny-thuram-tempi-recupero_118833779-202602k.shtml"
-        ]
-      ]
     }
   ],
   "injuries": [
     {
       "player": "Ange-Yoan Bonny",
       "status": "out",
-      "note": "Problemă la flexorii coapsei drepte. Țintă: Frosinone (5 dec) sau Borussia Dortmund (9 dec); alte surse indică 13 sau 18 decembrie."
+      "note": "Problemă la flexorii coapsei drepte. Sky: revenire în grup la o săptămână după Stanković; țintă de joc Frosinone (5 dec) sau Dortmund (9 dec), alte surse indică 13 sau 18 decembrie."
     },
     {
       "player": "Aleksandar Stanković",
       "status": "out",
-      "note": "Leziune la adductorul coapsei drepte (naționala Serbiei). Revenire estimată 13 sau 18 decembrie."
-    },
-    {
-      "player": "Marcus Thuram",
-      "status": "doubt",
-      "note": "Oboseală musculară la bicepsul femural drept, fără leziune. Ar putea reveni în grup în această săptămână; ar trebui să fie disponibil cu Atalanta (22 nov)."
-    },
-    {
-      "player": "Lautaro Martínez",
-      "status": "doubt",
-      "note": "Problemă la flexorii coapsei stângi din meciul cu Club Brugge (13 octombrie). Lucrează încă separat; ar putea fi pe bancă la Bergamo (22 nov) sau reveni cu Stuttgart (25 nov)."
+      "note": "Leziune la adductorul coapsei drepte (naționala Serbiei). Sky: revenire în grup spre sfârșitul săptămânii viitoare; alte surse indică 13 sau 18 decembrie pentru meciuri."
     },
     {
       "player": "Piotr Zieliński",
       "status": "doubt",
       "note": "Durere la talpa piciorului la naționala Poloniei; a ratat meciul cu România, dar s-a antrenat fără probleme și e disponibil pentru Suedia (17 nov). Ținta: Atalanta (22 nov)."
+    },
+    {
+      "player": "Marcus Thuram",
+      "status": "back",
+      "note": "Oboseală musculară la bicepsul femural drept. S-a întors în grup pe 17 noiembrie; convocare probabilă pentru Atalanta (22 nov)."
+    },
+    {
+      "player": "Lautaro Martínez",
+      "status": "back",
+      "note": "Problemă la flexorii coapsei stângi din 13 octombrie (șapte meciuri ratate). S-a întors în grup pe 17 noiembrie; convocare probabilă pentru Atalanta (22 nov), cu minute dozate."
     },
     {
       "player": "Luis Henrique",
