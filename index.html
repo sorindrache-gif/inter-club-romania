@@ -157,6 +157,12 @@ th{font:600 11px/1 var(--body);letter-spacing:.1em;text-transform:uppercase;colo
 td.p,th.p{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
 tr.inter td{background:var(--blue-soft);font-weight:700;color:var(--blue)}
 tr.ucl td:first-child{box-shadow:inset 3px 0 0 var(--blue)}
+tr.z1 td:first-child{box-shadow:inset 3px 0 0 var(--win)}
+tr.z2 td:first-child{box-shadow:inset 3px 0 0 var(--blue)}
+tr.z3 td:first-child{box-shadow:inset 3px 0 0 var(--loss)}
+tr.gap td{color:var(--muted);text-align:center;padding:2px 10px;letter-spacing:.3em}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12.5px;color:var(--muted);margin:10px 2px 0}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
 .tbl-toggle{margin-top:8px;background:none;border:0;color:var(--blue);font:600 13px var(--body);cursor:pointer;padding:4px 0}
 
 /* Injuries */
@@ -213,7 +219,8 @@ footer .wrap{padding-block:20px;display:flex;flex-wrap:wrap;justify-content:spac
   <div class="wrap">
     <a href="#stiri">Știri</a>
     <a href="#rezultate">Rezultate</a>
-    <a href="#clasament">Clasament</a>
+    <a href="#clasament">Serie A</a>
+    <a href="#champions">Champions League</a>
     <a href="#infirmerie">Infirmerie</a>
     <a href="#mercato">Mercato</a>
     <a href="#surse">Surse</a>
@@ -264,6 +271,19 @@ footer .wrap{padding-block:20px;display:flex;flex-wrap:wrap;justify-content:spac
         </div>
         <button class="tbl-toggle" id="tblToggle" type="button">Arată tot clasamentul</button>
         <p class="res-sub" id="tblNote"></p>
+      </section>
+
+      <section id="champions">
+        <div class="sec-head"><h2>Champions League</h2><span class="eyebrow" id="uclAfter"></span></div>
+        <div class="tbl-wrap">
+          <table>
+            <thead id="uclHead"></thead>
+            <tbody id="uclBody"></tbody>
+          </table>
+        </div>
+        <button class="tbl-toggle" id="uclToggle" type="button">Arată tot clasamentul</button>
+        <div class="legend"><span><i style="background:var(--win)"></i>1–8: direct în optimi</span><span><i style="background:var(--blue)"></i>9–24: play-off</span><span><i style="background:var(--loss)"></i>25–36: eliminate</span></div>
+        <p class="res-sub" id="uclNote"></p>
       </section>
 
       <section id="infirmerie">
@@ -361,7 +381,7 @@ function renderAll(){
   $("lead").innerHTML = h ? `<span class="eyebrow">Subiectul zilei · ${fmtDay(h.date)}</span><h3 id="subiect-${slug(h.title)}">${esc(h.title)}</h3><p>${esc(h.text)}</p><span class="src"><span>Surse: ${srcLinks(h.sources)}</span>${waBtn(h.title, h.text, "subiect-"+slug(h.title))}</span>` : "";
   $("lead").hidden = !h;
 
-  renderNews(); renderResults(); renderTable();
+  renderNews(); renderResults(); renderTable(); renderUcl();
 
   $("injAsOf").textContent = isNaN(u) ? "" : "situația la " + u.toLocaleDateString("ro-RO",{day:"numeric",month:"short",timeZone:"Europe/Bucharest"});
   $("injList").innerHTML = (D.injuries||[]).map(i => `<div class="inj-row"><b>${esc(i.player)}</b><span class="status s-${esc(i.status)}">${INJ_LAB[i.status]||esc(i.status)}</span><small>${esc(i.note)}</small></div>`).join("") || `<p style="color:var(--muted)">Lotul este complet. Niciun jucător accidentat.</p>`;
@@ -432,6 +452,32 @@ function renderTable(){
   $("tblNote").textContent = sa.length ? `Inter: ${sa.filter(x=>x==="V").length} victorii, ${sa.filter(x=>x==="E").length} egal(uri), ${sa.filter(x=>x==="I").length} înfrângere(i) · golaveraj ${gf}–${ga}. Bara albastră marchează locurile de Champions League.` : "";
 }
 
+let uclFull = false;
+function renderUcl(){
+  const T = DATA.ucl_table, sec = $("champions");
+  if(!T || !(T.rows||[]).length){ sec.hidden = true; return; }
+  sec.hidden = false;
+  const rows = T.rows.map((r,i) => ({...r, pos: r.pos || i+1})).sort((a,b)=>a.pos-b.pos);
+  const hasGd = rows.every(r => r.gd!=null), hasP = rows.every(r => r.p!=null);
+  $("uclAfter").textContent = T.after ? `faza ligii, după etapa ${T.after}` : "faza ligii";
+  $("uclHead").innerHTML = `<tr><th>#</th><th>Echipa</th>${hasP?'<th class="p">J</th>':""}${hasGd?'<th class="p">GD</th>':""}<th class="p">Pct</th></tr>`;
+  const ip = (rows.find(r=>r.team==="Inter")||{}).pos;
+  const shown = uclFull ? rows : rows.filter(r => r.pos<=8 || (ip && Math.abs(r.pos-ip)<=2));
+  const zone = p => p<=8 ? "z1" : p<=24 ? "z2" : "z3";
+  let html = "", prev = 0;
+  for(const r of shown){
+    if(r.pos > prev+1) html += `<tr class="gap"><td colspan="${3+(hasP?1:0)+(hasGd?1:0)}">···</td></tr>`;
+    html += `<tr class="${zone(r.pos)} ${r.team==="Inter"?"inter":""}"><td class="num">${r.pos}</td><td>${esc(r.team)}</td>${hasP?`<td class="p">${r.p}</td>`:""}${hasGd?`<td class="p">${r.gd>0?"+":""}${r.gd}</td>`:""}<td class="p"><b>${r.pts}</b></td></tr>`;
+    prev = r.pos;
+  }
+  if(prev < 36 && uclFull) html += `<tr class="gap"><td colspan="${3+(hasP?1:0)+(hasGd?1:0)}">···</td></tr>`;
+  $("uclBody").innerHTML = html;
+  $("uclToggle").hidden = shown.length === rows.length;
+  $("uclToggle").textContent = uclFull ? "Arată doar primele 8 și Inter" : "Arată tot clasamentul";
+  const u = DATA.ucl;
+  $("uclNote").textContent = (u ? `Inter: ${u.pts} puncte după ${u.played} meciuri (${u.w}V ${u.d}E ${u.l}Î, golaveraj ${u.gf}–${u.ga})${ip?`, locul ${ip}`:""}. ` : "") + (rows.length < 36 ? "Sunt afișate doar pozițiile confirmate de surse." : "");
+}
+$("uclToggle").addEventListener("click", () => { uclFull = !uclFull; renderUcl(); });
 $("newsFilters").addEventListener("click", e => { const b = e.target.closest("button"); if(!b||!DATA) return; newsCat = b.dataset.k; store.set("icr-cat", newsCat); renderNews(); });
 $("compFilters").addEventListener("click", e => { const b = e.target.closest("button"); if(!b||!DATA) return; comp = b.dataset.k; store.set("icr-comp", comp); renderResults(); });
 function goToHash(){

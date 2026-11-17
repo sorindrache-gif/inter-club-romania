@@ -342,7 +342,72 @@
     "gf": 8,
     "ga": 6,
     "pts": 6,
-    "pos": null
+    "pos": 15
+  },
+  "ucl_table": {
+    "after": 4,
+    "rows": [
+      {
+        "pos": 1,
+        "team": "Paris Saint-Germain",
+        "pts": 12
+      },
+      {
+        "pos": 2,
+        "team": "Real Madrid",
+        "pts": 12
+      },
+      {
+        "pos": 3,
+        "team": "Arsenal",
+        "pts": 10
+      },
+      {
+        "pos": 4,
+        "team": "Como",
+        "pts": 9
+      },
+      {
+        "pos": 5,
+        "team": "Barcelona",
+        "pts": 9
+      },
+      {
+        "pos": 6,
+        "team": "Aston Villa",
+        "pts": 9
+      },
+      {
+        "pos": 7,
+        "team": "Manchester City",
+        "pts": 9
+      },
+      {
+        "pos": 8,
+        "team": "Liverpool",
+        "pts": 9
+      },
+      {
+        "pos": 13,
+        "team": "Bayern München",
+        "pts": 8
+      },
+      {
+        "pos": 14,
+        "team": "Stuttgart",
+        "pts": 7
+      },
+      {
+        "pos": 15,
+        "team": "Inter",
+        "pts": 6
+      },
+      {
+        "pos": 36,
+        "team": "Slovan Bratislava",
+        "pts": 0
+      }
+    ]
   },
   "news": [
     {
