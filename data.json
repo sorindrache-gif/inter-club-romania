@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T18:15:00+02:00",
+  "updated": "2026-11-18T10:10:00+02:00",
   "headline": {
     "date": "2026-11-17",
     "title": "Lautaro și Thuram, din nou cu grupul înainte de Bergamo",
@@ -428,6 +428,26 @@
   "news": [
     {
       "date": "2026-11-17",
+      "cat": "meci",
+      "title": "Zieliński joacă 81 de minute în Polonia – Suedia 1–1",
+      "text": "În ciuda durerii la picior din ultimele zile, mijlocașul a fost titular în ultimul meci al grupei de Nations League, încheiat 1–1 la Wrocław. „Am simțit puțină durere, dar am reușit să joc”, a spus Zieliński, care ar trebui să fie disponibil pentru Atalanta.",
+      "sources": [
+        [
+          "FC Inter News",
+          "https://www.fcinternews.it/focus/polonia-svezia-pareggiano-1-1-zielinski-campo-81-minuti-1023462"
+        ],
+        [
+          "FC Inter 1908",
+          "https://www.fcinter1908.it/news/interviste/polonia-zielinski-dolore-nazionale-inter/"
+        ],
+        [
+          "FotMob",
+          "https://www.fotmob.com/matches/sweden-vs-poland/2exnfc"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-17",
       "cat": "antrenament",
       "title": "Lautaro și Thuram s-au întors la antrenamentele cu grupul",
       "text": "Marți după-amiază, la Appiano Gentile, căpitanul s-a antrenat pentru prima dată cu echipa după problema la flexorii coapsei stângi care l-a ținut departe de teren șapte meciuri. Thuram, refăcut după oboseala musculară, a lucrat și el cu grupul. Corriere dello Sport consideră convocarea amândurora pentru Atalanta aproape sigură, rămâne de văzut cât vor juca.",
@@ -749,22 +769,6 @@
           "https://www.inter.it/en/news/training-inter-12-november-2026"
         ]
       ]
-    },
-    {
-      "date": "2026-11-11",
-      "cat": "accidentare",
-      "title": "Stanković părăsește naționala Serbiei: leziune la adductor",
-      "text": "Federația sârbă a anunțat o leziune la adductorul coapsei drepte, apărută la un antrenament. Mijlocașul s-a întors la Milano și ar urma să lipsească aproximativ o lună, cu revenire estimată pentru 13 sau 18 decembrie.",
-      "sources": [
-        [
-          "FC Inter 1908",
-          "https://www.fcinter1908.it/news/infortuni/inter-uno-stop-dietro-laltro-anche-stankovic-torna-a-milano-la-serbia-lesione-alladduttore/"
-        ],
-        [
-          "Calciomercato",
-          "https://www.calciomercato.com/liste/inter-altro-infortunio-in-nazionale-si-ferma-stankovic-lesione-alla-coscia-destra/blt0fbd659daeec9173"
-        ]
-      ]
     }
   ],
   "injuries": [
@@ -779,11 +783,6 @@
       "note": "Leziune la adductorul coapsei drepte (naționala Serbiei). Sky: revenire în grup spre sfârșitul săptămânii viitoare; alte surse indică 13 sau 18 decembrie pentru meciuri."
     },
     {
-      "player": "Piotr Zieliński",
-      "status": "doubt",
-      "note": "Durere la talpa piciorului la naționala Poloniei; a ratat meciul cu România, dar s-a antrenat fără probleme și e disponibil pentru Suedia (17 nov). Ținta: Atalanta (22 nov)."
-    },
-    {
       "player": "Marcus Thuram",
       "status": "back",
       "note": "Oboseală musculară la bicepsul femural drept. S-a întors în grup pe 17 noiembrie; convocare probabilă pentru Atalanta (22 nov)."
@@ -791,7 +790,7 @@
     {
       "player": "Lautaro Martínez",
       "status": "back",
-      "note": "Problemă la flexorii coapsei stângi din 13 octombrie (șapte meciuri ratate). S-a întors în grup pe 17 noiembrie; convocare probabilă pentru Atalanta (22 nov), cu minute dozate."
+      "note": "Problemă la flexorii coapsei stângi din 13 octombrie (șapte meciuri ratate). S-a întors în grup pe 17 noiembrie; presa îl vede pornind de pe bancă la Bergamo (22 nov)."
     },
     {
       "player": "Luis Henrique",
