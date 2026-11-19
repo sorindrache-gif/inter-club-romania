@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T18:10:00+02:00",
+  "updated": "2026-11-19T10:10:00+02:00",
   "headline": {
     "date": "2026-11-17",
     "title": "Lautaro și Thuram, din nou cu grupul înainte de Bergamo",
@@ -427,6 +427,18 @@
   },
   "news": [
     {
+      "date": "2026-11-19",
+      "cat": "meci",
+      "title": "Spre Atalanta – Inter: Chivu ar putea păstra echipa care a învins Como",
+      "text": "Potrivit Gazzetta dello Sport, în atac ar urma să joace Pio Esposito și Thuram, iar singurele schimbări probabile sunt Bisseck în locul lui Akanji și Sučić în locul lui Zieliński. Lautaro este pregătit să revină de pe bancă. Meciul se joacă duminică, de la 21:45 (ora României).",
+      "sources": [
+        [
+          "FC Inter 1908",
+          "https://www.fcinter1908.it/ultimora/verso-atalanta-inter-chivu-cambia-poco-possibili-due-cambi-di-formazione/"
+        ]
+      ]
+    },
+    {
       "date": "2026-11-18",
       "cat": "antrenament",
       "title": "Chivu își recuperează aproape toți titularii înainte de Atalanta",
@@ -765,22 +777,6 @@
           "https://www.tuttosport.com/news/calcio/serie-a/inter/2026/11/11-152527145/non_sar_della_partita_quarto_stop_per_l_inter_di_chivu_sorride_la_roma_di_gasperini_le_novit"
         ]
       ]
-    },
-    {
-      "date": "2026-11-12",
-      "cat": "accidentare",
-      "title": "Thuram: doar oboseală musculară, fără leziune",
-      "text": "Sky Sport și Gazzetta dello Sport scriu că investigațiile nu au arătat nicio leziune la bicepsul femural drept al francezului. Thuram va lucra separat în zilele următoare, iar Inter speră să-l aibă înapoi în grup înainte de meciul cu Atalanta; varianta prudentă este Genoa, pe 28 noiembrie.",
-      "sources": [
-        [
-          "FC Inter 1908",
-          "https://fcinter1908.it/news/infortuni/thuram-affaticamento-atalanta-inter-cosa-filtra"
-        ],
-        [
-          "Football Italia",
-          "https://football-italia.net/inter-relief-thuram-injury-muscular-issues/"
-        ]
-      ]
     }
   ],
   "injuries": [
@@ -841,9 +837,9 @@
     },
     {
       "title": "Un fundaș central în ianuarie",
-      "text": "Depinde de situația lui Stones. Inter vrea și un jucător de bandă.",
+      "text": "Sky Sport anticipează cel puțin o mutare în ianuarie, cel mai probabil în apărare; depinde și de situația lui Stones.",
       "level": 2,
-      "source": "https://www.calciomercato.com/liste/inter-due-obiettivi-per-il-mercato-di-gennaio-strategie-diverse-per-esterno-e-difensore-il-punto/bltfc9d781aed2df9d2"
+      "source": "https://www.fcinter1908.it/calciomercato/mercato-inter/sky-inter-fara-mercato-gennaio/"
     },
     {
       "title": "Reînnoirile Çalhanoğlu și Thuram",
