@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T10:10:00+02:00",
+  "updated": "2026-11-19T18:10:00+02:00",
   "headline": {
     "date": "2026-11-17",
     "title": "Lautaro și Thuram, din nou cu grupul înainte de Bergamo",
@@ -440,6 +440,22 @@
     },
     {
       "date": "2026-11-18",
+      "cat": "meci",
+      "title": "Fabio Maresca va arbitra Atalanta – Inter",
+      "text": "AIA l-a desemnat pe Maresca la centru pentru meciul de duminică de la Bergamo, cu Gariglio la VAR. Va fi al 20-lea meci al Interului condus de el: 13 victorii, trei egaluri și trei înfrângeri.",
+      "sources": [
+        [
+          "Sky Sport",
+          "https://sport.sky.it/calcio/serie-a/2026/11/18/arbitri-serie-a-designazioni-giornata-12"
+        ],
+        [
+          "FC Inter News",
+          "https://www.fcinternews.it/focus/serie-a-arbitri-12a-giornata-maresca-atalanta-inter-gariglio-var-1023492"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-18",
       "cat": "antrenament",
       "title": "Chivu își recuperează aproape toți titularii înainte de Atalanta",
       "text": "Lautaro a făcut primul antrenament complet cu grupul, iar Thuram, Jones și Zieliński sunt refăcuți, scrie Tuttosport. Investigațiile lui Akanji, retras preventiv de la naționala Elveției, au ieșit negative, așa că fundașul poate fi convocat. Gazzetta vede pentru Lautaro aproximativ o jumătate de oră de la bancă la Bergamo.",
@@ -757,26 +773,6 @@
           "https://www.fcinternews.it/rassegna/chivu-concede-weekend-riposo-squadra-terapie-infortunati-1023022"
         ]
       ]
-    },
-    {
-      "date": "2026-11-12",
-      "cat": "accidentare",
-      "title": "Spence ratează Croația cu Anglia, dar ar trebui să fie gata pentru Spania",
-      "text": "Thomas Tuchel a anunțat că Djed Spence nu va juca împotriva Croației din cauza oboselii musculare. Fundașul Interului rămâne în cantonamentul Angliei, lucrează individual și ar urma să fie disponibil duminică, în Spania; Tuttosport scrie că nu pare nimic grav.",
-      "sources": [
-        [
-          "Football Italia",
-          "https://football-italia.net/inter-star-spence-out-of-england-squad-croatia/"
-        ],
-        [
-          "FC Inter 1908",
-          "https://www.fcinter1908.it/nazionali/tuchel-inghilterra-spence-spagna/"
-        ],
-        [
-          "Tuttosport",
-          "https://www.tuttosport.com/news/calcio/serie-a/inter/2026/11/11-152527145/non_sar_della_partita_quarto_stop_per_l_inter_di_chivu_sorride_la_roma_di_gasperini_le_novit"
-        ]
-      ]
     }
   ],
   "injuries": [
@@ -858,6 +854,12 @@
       "text": "Presa italiană îl indică pe fundașul lui Stuttgart drept principala țintă pentru apărare; evaluat la 35–40 de milioane, e dorit și de Bayern, Barcelona și Real Madrid.",
       "level": 1,
       "source": "https://www.fcinter1908.it/calciomercato/mercato-inter/difesa-linter-pensa-al-grande-colpo-centrale-e-braccetto-fra-2-settimane-sara-a-san-siro/"
+    },
+    {
+      "title": "Provstgaard (Lazio), țintă pentru vară",
+      "text": "Gazzetta și Repubblica scriu că problemele fizice ale lui Stones au îndreptat atenția Interului spre fundașul danez al Laziei. Lazio cere circa 40 de milioane, o sumă pe care Interul și-ar permite-o mai degrabă în vară decât în ianuarie.",
+      "level": 1,
+      "source": "https://football-italia.net/inter-eye-deal-lazio-defender-stones-struggles/"
     }
   ]
 }
