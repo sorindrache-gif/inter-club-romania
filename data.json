@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T18:10:00+02:00",
+  "updated": "2026-11-20T10:10:00+02:00",
   "headline": {
     "date": "2026-11-17",
     "title": "Lautaro și Thuram, din nou cu grupul înainte de Bergamo",
@@ -427,6 +427,22 @@
   },
   "news": [
     {
+      "date": "2026-11-20",
+      "cat": "meci",
+      "title": "Atalanta – Inter: duel Lautaro – Pio Esposito pentru un loc lângă Thuram",
+      "text": "Gianluca Di Marzio vede Interul în 3-5-2 la Bergamo, cu Thuram sigur titular și un dublu dubiu între Lautaro și Pio Esposito în atac. Zanetti a declarat la Sky că Lautaro face ultimele teste cu medicii; scenariul minim e cel puțin o jumătate de oră pentru căpitan.",
+      "sources": [
+        [
+          "Gianluca Di Marzio",
+          "https://www.gianlucadimarzio.com/news-calcio/inter-probabile-formazione-atalanta-serie-a-499683"
+        ],
+        [
+          "Calciomercato",
+          "https://www.calciomercato.com/notizie/inter-zanetti-lancia-lautaro-sta-facendo-le-ultime-prove-coi-medici-da-domani-in-gruppo-punta-l-atalanta/bltc54a76051976bc5c"
+        ]
+      ]
+    },
+    {
       "date": "2026-11-19",
       "cat": "meci",
       "title": "Spre Atalanta – Inter: Chivu ar putea păstra echipa care a învins Como",
@@ -761,18 +777,6 @@
           "https://www.calciomercato.com/notizie/inter-buona-notizia-per-chivu-luis-henrique-e-tornato-in-gruppo/blt197e5f174ba45d66"
         ]
       ]
-    },
-    {
-      "date": "2026-11-13",
-      "cat": "antrenament",
-      "title": "Chivu le dă jucătorilor weekendul liber; accidentații continuă tratamentul",
-      "text": "Potrivit Gazzetta dello Sport, lotul rămas la Appiano are două zile libere sâmbătă și duminică. Thuram, Bonny și Stanković, întorși de la naționale, continuă terapiile, iar Lautaro lucrează pentru a-și recăpăta forma.",
-      "sources": [
-        [
-          "FC Inter News",
-          "https://www.fcinternews.it/rassegna/chivu-concede-weekend-riposo-squadra-terapie-infortunati-1023022"
-        ]
-      ]
     }
   ],
   "injuries": [
@@ -827,7 +831,7 @@
     },
     {
       "title": "Prelungire Çalhanoğlu",
-      "text": "Negocierile au intrat în faza decisivă: jucătorul acceptă un salariu mai mic, clubul vrea o decizie până în ianuarie. Juventus pândește.",
+      "text": "Jucătorul acceptă un salariu mai mic; prima ofertă a Interului ar fi un fix redus plus bonusuri, cu contract până în 2029, potrivit Calciomercato. Clubul vrea o decizie până în ianuarie; Juventus pândește.",
       "level": 3,
       "source": "https://www.corrieredellosport.it/news/calcio/serie-a/inter/2026/11/15-152601050/rinnovo_calhanoglu_la_trattativa_con_l_inter_entra_nel_vivo"
     },
