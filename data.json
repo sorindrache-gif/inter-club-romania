@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T10:10:00+02:00",
+  "updated": "2026-11-20T18:10:00+02:00",
   "headline": {
     "date": "2026-11-17",
     "title": "Lautaro și Thuram, din nou cu grupul înainte de Bergamo",
@@ -429,6 +429,22 @@
     {
       "date": "2026-11-20",
       "cat": "meci",
+      "title": "Sky, Gazzetta și Corriere: Lautaro pornește de pe bancă la Bergamo",
+      "text": "Sky Sport vede un 3-5-2 cu Thuram și Pio Esposito în atac, iar Gazzetta dello Sport și Corriere dello Sport scriu că Lautaro va începe pe bancă și va intra doar în repriza a doua, dacă vor exista condițiile potrivite. Decizia finală vine după ultimele antrenamente de la Appiano.",
+      "sources": [
+        [
+          "Sky Sport",
+          "https://sport.sky.it/calcio/serie-a/2026/11/19/inter-probabile-formazione-atalanta-news"
+        ],
+        [
+          "FC Inter 1908",
+          "https://www.fcinter1908.it/news/rassegna-stampa/atalanta-inter-riecco-lautaro-idea-chivu-attacco-akanji-zielinski/"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "cat": "meci",
       "title": "Atalanta – Inter: duel Lautaro – Pio Esposito pentru un loc lângă Thuram",
       "text": "Gianluca Di Marzio vede Interul în 3-5-2 la Bergamo, cu Thuram sigur titular iar pentru al doilea loc din atac se dispută Lautaro și Pio Esposito. Zanetti a declarat la Sky că Lautaro face ultimele teste cu medicii; scenariul minim e cel puțin o jumătate de oră pentru căpitan.",
       "sources": [
@@ -759,22 +775,6 @@
         [
           "Inter.it",
           "https://www.inter.it/en/news/inter-training-13-november-2026"
-        ]
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "cat": "antrenament",
-      "title": "Luis Henrique s-a întors la antrenamentele cu grupul",
-      "text": "Brazilianul, care acuzase o problemă la adductorul lung al coapsei stângi înainte de meciul cu Fiorentina din 25 octombrie, s-a antrenat cu grupul la Appiano Gentile. Este o veste bună pentru Chivu înaintea reluării campionatului.",
-      "sources": [
-        [
-          "FC Inter News",
-          "https://www.fcinternews.it/copertina/i-sky-i-chivu-recupera-altra-pedina-luis-henrique-allenato-1023043"
-        ],
-        [
-          "Calciomercato",
-          "https://www.calciomercato.com/notizie/inter-buona-notizia-per-chivu-luis-henrique-e-tornato-in-gruppo/blt197e5f174ba45d66"
         ]
       ]
     }
