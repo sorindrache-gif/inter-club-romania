@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T10:05:00+02:00",
+  "updated": "2026-11-21T18:10:00+02:00",
   "headline": {
     "date": "2026-11-17",
     "title": "Lautaro și Thuram, din nou cu grupul înainte de Bergamo",
@@ -427,6 +427,30 @@
   },
   "news": [
     {
+      "date": "2026-11-21",
+      "cat": "meci",
+      "title": "Lazio câștigă cu Lecce și urcă la 4 puncte peste Inter înaintea meciului de la Bergamo",
+      "text": "Liderul a învins Lecce cu 3–0 (Noslin de două ori, Frattesi) și are 32 de puncte, față de 28 ale Interului, care joacă duminică. Tot sâmbătă, Como a trecut de Cagliari cu 2–0. Antrenorul Atalantei, Maurizio Sarri, a spus înaintea meciului că Interul „iese ușor din presing”.",
+      "sources": [
+        [
+          "Sofascore",
+          "https://www.sofascore.com/football/match/lazio-lecce/OdbsZdb"
+        ],
+        [
+          "Sky Sport",
+          "https://sport.sky.it/calcio/serie-a/partite/2026/giornata-12/lazio-lecce/risultato-gol"
+        ],
+        [
+          "Sky Sport",
+          "https://sport.sky.it/calcio/serie-a/partite/2026/giornata-12/como-cagliari/risultato-gol"
+        ],
+        [
+          "Corriere dello Sport",
+          "https://www.corrieredellosport.it/news/calcio/serie-a/atalanta/2026/11/21-152714821/sarri_punge_scamacca_mi_sembra_bloccato_ci_deve_mettere_di_pi"
+        ]
+      ]
+    },
+    {
       "date": "2026-11-20",
       "cat": "meci",
       "title": "Sky, Gazzetta și Corriere: Lautaro pornește de pe bancă la Bergamo",
@@ -763,18 +787,6 @@
         [
           "FC Inter News",
           "https://www.fcinternews.it/in-primo-piano/i-cds-i-atalanta-inter-cautela-lautaro-thuram-gioca-davanti-1022944"
-        ]
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "cat": "antrenament",
-      "title": "Antrenament vineri la Inter Training Center",
-      "text": "Lotul redus de pauza internațională s-a antrenat vineri la Appiano Gentile sub comanda lui Chivu. Printre jucătorii surprinși în fotografiile oficiale ale ședinței se numără Lautaro Martínez, Stones și Bisseck.",
-      "sources": [
-        [
-          "Inter.it",
-          "https://www.inter.it/en/news/inter-training-13-november-2026"
         ]
       ]
     }
