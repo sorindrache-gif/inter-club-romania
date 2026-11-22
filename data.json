@@ -1,21 +1,21 @@
 {
-  "updated": "2026-11-21T18:10:00+02:00",
+  "updated": "2026-11-22T10:10:00+02:00",
   "headline": {
-    "date": "2026-11-17",
-    "title": "Lautaro și Thuram, din nou cu grupul înainte de Bergamo",
-    "text": "Căpitanul s-a antrenat marți pentru prima dată cu echipa după aproape cinci săptămâni de pauză, iar Thuram a revenit și el după oboseala musculară de la naționala Franței. Convocarea amândurora pentru Atalanta – Inter, duminică, pare aproape sigură; Lautaro va fi gestionat cu prudență, pentru că miercuri urmează Stuttgart în Champions League. Bonny și Stanković rămân indisponibili.",
+    "date": "2026-11-22",
+    "title": "Ziua meciului: Atalanta – Inter, la Bergamo, de la 21:45",
+    "text": "Interul reia campionatul după pauza internațională, la patru puncte de liderul Lazio și cu Roma trecută provizoriu în fața sa. Sky Sport anticipează un 3-5-2 cu Thuram și Pio Esposito în atac, iar Lautaro, revenit după o lună și jumătate de pauză, ar urma să intre de pe bancă. Arbitrează Fabio Maresca; miercuri urmează Stuttgart în Champions League.",
     "sources": [
       [
         "Sky Sport",
-        "https://sport.sky.it/calcio/serie-a/2026/11/17/inter-lautaro-thuram-infortunio-news-video"
+        "https://sport.sky.it/calcio/serie-a/2026/11/21/atalanta-inter-probabili-formazioni-12-giornata"
       ],
       [
-        "Corriere dello Sport",
-        "https://www.corrieredellosport.it/news/calcio/serie-a/inter/2026/11/17-152654693/inter_lautaro_martinez_tornato_in_gruppo_primo_allenamento_in_squadra_dopo_l_infortunio"
+        "FC Inter 1908",
+        "https://www.fcinter1908.it/partite/probabili-formazioni/atalanta-inter-le-probabili-formazioni-da-lautaro-e-pavard-al-sostituto-di-zielinski-le-scelte/"
       ],
       [
-        "Gianluca Di Marzio",
-        "https://www.gianlucadimarzio.com/news-calcio/inter-lautaro-martinez-thuram-serie-a-499601"
+        "Sky Sport",
+        "https://sport.sky.it/calcio/serie-a/2026/11/18/arbitri-serie-a-designazioni-giornata-12"
       ]
     ]
   },
@@ -429,6 +429,26 @@
     {
       "date": "2026-11-21",
       "cat": "meci",
+      "title": "Roma trece de Parma cu 5–1 și depășește provizoriu Interul",
+      "text": "Malen a marcat de patru ori, iar Roma urcă la 30 de puncte, cu două peste Inter, care joacă duminică la Bergamo. Napoli a învins Torino cu 1–0 prin golul lui McTominay.",
+      "sources": [
+        [
+          "Sky Sport",
+          "https://sport.sky.it/calcio/serie-a/partite/2026/giornata-12/parma-roma/risultato-gol"
+        ],
+        [
+          "Sky Sport",
+          "https://sport.sky.it/calcio/serie-a/partite/2026/giornata-12/napoli-torino/risultato-gol"
+        ],
+        [
+          "Lega Serie A",
+          "https://www.legaseriea.it/serie-a/match/97ef80e0aff84867ae6f6c53b2be31e5/parma-vs-roma"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "cat": "meci",
       "title": "Lazio câștigă cu Lecce și urcă la 4 puncte peste Inter înaintea meciului de la Bergamo",
       "text": "Liderul a învins Lecce cu 3–0 (Noslin de două ori, Frattesi) și are 32 de puncte, față de 28 ale Interului, care joacă duminică. Tot sâmbătă, Como a trecut de Cagliari cu 2–0. Antrenorul Atalantei, Maurizio Sarri, a spus înaintea meciului că Interul „iese ușor din presing”.",
       "sources": [
@@ -767,26 +787,6 @@
         [
           "FC Inter 1908",
           "https://www.fcinter1908.it/nazionali/italia-francia-pio-esposito-risultato-dimarco/"
-        ]
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "cat": "accidentare",
-      "title": "Lautaro, așteptat în grup de luni",
-      "text": "Potrivit Gazzetta dello Sport, căpitanul ar urma să reia antrenamentele cu grupul luni, la Appiano Gentile, cu ținta meciului de la Bergamo. Corriere dello Sport avertizează că nu există garanții absolute, iar revenirea ar putea aluneca spre meciul cu Stuttgart. „Mă simt bine, sper să revin curând”, a spus Lautaro pentru Sky Sport.",
-      "sources": [
-        [
-          "FC Inter News",
-          "https://www.fcinternews.it/rassegna/i-gds-i-lautaro-lunedi-stones-jones-appiano-punto-1022940"
-        ],
-        [
-          "Calciomercato",
-          "https://www.calciomercato.com/liste/inter-quando-torna-lautaro-sto-bene-spero-di-tornare-presto-scudetto-campionato-equilibrato-come-un-anno-fa/blt6a0bf360cb37bf21"
-        ],
-        [
-          "FC Inter News",
-          "https://www.fcinternews.it/in-primo-piano/i-cds-i-atalanta-inter-cautela-lautaro-thuram-gioca-davanti-1022944"
         ]
       ]
     }
