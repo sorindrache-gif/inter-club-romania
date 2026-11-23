@@ -803,11 +803,6 @@
   ],
   "injuries": [
     {
-      "player": "Hakan Çalhanoğlu",
-      "status": "out",
-      "note": "Problemă la flexorii coapsei drepte, ieșit în prima repriză la Bergamo (22 nov). Investigații în curs; riscă să lipsească până la finalul anului."
-    },
-    {
       "player": "Ange-Yoan Bonny",
       "status": "out",
       "note": "Problemă la flexorii coapsei drepte. Sky: revenire în grup la o săptămână după Stanković; țintă de joc Frosinone (5 dec) sau Dortmund (9 dec), alte surse indică 13 sau 18 decembrie."
@@ -816,6 +811,11 @@
       "player": "Aleksandar Stanković",
       "status": "out",
       "note": "Leziune la adductorul coapsei drepte (naționala Serbiei). Sky: revenire în grup spre sfârșitul săptămânii viitoare; alte surse indică 13 sau 18 decembrie pentru meciuri."
+    },
+    {
+      "player": "Hakan Çalhanoğlu",
+      "status": "doubt",
+      "note": "Problemă la flexorii coapsei drepte, ieșit în prima repriză la Bergamo (22 nov). Investigații în curs; riscă să lipsească până la finalul anului."
     },
     {
       "player": "Luis Henrique",
