@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T10:15:00+02:00",
+  "updated": "2026-11-23T18:10:00+02:00",
   "headline": {
     "date": "2026-11-22",
     "title": "Atalanta – Inter 4–4: hat-trick-ul lui Pio Esposito nu ajunge",
@@ -433,6 +433,22 @@
   },
   "news": [
     {
+      "date": "2026-11-23",
+      "cat": "accidentare",
+      "title": "Çalhanoğlu ratează Stuttgart și Genoa; investigațiile, marți",
+      "text": "Sky Sport scrie că mijlocașul turc, ieșit în minutul 33 la Bergamo cu o problemă la flexorii coapsei drepte, nu va juca nici miercuri cu Stuttgart, nici sâmbătă cu Genoa. Investigațiile de marți vor stabili durata pauzei; este a doua accidentare musculară a sezonului pentru el, după cea de la adductor din septembrie.",
+      "sources": [
+        [
+          "Sky Sport",
+          "https://sport.sky.it/calcio/serie-a/2026/11/23/calhanoglu-infortunio-inter-news"
+        ],
+        [
+          "FC Inter 1908",
+          "https://www.fcinter1908.it/news/infortuni/inter-ansia-calhanoglu-frase-chivu-preoccupa-quando-esami/"
+        ]
+      ]
+    },
+    {
       "date": "2026-11-22",
       "cat": "meci",
       "title": "Atalanta – Inter 4–4: hat-trick Pio Esposito, Kessié egalează din penalty în minutul 91",
@@ -783,22 +799,6 @@
           "https://www.fcinternews.it/rassegna/i-cds-i-chivu-ritrova-nazionali-scaletta-rientri-1023246"
         ]
       ]
-    },
-    {
-      "date": "2026-11-15",
-      "cat": "club",
-      "title": "Çalhanoğlu: negocierile pentru prelungire intră în faza decisivă",
-      "text": "Corriere dello Sport și Tuttosport scriu că mijlocașul turc s-a arătat dispus să accepte un salariu mai mic decât cel actual, de aproximativ 6 milioane de euro. Contractul expiră pe 30 iunie 2027, iar conducerea vrea o direcție clară până în ianuarie, după ce încheie prelungirea lui Carlos Augusto; Juventus urmărește situația.",
-      "sources": [
-        [
-          "Corriere dello Sport",
-          "https://www.corrieredellosport.it/news/calcio/serie-a/inter/2026/11/15-152601050/rinnovo_calhanoglu_la_trattativa_con_l_inter_entra_nel_vivo"
-        ],
-        [
-          "FC Inter News",
-          "https://www.fcinternews.it/focus/i-ts-i-calhanoglu-passi-rinnovo-apertura-ingaggio-1023243"
-        ]
-      ]
     }
   ],
   "injuries": [
@@ -814,8 +814,8 @@
     },
     {
       "player": "Hakan Çalhanoğlu",
-      "status": "doubt",
-      "note": "Problemă la flexorii coapsei drepte, ieșit în prima repriză la Bergamo (22 nov). Investigații în curs; riscă să lipsească până la finalul anului."
+      "status": "out",
+      "note": "Problemă la flexorii coapsei drepte, ieșit în minutul 33 la Bergamo (22 nov). Ratează Stuttgart (25 nov) și Genoa (28 nov); investigații marți, 24 noiembrie."
     },
     {
       "player": "Luis Henrique",
