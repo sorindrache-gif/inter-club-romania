@@ -1,33 +1,29 @@
 {
-  "updated": "2026-11-22T18:05:00+02:00",
+  "updated": "2026-11-23T10:15:00+02:00",
   "headline": {
     "date": "2026-11-22",
-    "title": "Ziua meciului: Atalanta – Inter, la Bergamo, de la 21:45",
-    "text": "Interul reia campionatul după pauza internațională, la patru puncte de liderul Lazio și cu Roma trecută provizoriu în fața sa. Sky Sport anticipează un 3-5-2 cu Thuram și Pio Esposito în atac, iar Lautaro, revenit după o lună și jumătate de pauză, ar urma să intre de pe bancă. Arbitrează Fabio Maresca; miercuri urmează Stuttgart în Champions League.",
+    "title": "Atalanta – Inter 4–4: hat-trick-ul lui Pio Esposito nu ajunge",
+    "text": "Interul a condus cu 2–0, 3–1 și 4–2, dar a primit egalarea din penalty în minutul 91, prin Kessié. Esposito a marcat de trei ori, Sučić a reușit al patrulea gol, iar Lautaro a revenit pe teren după mai bine de o lună. Chivu a vorbit de „două puncte aruncate”, iar Çalhanoğlu a ieșit accidentat înaintea meciului cu Stuttgart de miercuri.",
     "sources": [
       [
-        "Sky Sport",
-        "https://sport.sky.it/calcio/serie-a/2026/11/21/atalanta-inter-probabili-formazioni-12-giornata"
+        "Inter.it",
+        "https://www.inter.it/it/notizie/atalanta-inter-serie-a-2026-2027"
       ],
       [
-        "FC Inter 1908",
-        "https://www.fcinter1908.it/partite/probabili-formazioni/atalanta-inter-le-probabili-formazioni-da-lautaro-e-pavard-al-sostituto-di-zielinski-le-scelte/"
+        "Sofascore",
+        "https://www.sofascore.com/news/atalanta-inter-4-4-spectacle-in-bergamo-pio-esposito-hat-trick-kessie-breaks-chivus-heart-in-the-91st-minute"
       ],
       [
-        "Sky Sport",
-        "https://sport.sky.it/calcio/serie-a/2026/11/18/arbitri-serie-a-designazioni-giornata-12"
+        "Lega Serie A",
+        "https://www.legaseriea.it/serie-a/news/atalanta-inter-2026-2027-4-4-cronaca-risultato-gol"
+      ],
+      [
+        "Corriere dello Sport",
+        "https://www.corrieredellosport.it/news/calcio/serie-a/inter/2026/11/22-152775678/chivu_e_l_analisi_dopo_il_pari_contro_l_atalanta_inter_devi_imparare_tanto_da_questa_partita"
       ]
     ]
   },
   "fixtures": [
-    {
-      "date": "2026-11-22",
-      "time": "21:45",
-      "comp": "sa",
-      "round": "Etapa 12",
-      "home": "Atalanta",
-      "away": "Inter"
-    },
     {
       "date": "2026-11-25",
       "time": "22:00",
@@ -94,6 +90,16 @@
     }
   ],
   "results": [
+    {
+      "date": "2026-11-22",
+      "comp": "sa",
+      "round": "Etapa 12",
+      "home": "Atalanta",
+      "away": "Inter",
+      "hs": 4,
+      "as": 4,
+      "scorers": "Pio Esposito 16', 32', 52', Sučić 76' (pen.)"
+    },
     {
       "date": "2026-11-08",
       "comp": "sa",
@@ -427,6 +433,62 @@
   },
   "news": [
     {
+      "date": "2026-11-22",
+      "cat": "meci",
+      "title": "Atalanta – Inter 4–4: hat-trick Pio Esposito, Kessié egalează din penalty în minutul 91",
+      "text": "Interul a condus de trei ori cu două goluri: Esposito a marcat în minutele 16, 32 și 52, iar Sučić a transformat un penalty în minutul 76 pentru 4–2. Atalanta a revenit prin Elmas, De Ketelaere (dublă) și Kessié, din penalty, în prelungiri. Lautaro a revenit pe teren în minutul 77, după mai bine de o lună de pauză.",
+      "sources": [
+        [
+          "Inter.it",
+          "https://www.inter.it/it/notizie/atalanta-inter-serie-a-2026-2027"
+        ],
+        [
+          "Sofascore",
+          "https://www.sofascore.com/news/atalanta-inter-4-4-spectacle-in-bergamo-pio-esposito-hat-trick-kessie-breaks-chivus-heart-in-the-91st-minute"
+        ],
+        [
+          "Lega Serie A",
+          "https://www.legaseriea.it/serie-a/news/atalanta-inter-2026-2027-4-4-cronaca-risultato-gol"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "cat": "antrenor",
+      "title": "Chivu, după 4–4: „Am aruncat două puncte. Superficialitate și puțină dorință în dueluri”",
+      "text": "Antrenorul a spus la DAZN că echipa nu a știut să gestioneze avantajul de două goluri și că a primit prea multe goluri pentru o echipă cu ambiții mari. A criticat și faptul că al doilea gol al Atalantei a venit dintr-un corner executat la fel ca precedentul.",
+      "sources": [
+        [
+          "Corriere dello Sport",
+          "https://www.corrieredellosport.it/news/calcio/serie-a/inter/2026/11/22-152775678/chivu_e_l_analisi_dopo_il_pari_contro_l_atalanta_inter_devi_imparare_tanto_da_questa_partita"
+        ],
+        [
+          "Calciomercato",
+          "https://calciomercato.com/notizie/inter-chivu-striglia-i-suoi-fallita-la-prova-di-maturita-leggerezza-superficialita-e-poca-voglia-nei-duelli/bltbc0ac2aea0707206"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "cat": "accidentare",
+      "title": "Çalhanoğlu iese accidentat la Bergamo: problemă la flexorii coapsei drepte",
+      "text": "Mijlocașul a cerut schimbarea în prima repriză și a fost înlocuit de Sučić. Investigațiile din aceste ore vor stabili gravitatea; Tuttosport avertizează că riscă să lipsească până la finalul lui 2026.",
+      "sources": [
+        [
+          "Sky Sport",
+          "https://sport.sky.it/calcio/serie-a/2026/11/22/calhanoglu-atalanta-inter-infortunio-news"
+        ],
+        [
+          "Tuttosport",
+          "https://www.tuttosport.com/news/calcio/serie-a/inter/2026/11/22-152772723/calhanoglu_ennesimo_infortunio_linter_lo_perde_ancora_e_a_lungo_cos_successo"
+        ],
+        [
+          "Gianluca Di Marzio",
+          "https://www.gianlucadimarzio.com/news-calcio/calhanoglu-infortunio-inter-atalanta-news-499794"
+        ]
+      ]
+    },
+    {
       "date": "2026-11-21",
       "cat": "meci",
       "title": "Roma trece de Parma cu 5–1 și depășește provizoriu Interul",
@@ -737,61 +799,14 @@
           "https://www.fcinternews.it/focus/i-ts-i-calhanoglu-passi-rinnovo-apertura-ingaggio-1023243"
         ]
       ]
-    },
-    {
-      "date": "2026-11-14",
-      "cat": "antrenament",
-      "title": "Reluarea antrenamentelor marți: Lautaro țintește Atalanta, dar revenirea rămâne incertă",
-      "text": "Corriere dello Sport scrie că lotul se reunește marți la Appiano, iar antrenamentele de săptămâna viitoare vor decide dacă Lautaro poate fi convocat la Bergamo; Chivu nu vrea să forțeze revenirea. Pentru Bonny, ținta este meciul cu Frosinone (5 decembrie) sau cel cu Borussia Dortmund (9 decembrie).",
-      "sources": [
-        [
-          "FC Inter News",
-          "https://www.fcinternews.it/rassegna/i-cds-i-martedi-ripresa-lautaro-punta-atalanta-rientro-resta-dubbio-1023177"
-        ]
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "cat": "club",
-      "title": "Carlos Augusto, la un pas de prelungirea până în 2031",
-      "text": "Potrivit Sky Sport, Corriere dello Sport și Gazzetta dello Sport, negocierile pentru noul contract al brazilianului, valabil până în iunie 2031, sunt în faza finală; Gazzetta estimează semnătura în cel mult 15 zile. Salariul ar urca de la 2,2 la aproximativ 3,5 milioane de euro net pe sezon, plus bonusuri; contractul actual expiră în 2028.",
-      "sources": [
-        [
-          "FC Inter News",
-          "https://www.fcinternews.it/rassegna/i-cds-i-carlos-augusto-passo-rinnovo-inter-questione-soldi-1023096"
-        ],
-        [
-          "FC Inter 1908",
-          "https://www.fcinter1908.it/calciomercato/mercato-inter/sky-carlos-augusto-ci-siamo-rinnovo-con-linter-a-un-passo-presto-il-comunicato-i-dettagli/"
-        ],
-        [
-          "FC Inter News",
-          "https://www.fcinternews.it/in-primo-piano/i-gds-i-inter-rinnovi-avanti-penna-mano-1023092"
-        ]
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "cat": "meci",
-      "title": "Italia – Franța 3–1: Pio Esposito, dublă la națională",
-      "text": "În etapa a 5-a din Nations League, Esposito a marcat de două ori (26', 75' din penalty), iar Italia a urcat pe primul loc în grupă. Barella și Bastoni au jucat ca titulari, Dimarco a intrat în repriza a doua.",
-      "sources": [
-        [
-          "UEFA",
-          "https://it.uefa.com/uefanationsleague/news/02ab-220e5fe4cf12-c1ec99ac8bc4-1000--highlights-quinta-giornata-uefa-nations-league-l-italia-ste/"
-        ],
-        [
-          "Sofascore",
-          "https://www.sofascore.com/news/italy-france-3-1-pio-espositos-brace-sends-mancinis-azzurri-to-the-top-of-the-nations-league"
-        ],
-        [
-          "FC Inter 1908",
-          "https://www.fcinter1908.it/nazionali/italia-francia-pio-esposito-risultato-dimarco/"
-        ]
-      ]
     }
   ],
   "injuries": [
+    {
+      "player": "Hakan Çalhanoğlu",
+      "status": "out",
+      "note": "Problemă la flexorii coapsei drepte, ieșit în prima repriză la Bergamo (22 nov). Investigații în curs; riscă să lipsească până la finalul anului."
+    },
     {
       "player": "Ange-Yoan Bonny",
       "status": "out",
@@ -803,16 +818,6 @@
       "note": "Leziune la adductorul coapsei drepte (naționala Serbiei). Sky: revenire în grup spre sfârșitul săptămânii viitoare; alte surse indică 13 sau 18 decembrie pentru meciuri."
     },
     {
-      "player": "Marcus Thuram",
-      "status": "back",
-      "note": "Oboseală musculară la bicepsul femural drept. S-a întors în grup pe 17 noiembrie; convocare probabilă pentru Atalanta (22 nov)."
-    },
-    {
-      "player": "Lautaro Martínez",
-      "status": "back",
-      "note": "Problemă la flexorii coapsei stângi din 13 octombrie (șapte meciuri ratate). S-a întors în grup pe 17 noiembrie; Gazzetta îl vede intrând de pe bancă pentru aproximativ 30 de minute la Bergamo (22 nov)."
-    },
-    {
       "player": "Luis Henrique",
       "status": "back",
       "note": "Problemă la adductorul stâng din 25 octombrie; s-a întors în grup pe 13 noiembrie."
@@ -821,11 +826,6 @@
       "player": "John Stones",
       "status": "back",
       "note": "Refăcut, dar monitorizat. Ar trebui să fie disponibil pe 22 noiembrie."
-    },
-    {
-      "player": "Curtis Jones",
-      "status": "back",
-      "note": "Aproape refăcut, disponibil după pauza internațională."
     }
   ],
   "mercato": [
