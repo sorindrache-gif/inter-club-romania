@@ -1,25 +1,21 @@
 {
-  "updated": "2026-11-24T10:15:00+02:00",
+  "updated": "2026-11-24T18:15:00+02:00",
   "headline": {
-    "date": "2026-11-22",
-    "title": "Atalanta – Inter 4–4: hat-trick-ul lui Pio Esposito nu ajunge",
-    "text": "Interul a condus cu 2–0, 3–1 și 4–2, dar a primit egalarea din penalty în minutul 91, prin Kessié. Esposito a marcat de trei ori, Sučić a reușit al patrulea gol, iar Lautaro a revenit pe teren după mai bine de o lună. Chivu a vorbit de „două puncte aruncate”, iar Çalhanoğlu a ieșit accidentat înaintea meciului cu Stuttgart de miercuri.",
+    "date": "2026-11-24",
+    "title": "Inter – Stuttgart, miercuri la 22:00: fără Çalhanoğlu și Zieliński",
+    "text": "Interul primește Stuttgart pe San Siro în etapa a 5-a a fazei ligii din Champions League, după 4–4 de la Bergamo. Çalhanoğlu a suferit o întindere la flexori și ar urma să lipsească trei–patru săptămâni, iar Zieliński nu e disponibil. Chivu: „Suntem o echipă cu caracter și știm ce urmărim.”",
     "sources": [
       [
         "Inter.it",
-        "https://www.inter.it/it/notizie/atalanta-inter-serie-a-2026-2027"
+        "https://inter.it/it/notizie/condizioni-infortunio-hakan-calhanoglu-novembre-2026"
       ],
       [
-        "Sofascore",
-        "https://www.sofascore.com/news/atalanta-inter-4-4-spectacle-in-bergamo-pio-esposito-hat-trick-kessie-breaks-chivus-heart-in-the-91st-minute"
+        "Inter.it",
+        "https://www.inter.it/it/notizie/conferenza-stampa-chivu-vigilia-inter-stoccarda-champions-league-2026-27"
       ],
       [
-        "Lega Serie A",
-        "https://www.legaseriea.it/serie-a/news/atalanta-inter-2026-2027-4-4-cronaca-risultato-gol"
-      ],
-      [
-        "Corriere dello Sport",
-        "https://www.corrieredellosport.it/news/calcio/serie-a/inter/2026/11/22-152775678/chivu_e_l_analisi_dopo_il_pari_contro_l_atalanta_inter_devi_imparare_tanto_da_questa_partita"
+        "Sky Sport",
+        "https://sport.sky.it/calcio/champions-league/2026/11/24/inter-stoccarda-chivu-intervista-video"
       ]
     ]
   },
@@ -433,6 +429,46 @@
   },
   "news": [
     {
+      "date": "2026-11-24",
+      "cat": "accidentare",
+      "title": "Oficial: Çalhanoğlu are o întindere la flexorii coapsei drepte",
+      "text": "Investigațiile de la Humanitas au arătat un „risentimento muscolare” la flexorii coapsei drepte, a anunțat clubul. Presa estimează trei–patru săptămâni de pauză, iar Interul speră să-l recupereze pentru Supercupa cu Lazio, pe 22 decembrie; până atunci ar rata Stuttgart, Dortmund, cele două meciuri cu Genoa, Frosinone, Torino și Lecce.",
+      "sources": [
+        [
+          "Inter.it",
+          "https://inter.it/it/notizie/condizioni-infortunio-hakan-calhanoglu-novembre-2026"
+        ],
+        [
+          "Tuttosport",
+          "https://www.tuttosport.com/news/calcio/serie-a/inter/2026/11/24-152805097/tegola_calhanoglu_per_quanto_lo_perde_l_inter_l_esito_degli_esami_e_quali_partite_salta"
+        ],
+        [
+          "FC Inter News",
+          "https://www.fcinternews.it/in-primo-piano/ferma-calhanoglu-inter-punta-riaverlo-supercoppa-italiana-1023942"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "cat": "antrenor",
+      "title": "Chivu înainte de Stuttgart: „Suntem o echipă cu caracter”; Zieliński nu va juca",
+      "text": "La conferința de dinaintea meciului de miercuri, Chivu a spus că Interul nu trebuie judecat după zece minute și că știe ce urmărește. Zieliński nu va fi disponibil, Lautaro și Thuram vor fi evaluați, iar Stones va fi convocat. Pentru locul lui Çalhanoğlu, Sky îl vede favorit pe Sučić.",
+      "sources": [
+        [
+          "Inter.it",
+          "https://www.inter.it/it/notizie/conferenza-stampa-chivu-vigilia-inter-stoccarda-champions-league-2026-27"
+        ],
+        [
+          "Sky Sport",
+          "https://sport.sky.it/calcio/champions-league/2026/11/24/inter-stoccarda-chivu-intervista-video"
+        ],
+        [
+          "FC Inter 1908",
+          "https://www.fcinter1908.it/partite/conferenze-stampa/chivu-non-si-giudica-inter-minuti-thuram-calhanoglu/"
+        ]
+      ]
+    },
+    {
       "date": "2026-11-23",
       "cat": "meci",
       "title": "Clasamentul după etapa 12: Interul coboară pe locul 3, la trei puncte de Lazio",
@@ -767,42 +803,6 @@
           "https://www.fcinternews.it/rassegna/i-ts-i-zielinski-tiene-ansia-chivu-decisivi-prossimi-allenamenti-1023252"
         ]
       ]
-    },
-    {
-      "date": "2026-11-15",
-      "cat": "meci",
-      "title": "Spence intră pe teren în victoria Angliei la Madrid, 3–2 cu Spania",
-      "text": "Fundașul Interului, refăcut după oboseala musculară, l-a înlocuit pe Bellingham în minutul 83. Anglia a câștigat cu 10 oameni, a încheiat seria de 43 de meciuri fără înfrângere a Spaniei și a terminat pe primul loc în grupă.",
-      "sources": [
-        [
-          "FotMob",
-          "https://www.fotmob.com/news/1ul3akcb44gh1nqw9jqto2r7s-spain-2-3-england-tuchels-10-men-hold-snap-world-champions-unbeaten-streak"
-        ],
-        [
-          "Sofascore",
-          "https://www.sofascore.com/news/spain-2-3-england-nations-league-match-report"
-        ]
-      ]
-    },
-    {
-      "date": "2026-11-15",
-      "cat": "meci",
-      "title": "Belgia – Italia 4–1: golul lui Pio Esposito nu ajunge, azzurrii ies din Nations League",
-      "text": "Esposito a deschis scorul în minutul 11, dar Belgia a răspuns prin De Cuyper, Ngoy și Doku în mai puțin de un sfert de oră, iar Moreira a stabilit scorul în minutul 80. Atacantul Interului a ratat și un penalty în final. Bastoni, Barella și Esposito au jucat tot meciul, iar Italia termină grupa pe locul 3.",
-      "sources": [
-        [
-          "FotMob",
-          "https://www.fotmob.com/news/dk1ziedtr59615csw6wl45fl7-belgium-4-1-italy-van-bommels-side-clinch-quarter-final-spot-comeback-win"
-        ],
-        [
-          "Sofascore",
-          "https://www.sofascore.com/news/belgium-italy-4-1-azzurri-collapse-in-nations-league-pio-esposito-not-enough-mancini-out-of-quarterfinals"
-        ],
-        [
-          "FC Inter 1908",
-          "https://www.fcinter1908.it/nazionali/esposito-non-basta-belgio-italia-4-1/"
-        ]
-      ]
     }
   ],
   "injuries": [
@@ -812,6 +812,11 @@
       "note": "Problemă la flexorii coapsei drepte. Sky: revenire în grup la o săptămână după Stanković; țintă de joc Frosinone (5 dec) sau Dortmund (9 dec), alte surse indică 13 sau 18 decembrie."
     },
     {
+      "player": "Piotr Zieliński",
+      "status": "out",
+      "note": "Indisponibil pentru Stuttgart (25 nov), a anunțat Chivu."
+    },
+    {
       "player": "Aleksandar Stanković",
       "status": "out",
       "note": "Leziune la adductorul coapsei drepte (naționala Serbiei). Sky: revenire în grup spre sfârșitul săptămânii viitoare; alte surse indică 13 sau 18 decembrie pentru meciuri."
@@ -819,7 +824,7 @@
     {
       "player": "Hakan Çalhanoğlu",
       "status": "out",
-      "note": "Problemă la flexorii coapsei drepte, ieșit în minutul 33 la Bergamo (22 nov). Ratează Stuttgart (25 nov) și Genoa (28 nov); investigații marți, 24 noiembrie."
+      "note": "Întindere la flexorii coapsei drepte (oficial, 24 nov). Trei–patru săptămâni; țintă: Supercupa cu Lazio (22 dec)."
     },
     {
       "player": "Luis Henrique",
