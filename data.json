@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T18:10:00+02:00",
+  "updated": "2026-11-24T10:15:00+02:00",
   "headline": {
     "date": "2026-11-22",
     "title": "Atalanta – Inter 4–4: hat-trick-ul lui Pio Esposito nu ajunge",
@@ -252,46 +252,54 @@
     }
   ],
   "table": {
-    "after": 11,
+    "after": 12,
     "rows": [
       {
         "team": "Lazio",
-        "pts": 29
-      },
-      {
-        "team": "Inter",
-        "pts": 28
+        "pts": 32
       },
       {
         "team": "Roma",
-        "pts": 27
+        "pts": 30
+      },
+      {
+        "team": "Inter",
+        "pts": 29
       },
       {
         "team": "Milan",
-        "pts": 24
+        "pts": 27
       },
       {
         "team": "Como",
-        "pts": 23
+        "pts": 26
+      },
+      {
+        "team": "Juventus",
+        "pts": 21
       },
       {
         "team": "Frosinone",
         "pts": 20
       },
       {
-        "team": "Juventus",
+        "team": "Napoli",
         "pts": 18
       },
       {
         "team": "Bologna",
-        "pts": 17
+        "pts": 18
       },
       {
         "team": "Cagliari",
         "pts": 16
       },
       {
-        "team": "Napoli",
+        "team": "Genoa",
+        "pts": 16
+      },
+      {
+        "team": "Atalanta",
         "pts": 15
       },
       {
@@ -299,12 +307,8 @@
         "pts": 14
       },
       {
-        "team": "Atalanta",
-        "pts": 14
-      },
-      {
-        "team": "Genoa",
-        "pts": 13
+        "team": "Monza",
+        "pts": 10
       },
       {
         "team": "Lecce",
@@ -323,16 +327,12 @@
         "pts": 8
       },
       {
-        "team": "Monza",
-        "pts": 7
+        "team": "Udinese",
+        "pts": 6
       },
       {
         "team": "Venezia",
         "pts": 6
-      },
-      {
-        "team": "Udinese",
-        "pts": 5
       }
     ]
   },
@@ -432,6 +432,26 @@
     ]
   },
   "news": [
+    {
+      "date": "2026-11-23",
+      "cat": "meci",
+      "title": "Clasamentul după etapa 12: Interul coboară pe locul 3, la trei puncte de Lazio",
+      "text": "Lazio (32) și Roma (30), ambele victorioase, au trecut în fața Interului, care are 29 de puncte după 4–4 de la Bergamo. Milan urcă la 27 după 5–1 cu Frosinone. Etapa s-a încheiat luni cu Monza – Fiorentina 3–0.",
+      "sources": [
+        [
+          "Sky Sport",
+          "https://sport.sky.it/calcio/serie-a/classifica"
+        ],
+        [
+          "Lega Serie A",
+          "https://www.legaseriea.it/serie-a/news/monza-fiorentina-2026-2027-3-0-cronaca-risultato-gol"
+        ],
+        [
+          "ESPN",
+          "https://www.espn.com/soccer/standings/_/league/ita.1"
+        ]
+      ]
+    },
     {
       "date": "2026-11-23",
       "cat": "accidentare",
@@ -781,22 +801,6 @@
         [
           "FC Inter 1908",
           "https://www.fcinter1908.it/nazionali/esposito-non-basta-belgio-italia-4-1/"
-        ]
-      ]
-    },
-    {
-      "date": "2026-11-15",
-      "cat": "accidentare",
-      "title": "Lautaro, săptămână decisivă; Thuram ar reveni în grup la mijlocul săptămânii",
-      "text": "Corriere dello Sport scrie că revenirea căpitanului la Bergamo nu e sigură, iar antrenamentele din zilele următoare vor decide; chiar dacă joacă, minutele vor fi dozate, pentru că după trei zile urmează Stuttgart în Champions League. Thuram ar urma să se antreneze din nou cu colegii la mijlocul săptămânii.",
-      "sources": [
-        [
-          "Corriere dello Sport",
-          "https://www.corrieredellosport.it/news/calcio/serie-a/inter/2026/11/15-152601044/inter_lautaro_spinge_per_rientrare_settimana_decisiva"
-        ],
-        [
-          "FC Inter News",
-          "https://www.fcinternews.it/rassegna/i-cds-i-chivu-ritrova-nazionali-scaletta-rientri-1023246"
         ]
       ]
     }
