@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T18:15:00+02:00",
+  "updated": "2026-11-25T10:10:00+02:00",
   "headline": {
     "date": "2026-11-24",
     "title": "Inter – Stuttgart, miercuri la 22:00: fără Çalhanoğlu și Zieliński",
@@ -429,6 +429,26 @@
   },
   "news": [
     {
+      "date": "2026-11-25",
+      "cat": "meci",
+      "title": "Inter – Stuttgart: Thuram, favorit în fața lui Lautaro pentru un loc lângă Pio Esposito",
+      "text": "Sky Sport, Gianluca Di Marzio și FC Inter 1908 îl văd pe Thuram titular în atac, cu Lautaro pe bancă. La mijloc, Sučić ar urma să-l înlocuiască pe Çalhanoğlu, alături de Barella și Jones, iar în apărare ar juca Bisseck, Akanji și Bastoni. În etapa de marți, Real Madrid a urcat pe primul loc după 5–1 cu PSV, iar Como a învins AEK cu 1–0.",
+      "sources": [
+        [
+          "Sky Sport",
+          "https://sport.sky.it/calcio/champions-league/2026/11/24/inter-stoccarda-probabili-formazioni-5-giornata"
+        ],
+        [
+          "Gianluca Di Marzio",
+          "https://www.gianlucadimarzio.com/news-calcio/inter-stoccarda-probabile-formazione-dove-vederla-champions-league-2026-2027-499877"
+        ],
+        [
+          "UEFA",
+          "https://www.uefa.com/uefachampionsleague/news/02ab-222684fc8e44-2b1a32c90a7a-1000--champions-league-highlights-and-round-up-real-madrid-sta/"
+        ]
+      ]
+    },
+    {
       "date": "2026-11-24",
       "cat": "accidentare",
       "title": "Oficial: Çalhanoğlu are o întindere la flexorii coapsei drepte",
@@ -781,26 +801,6 @@
         [
           "SempreInter",
           "https://sempreinter.com/2026/11/15/carlos-augusto-brazil-japan-singapore-full-90-minutes/"
-        ]
-      ]
-    },
-    {
-      "date": "2026-11-16",
-      "cat": "accidentare",
-      "title": "Zieliński, problemă la picior la naționala Poloniei; Akanji e refăcut",
-      "text": "Mijlocașul nu a jucat cu România: jurnaliști polonezi spun că a ajuns în cantonament cu o durere la talpa piciorului care îl împiedică să alerge, iar Tuttosport scrie că selecționerul Urban nu a vrut să riște. Zieliński rămâne deocamdată cu Polonia, iar situația lui pentru Atalanta e incertă. Tot Tuttosport notează că Akanji este refăcut.",
-      "sources": [
-        [
-          "Tuttosport",
-          "https://www.tuttosport.com/news/calcio/serie-a/inter/2026/11/16-152630081/akanji_ok_giallo_zielinski_e_come_sta_lautaro_il_punto_sugli_infortuni_inter"
-        ],
-        [
-          "Calciomercato",
-          "https://www.calciomercato.com/notizie/dalla-polonia-inter-allarme-per-zielinski-e-arrivato-con-un-infortunio-al-piede-fa-fatica-a-correre/blt73541a970d2bf31d"
-        ],
-        [
-          "FC Inter News",
-          "https://www.fcinternews.it/rassegna/i-ts-i-zielinski-tiene-ansia-chivu-decisivi-prossimi-allenamenti-1023252"
         ]
       ]
     }
