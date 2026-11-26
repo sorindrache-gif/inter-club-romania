@@ -1,33 +1,25 @@
 {
-  "updated": "2026-11-25T10:10:00+02:00",
+  "updated": "2026-11-26T10:15:00+02:00",
   "headline": {
-    "date": "2026-11-24",
-    "title": "Inter – Stuttgart, miercuri la 22:00: fără Çalhanoğlu și Zieliński",
-    "text": "Interul primește Stuttgart pe San Siro în etapa a 5-a a fazei ligii din Champions League, după 4–4 de la Bergamo. Çalhanoğlu a suferit o întindere la flexori și ar urma să lipsească trei–patru săptămâni, iar Zieliński nu e disponibil. Chivu: „Suntem o echipă cu caracter și știm ce urmărim.”",
+    "date": "2026-11-25",
+    "title": "Inter – Stuttgart 2–0: Lautaro marchează la revenire",
+    "text": "După 4–4 de la Bergamo, Interul a răspuns cu o victorie fără gol primit pe San Siro: Sučić a marcat din penalty, iar Lautaro, intrat de pe bancă, a semnat 2–0. Nerazzurrii au 9 puncte în faza ligii, după trei victorii la rând. Sâmbătă urmează Genoa în campionat, tot pe San Siro.",
     "sources": [
       [
         "Inter.it",
-        "https://inter.it/it/notizie/condizioni-infortunio-hakan-calhanoglu-novembre-2026"
-      ],
-      [
-        "Inter.it",
-        "https://www.inter.it/it/notizie/conferenza-stampa-chivu-vigilia-inter-stoccarda-champions-league-2026-27"
+        "https://inter.it/it/notizie/inter-stoccarda-champions-league-2026-27"
       ],
       [
         "Sky Sport",
-        "https://sport.sky.it/calcio/champions-league/2026/11/24/inter-stoccarda-chivu-intervista-video"
+        "https://sport.sky.it/calcio/champions-league/partite/2026/giornata-5/inter-stoccarda/risultato-gol"
+      ],
+      [
+        "UEFA",
+        "https://www.uefa.com/uefachampionsleague/match/2049635--inter-vs-stuttgart/"
       ]
     ]
   },
   "fixtures": [
-    {
-      "date": "2026-11-25",
-      "time": "22:00",
-      "comp": "ucl",
-      "round": "Faza ligii, etapa 5",
-      "home": "Inter",
-      "away": "Stuttgart"
-    },
     {
       "date": "2026-11-28",
       "time": "21:45",
@@ -86,6 +78,16 @@
     }
   ],
   "results": [
+    {
+      "date": "2026-11-25",
+      "comp": "ucl",
+      "round": "Faza ligii, etapa 5",
+      "home": "Inter",
+      "away": "Stuttgart",
+      "hs": 2,
+      "as": 0,
+      "scorers": "Sučić 57' (pen.), Lautaro 74'"
+    },
     {
       "date": "2026-11-22",
       "comp": "sa",
@@ -333,14 +335,14 @@
     ]
   },
   "ucl": {
-    "played": 4,
-    "w": 2,
+    "played": 5,
+    "w": 3,
     "d": 0,
     "l": 2,
-    "gf": 8,
+    "gf": 10,
     "ga": 6,
-    "pts": 6,
-    "pos": 15
+    "pts": 9,
+    "pos": null
   },
   "ucl_table": {
     "after": 4,
@@ -428,6 +430,42 @@
     ]
   },
   "news": [
+    {
+      "date": "2026-11-25",
+      "cat": "meci",
+      "title": "Inter – Stuttgart 2–0: Sučić din penalty și Lautaro, golul revenirii",
+      "text": "Sučić a deschis scorul în minutul 57, din penalty acordat după VAR pentru un henț al lui Vagnoman, iar Lautaro, intrat de pe bancă, a închis meciul în minutul 74, la pasa lui Dimarco. Barella a nimerit bara. Este a treia victorie consecutivă în Champions League, iar Interul are 9 puncte după cinci etape.",
+      "sources": [
+        [
+          "Inter.it",
+          "https://inter.it/it/notizie/inter-stoccarda-champions-league-2026-27"
+        ],
+        [
+          "Sky Sport",
+          "https://sport.sky.it/calcio/champions-league/partite/2026/giornata-5/inter-stoccarda/risultato-gol"
+        ],
+        [
+          "UEFA",
+          "https://www.uefa.com/uefachampionsleague/match/2049635--inter-vs-stuttgart/"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "cat": "antrenor",
+      "title": "Chivu după Stuttgart: „Buni la toate: mentalitate, organizare, energie”",
+      "text": "Antrenorul a lăudat reacția echipei după 4–4 de la Bergamo. UEFA notează că Interul a marcat în nouă meciuri consecutive de Champions League, egalând recordul clubului din perioada 1999–2002.",
+      "sources": [
+        [
+          "Inter.it",
+          "https://www.inter.it/it/notizie/chivu-intervista-post-inter-stoccarda-champions-league-2026-27"
+        ],
+        [
+          "UEFA",
+          "https://www.uefa.com/uefachampionsleague/match/2049635--inter-vs-stuttgart/"
+        ]
+      ]
+    },
     {
       "date": "2026-11-25",
       "cat": "meci",
@@ -761,46 +799,6 @@
         [
           "FC Inter 1908",
           "https://www.fcinter1908.it/ultimora/inter-ottime-notizie-su-zielinski-in-polonia-giochera-contro-la-svezia-al-90/"
-        ]
-      ]
-    },
-    {
-      "date": "2026-11-16",
-      "cat": "antrenor",
-      "title": "Chivu câștigă Panchina d'Oro pentru sezonul 2025/26",
-      "text": "Antrenorul Interului a primit 16 din cele 43 de voturi ale colegilor, înaintea lui Cesc Fàbregas (12) și Gian Piero Gasperini (9), pentru sezonul în care a câștigat campionatul și Cupa Italiei. Premiul i-a fost înmânat luni la Coverciano. Chivu este al treilea antrenor străin care câștigă trofeul și primul de la José Mourinho, în 2009/10.",
-      "sources": [
-        [
-          "Inter.it",
-          "https://www.inter.it/it/notizie/cristian-chivu-inter-panchina-oro-2026"
-        ],
-        [
-          "Corriere dello Sport",
-          "https://www.corrieredellosport.it/news/calcio/serie-a/inter/2026/11/16-152633574/chivu_vince_la_panchina_d_oro_2026_battuti_fabregas_e_gasperini_premiato_anche_alvini"
-        ],
-        [
-          "ANSA",
-          "https://www.ansa.it/english/news/sports/2026/11/16/inters-chivu-wins-italys-coach-of-the-season-award_3b5babd3-8f75-4872-a68b-3980422d29a4.html"
-        ],
-        [
-          "Football Italia",
-          "https://football-italia.net/chivu-embarrassed-to-be-compared-to-mourinho/"
-        ]
-      ]
-    },
-    {
-      "date": "2026-11-16",
-      "cat": "club",
-      "title": "Carlos Augusto: draftul noului contract, aproape de finalizare",
-      "text": "Fabrizio Romano scrie că Inter și Carlos Augusto sunt aproape de a închide draftul acordului de prelungire, iar Sky vorbește de poziții tot mai apropiate pentru un contract până în iunie 2031. Semnătura ar putea veni între sfârșitul lui noiembrie și mijlocul lui decembrie. Brazilianul a jucat 90 de minute în amicalul pierdut de Brazilia cu Japonia, 2–3.",
-      "sources": [
-        [
-          "FC Inter 1908",
-          "https://fcinter1908.it/calciomercato/mercato-inter/romano-rinnovo-carlos-augusto-inter-chiusura-tempistiche"
-        ],
-        [
-          "SempreInter",
-          "https://sempreinter.com/2026/11/15/carlos-augusto-brazil-japan-singapore-full-90-minutes/"
         ]
       ]
     }
