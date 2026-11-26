@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T10:15:00+02:00",
+  "updated": "2026-11-26T18:15:00+02:00",
   "headline": {
     "date": "2026-11-25",
     "title": "Inter – Stuttgart 2–0: Lautaro marchează la revenire",
@@ -342,94 +342,65 @@
     "gf": 10,
     "ga": 6,
     "pts": 9,
-    "pos": null
+    "pos": 12
   },
   "ucl_table": {
-    "after": 4,
+    "after": 5,
     "rows": [
       {
         "pos": 1,
-        "team": "Paris Saint-Germain",
-        "pts": 12
+        "team": "Real Madrid",
+        "pts": 15
       },
       {
         "pos": 2,
-        "team": "Real Madrid",
-        "pts": 12
-      },
-      {
-        "pos": 3,
-        "team": "Arsenal",
-        "pts": 10
-      },
-      {
-        "pos": 4,
-        "team": "Como",
-        "pts": 9
-      },
-      {
-        "pos": 5,
-        "team": "Barcelona",
-        "pts": 9
-      },
-      {
-        "pos": 6,
-        "team": "Aston Villa",
-        "pts": 9
-      },
-      {
-        "pos": 7,
-        "team": "Manchester City",
-        "pts": 9
-      },
-      {
-        "pos": 8,
-        "team": "Liverpool",
-        "pts": 9
-      },
-      {
-        "pos": 9,
-        "team": "Club Brugge",
-        "pts": 9
-      },
-      {
-        "pos": 10,
-        "team": "Sporting CP",
-        "pts": 9
-      },
-      {
-        "pos": 11,
-        "team": "Real Betis",
-        "pts": 9
+        "team": "Paris Saint-Germain",
+        "pts": 13
       },
       {
         "pos": 12,
-        "team": "Borussia Dortmund",
-        "pts": 9
-      },
-      {
-        "pos": 13,
-        "team": "Bayern München",
-        "pts": 8
-      },
-      {
-        "pos": 14,
-        "team": "Stuttgart",
-        "pts": 7
-      },
-      {
-        "pos": 15,
         "team": "Inter",
-        "pts": 6
-      },
-      {
-        "pos": 36,
-        "team": "Slovan Bratislava",
-        "pts": 0
+        "pts": 9
       }
     ]
   },
   "news": [
+    {
+      "date": "2026-11-26",
+      "cat": "accidentare",
+      "title": "Bastoni, ieșit cu dureri la cvadriceps; Chivu exclude o leziune",
+      "text": "Fundașul a cerut schimbarea în minutul 40 al meciului cu Stuttgart, din cauza unei dureri la cvadricepsul coapsei stângi, și a fost înlocuit de Dimarco. Chivu a spus că nu crede într-o leziune și că e vorba de o întărire musculară; investigațiile vor clarifica situația înaintea meciului cu Genoa.",
+      "sources": [
+        [
+          "Sky Sport",
+          "https://sport.sky.it/calcio/champions-league/2026/11/25/inter-bastoni-infortunio-stoccarda-news"
+        ],
+        [
+          "FC Inter News",
+          "https://www.fcinternews.it/focus/stop-bastoni-domani-esami-capire-entita-infortunio-1024095"
+        ],
+        [
+          "FC Inter 1908",
+          "https://www.fcinter1908.it/partite/conferenze-stampa/chivu-bastoni-rigore/"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "cat": "meci",
+      "title": "Champions League: Interul urcă pe locul 12, la un punct de primele opt",
+      "text": "După 2–0 cu Stuttgart, nerazzurrii au 9 puncte după cinci etape ale fazei ligii. Real Madrid conduce cu 15 puncte, singura echipă cu punctaj maxim, urmată de Paris Saint-Germain, cu 13. Următorul meci european: Borussia Dortmund – Inter, pe 9 decembrie.",
+      "sources": [
+        [
+          "Sky Sport",
+          "https://sport.sky.it/calcio/champions-league/2026/11/24/champions-league-2026-2027-classifica-5-giornata"
+        ],
+        [
+          "Inter.it",
+          "https://www.inter.it/it/notizie/classifica-league-phase-inter-calendario-champions-league-26-27"
+        ]
+      ]
+    },
     {
       "date": "2026-11-25",
       "cat": "meci",
@@ -765,42 +736,6 @@
           "https://www.fcinter1908.it/news/interviste/zieilnski-rassicura-inter-spiega-infortunio/"
         ]
       ]
-    },
-    {
-      "date": "2026-11-17",
-      "cat": "antrenament",
-      "title": "Lautaro și Thuram s-au întors la antrenamentele cu grupul",
-      "text": "Marți după-amiază, la Appiano Gentile, căpitanul s-a antrenat pentru prima dată cu echipa după problema la flexorii coapsei stângi care l-a ținut departe de teren șapte meciuri. Thuram, refăcut după oboseala musculară, a lucrat și el cu grupul. Corriere dello Sport consideră convocarea amândurora pentru Atalanta aproape sigură, rămâne de văzut cât vor juca.",
-      "sources": [
-        [
-          "Sky Sport",
-          "https://sport.sky.it/calcio/serie-a/2026/11/17/inter-lautaro-thuram-infortunio-news-video"
-        ],
-        [
-          "Corriere dello Sport",
-          "https://www.corrieredellosport.it/news/calcio/serie-a/inter/2026/11/17-152654693/inter_lautaro_martinez_tornato_in_gruppo_primo_allenamento_in_squadra_dopo_l_infortunio"
-        ],
-        [
-          "Gianluca Di Marzio",
-          "https://www.gianlucadimarzio.com/news-calcio/inter-lautaro-martinez-thuram-serie-a-499601"
-        ]
-      ]
-    },
-    {
-      "date": "2026-11-17",
-      "cat": "accidentare",
-      "title": "Zieliński, alarmă încheiată: disponibil pentru meciul Poloniei cu Suedia",
-      "text": "Potrivit presei poloneze, mijlocașul nu a mai simțit nicio durere la picior la ultimul antrenament și ar trebui să joace cu Suedia. Interul nu a comunicat oficial un diagnostic, dar ținta este ca Zieliński să fie disponibil la reluarea campionatului, cu Atalanta.",
-      "sources": [
-        [
-          "FC Inter News",
-          "https://www.fcinternews.it/focus/polonia-zielinski-disposizione-fastidio-piede-seduta-rifinitura-1023387"
-        ],
-        [
-          "FC Inter 1908",
-          "https://www.fcinter1908.it/ultimora/inter-ottime-notizie-su-zielinski-in-polonia-giochera-contro-la-svezia-al-90/"
-        ]
-      ]
     }
   ],
   "injuries": [
@@ -815,14 +750,19 @@
       "note": "Indisponibil pentru Stuttgart (25 nov), a anunțat Chivu."
     },
     {
-      "player": "Aleksandar Stanković",
-      "status": "out",
-      "note": "Leziune la adductorul coapsei drepte (naționala Serbiei). Sky: revenire în grup spre sfârșitul săptămânii viitoare; alte surse indică 13 sau 18 decembrie pentru meciuri."
-    },
-    {
       "player": "Hakan Çalhanoğlu",
       "status": "out",
       "note": "Întindere la flexorii coapsei drepte (oficial, 24 nov). Trei–patru săptămâni; țintă: Supercupa cu Lazio (22 dec)."
+    },
+    {
+      "player": "Alessandro Bastoni",
+      "status": "doubt",
+      "note": "Durere la cvadricepsul coapsei stângi, ieșit în minutul 40 cu Stuttgart (25 nov). Chivu exclude o leziune; investigații în curs, incert pentru Genoa (28 nov)."
+    },
+    {
+      "player": "Aleksandar Stanković",
+      "status": "back",
+      "note": "Leziune la adductorul coapsei drepte (naționala Serbiei). S-a întors la antrenamentele cu grupul."
     },
     {
       "player": "Luis Henrique",
