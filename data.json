@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T10:10:00+02:00",
+  "updated": "2026-11-27T18:10:00+02:00",
   "headline": {
     "date": "2026-11-25",
     "title": "Inter – Stuttgart 2–0: Lautaro marchează la revenire",
@@ -368,6 +368,18 @@
     {
       "date": "2026-11-27",
       "cat": "antrenament",
+      "title": "Sky: Zieliński revine în grup și e disponibil cu Genoa; Bastoni lipsește",
+      "text": "Mijlocașul polonez s-a antrenat din nou cu echipa și va fi la dispoziția lui Chivu sâmbătă, pe San Siro. Bastoni nu va juca; investigațiile făcute vineri vor arăta cât de serioasă e problema la cvadriceps.",
+      "sources": [
+        [
+          "FC Inter News",
+          "https://www.fcinternews.it/in-primo-piano/i-sky-i-inter-genoa-buone-notizie-chivu-zielinski-tornato-1024164"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "cat": "antrenament",
       "title": "Spre Inter – Genoa: Bastoni, spre absență; Zieliński și Bonny lucrează separat",
       "text": "Gazzetta dello Sport scrie că Bastoni, ieșit cu dureri la cvadriceps cu Stuttgart, nu ar trebui să fie disponibil sâmbătă, iar Carlos Augusto i-ar lua locul în apărare. La Appiano, Zieliński, care acuză în continuare dureri la picior, și Bonny s-au antrenat din nou separat.",
       "sources": [
@@ -712,26 +724,6 @@
           "https://www.fcinternews.it/focus/serie-a-arbitri-12a-giornata-maresca-atalanta-inter-gariglio-var-1023492"
         ]
       ]
-    },
-    {
-      "date": "2026-11-18",
-      "cat": "antrenament",
-      "title": "Chivu își recuperează aproape toți titularii înainte de Atalanta",
-      "text": "Lautaro a făcut primul antrenament complet cu grupul, iar Thuram, Jones și Zieliński sunt refăcuți, scrie Tuttosport. Investigațiile lui Akanji, retras preventiv de la naționala Elveției, au ieșit negative, așa că fundașul poate fi convocat. Gazzetta vede pentru Lautaro aproximativ o jumătate de oră de la bancă la Bergamo.",
-      "sources": [
-        [
-          "Tuttosport",
-          "https://www.tuttosport.com/news/calcio/serie-a/inter/2026/11/18-152670357/non_solo_lautaro_chivu_recupera_quasi_tutti_i_big_chi_torna_a_disposizione_per_atalanta-inter"
-        ],
-        [
-          "Inter.it",
-          "https://www.inter.it/en/news/training-inter-18-november-2026"
-        ],
-        [
-          "FC Inter 1908",
-          "https://fcinter1908.it/social/inter-lautaro-allenamento-gruppo-messaggio-social"
-        ]
-      ]
     }
   ],
   "injuries": [
@@ -741,19 +733,19 @@
       "note": "Problemă la flexorii coapsei drepte. Sky: revenire în grup la o săptămână după Stanković; țintă de joc Frosinone (5 dec) sau Dortmund (9 dec), alte surse indică 13 sau 18 decembrie."
     },
     {
-      "player": "Piotr Zieliński",
-      "status": "out",
-      "note": "Durere la picior; a ratat Stuttgart (25 nov) și se antrenează în continuare separat. Incert pentru Genoa (28 nov)."
-    },
-    {
       "player": "Hakan Çalhanoğlu",
       "status": "out",
       "note": "Întindere la flexorii coapsei drepte (oficial, 24 nov). Trei–patru săptămâni; țintă: Supercupa cu Lazio (22 dec)."
     },
     {
       "player": "Alessandro Bastoni",
-      "status": "doubt",
-      "note": "Durere la cvadricepsul coapsei stângi, ieșit în minutul 40 cu Stuttgart (25 nov). Chivu exclude o leziune; Gazzetta îl dă absent cu Genoa (28 nov)."
+      "status": "out",
+      "note": "Durere la cvadricepsul coapsei stângi, ieșit în minutul 40 cu Stuttgart (25 nov). Lipsește cu Genoa (28 nov); se așteaptă rezultatul investigațiilor."
+    },
+    {
+      "player": "Piotr Zieliński",
+      "status": "back",
+      "note": "Durere la picior; a ratat Stuttgart (25 nov). S-a întors în grup pe 27 noiembrie și e disponibil pentru Genoa."
     },
     {
       "player": "Aleksandar Stanković",
