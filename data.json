@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T18:15:00+02:00",
+  "updated": "2026-11-27T10:10:00+02:00",
   "headline": {
     "date": "2026-11-25",
     "title": "Inter – Stuttgart 2–0: Lautaro marchează la revenire",
@@ -366,6 +366,26 @@
   },
   "news": [
     {
+      "date": "2026-11-27",
+      "cat": "antrenament",
+      "title": "Spre Inter – Genoa: Bastoni, spre absență; Zieliński și Bonny lucrează separat",
+      "text": "Gazzetta dello Sport scrie că Bastoni, ieșit cu dureri la cvadriceps cu Stuttgart, nu ar trebui să fie disponibil sâmbătă, iar Carlos Augusto i-ar lua locul în apărare. La Appiano, Zieliński, care acuză în continuare dureri la picior, și Bonny s-au antrenat din nou separat.",
+      "sources": [
+        [
+          "FC Inter 1908",
+          "https://www.fcinter1908.it/news/rassegna-stampa/inter-bastoni-fiato-sospeso-genoa-chivu-un-piano/"
+        ],
+        [
+          "FC Inter News",
+          "https://www.fcinternews.it/focus/fcin-appiano-bonny-zielinski-parte-bastoni-domani-esami-1024114"
+        ],
+        [
+          "Calciomercato",
+          "https://www.calciomercato.com/notizie/inter-infortunio-bastoni-cosa-si-e-fatto-quando-torna-e-quante-partite-salta/bltb9bf5d949cba0fc2"
+        ]
+      ]
+    },
+    {
       "date": "2026-11-26",
       "cat": "accidentare",
       "title": "Bastoni, ieșit cu dureri la cvadriceps; Chivu exclude o leziune",
@@ -712,30 +732,6 @@
           "https://fcinter1908.it/social/inter-lautaro-allenamento-gruppo-messaggio-social"
         ]
       ]
-    },
-    {
-      "date": "2026-11-17",
-      "cat": "meci",
-      "title": "Zieliński joacă 81 de minute în Polonia – Suedia 1–1",
-      "text": "În ciuda durerii la picior din ultimele zile, mijlocașul a fost titular în ultimul meci al grupei de Nations League, încheiat 1–1 la Wrocław. „Am simțit puțină durere, dar am reușit să joc”, a spus Zieliński, care a liniștit Interul: „Nu e o accidentare.”",
-      "sources": [
-        [
-          "FC Inter News",
-          "https://www.fcinternews.it/focus/polonia-svezia-pareggiano-1-1-zielinski-campo-81-minuti-1023462"
-        ],
-        [
-          "FC Inter 1908",
-          "https://www.fcinter1908.it/news/interviste/polonia-zielinski-dolore-nazionale-inter/"
-        ],
-        [
-          "FotMob",
-          "https://www.fotmob.com/matches/sweden-vs-poland/2exnfc"
-        ],
-        [
-          "FC Inter 1908",
-          "https://www.fcinter1908.it/news/interviste/zieilnski-rassicura-inter-spiega-infortunio/"
-        ]
-      ]
     }
   ],
   "injuries": [
@@ -747,7 +743,7 @@
     {
       "player": "Piotr Zieliński",
       "status": "out",
-      "note": "Indisponibil pentru Stuttgart (25 nov), a anunțat Chivu."
+      "note": "Durere la picior; a ratat Stuttgart (25 nov) și se antrenează în continuare separat. Incert pentru Genoa (28 nov)."
     },
     {
       "player": "Hakan Çalhanoğlu",
@@ -757,7 +753,7 @@
     {
       "player": "Alessandro Bastoni",
       "status": "doubt",
-      "note": "Durere la cvadricepsul coapsei stângi, ieșit în minutul 40 cu Stuttgart (25 nov). Chivu exclude o leziune; investigații în curs, incert pentru Genoa (28 nov)."
+      "note": "Durere la cvadricepsul coapsei stângi, ieșit în minutul 40 cu Stuttgart (25 nov). Chivu exclude o leziune; Gazzetta îl dă absent cu Genoa (28 nov)."
     },
     {
       "player": "Aleksandar Stanković",
