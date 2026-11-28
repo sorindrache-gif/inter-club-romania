@@ -1,21 +1,21 @@
 {
-  "updated": "2026-11-27T18:10:00+02:00",
+  "updated": "2026-11-28T10:15:00+02:00",
   "headline": {
-    "date": "2026-11-25",
-    "title": "Inter – Stuttgart 2–0: Lautaro marchează la revenire",
-    "text": "După 4–4 de la Bergamo, Interul a răspuns cu o victorie fără gol primit pe San Siro: Sučić a marcat din penalty, iar Lautaro, intrat de pe bancă, a semnat 2–0. Nerazzurrii au 9 puncte în faza ligii, după trei victorii la rând. Sâmbătă urmează Genoa în campionat, tot pe San Siro.",
+    "date": "2026-11-28",
+    "title": "Ziua meciului: Inter – Genoa, pe San Siro, de la 21:45",
+    "text": "După 2–0 cu Stuttgart, Interul revine în campionat pe locul 3, la trei puncte de liderul Lazio. Lautaro ar urma să fie titular pentru prima dată după accidentare, alături de Thuram. Bastoni lipsește circa trei săptămâni după întinderea la cvadriceps, iar Çalhanoğlu și Bonny rămân indisponibili.",
     "sources": [
       [
-        "Inter.it",
-        "https://inter.it/it/notizie/inter-stoccarda-champions-league-2026-27"
-      ],
-      [
         "Sky Sport",
-        "https://sport.sky.it/calcio/champions-league/partite/2026/giornata-5/inter-stoccarda/risultato-gol"
+        "https://sport.sky.it/calcio/serie-a/2026/11/27/inter-genoa-probabili-formazioni-13-giornata"
       ],
       [
-        "UEFA",
-        "https://www.uefa.com/uefachampionsleague/match/2049635--inter-vs-stuttgart/"
+        "Gianluca Di Marzio",
+        "https://www.gianlucadimarzio.com/news-calcio/inter-probabile-formazione-genoa-serie-a-news-500012"
+      ],
+      [
+        "Inter.it",
+        "https://inter.it/it/notizie/condizioni-infortunio-alessandro-bastoni-novembre-2026"
       ]
     ]
   },
@@ -366,6 +366,46 @@
   },
   "news": [
     {
+      "date": "2026-11-28",
+      "cat": "meci",
+      "title": "Inter – Genoa: Lautaro, spre primul meci ca titular după accidentare",
+      "text": "Sky Sport, Gianluca Di Marzio și Gazzetta îl văd pe Lautaro titular, alături de Thuram, favorit în fața lui Pio Esposito. Provedel ar urma să apere în locul lui Martínez, iar în apărare, fără Bastoni, ar juca Bisseck, Akanji și Carlos Augusto.",
+      "sources": [
+        [
+          "Sky Sport",
+          "https://sport.sky.it/calcio/serie-a/2026/11/27/inter-genoa-probabili-formazioni-13-giornata"
+        ],
+        [
+          "Gianluca Di Marzio",
+          "https://www.gianlucadimarzio.com/news-calcio/inter-probabile-formazione-genoa-serie-a-news-500012"
+        ],
+        [
+          "FC Inter News",
+          "https://www.fcinternews.it/focus/inter-genoa-probabile-formazione-1024210"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "cat": "accidentare",
+      "title": "Oficial: Bastoni, întindere la cvadriceps; aproximativ trei săptămâni de pauză",
+      "text": "Investigațiile de la Humanitas au arătat un „risentimento” la cvadricepsul coapsei stângi, a anunțat Interul. Fundașul ar urma să lipsească circa trei săptămâni, cu ținta de a reveni la Lecce – Inter (18 decembrie) sau în Supercupa cu Lazio (22 decembrie).",
+      "sources": [
+        [
+          "Inter.it",
+          "https://inter.it/it/notizie/condizioni-infortunio-alessandro-bastoni-novembre-2026"
+        ],
+        [
+          "Sky Sport",
+          "https://sport.sky.it/calcio/serie-a/2026/11/27/bastoni-inter-infortunio-news"
+        ],
+        [
+          "Gianluca Di Marzio",
+          "https://www.gianlucadimarzio.com/news-calcio/inter-esito-esami-bastoni-tempi-recupero-500000"
+        ]
+      ]
+    },
+    {
       "date": "2026-11-27",
       "cat": "antrenament",
       "title": "Sky: Zieliński revine în grup și e disponibil cu Genoa; Bastoni lipsește",
@@ -696,34 +736,6 @@
           "https://www.calciomercato.com/notizie/inter-zanetti-lancia-lautaro-sta-facendo-le-ultime-prove-coi-medici-da-domani-in-gruppo-punta-l-atalanta/bltc54a76051976bc5c"
         ]
       ]
-    },
-    {
-      "date": "2026-11-19",
-      "cat": "meci",
-      "title": "Spre Atalanta – Inter: Chivu ar putea păstra echipa care a învins Como",
-      "text": "Potrivit Gazzetta dello Sport, în atac ar urma să joace Pio Esposito și Thuram, iar singurele schimbări probabile sunt Bisseck în locul lui Akanji și Sučić în locul lui Zieliński. Lautaro este pregătit să revină de pe bancă. Meciul se joacă duminică, de la 21:45 (ora României).",
-      "sources": [
-        [
-          "FC Inter 1908",
-          "https://www.fcinter1908.it/ultimora/verso-atalanta-inter-chivu-cambia-poco-possibili-due-cambi-di-formazione/"
-        ]
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "cat": "meci",
-      "title": "Fabio Maresca va arbitra Atalanta – Inter",
-      "text": "AIA l-a desemnat pe Maresca la centru pentru meciul de duminică de la Bergamo, cu Gariglio la VAR. Va fi al 20-lea meci al Interului condus de el: 13 victorii, trei egaluri și trei înfrângeri.",
-      "sources": [
-        [
-          "Sky Sport",
-          "https://sport.sky.it/calcio/serie-a/2026/11/18/arbitri-serie-a-designazioni-giornata-12"
-        ],
-        [
-          "FC Inter News",
-          "https://www.fcinternews.it/focus/serie-a-arbitri-12a-giornata-maresca-atalanta-inter-gariglio-var-1023492"
-        ]
-      ]
     }
   ],
   "injuries": [
@@ -740,7 +752,7 @@
     {
       "player": "Alessandro Bastoni",
       "status": "out",
-      "note": "Durere la cvadricepsul coapsei stângi, ieșit în minutul 40 cu Stuttgart (25 nov). Lipsește cu Genoa (28 nov); se așteaptă rezultatul investigațiilor."
+      "note": "Întindere la cvadricepsul coapsei stângi (oficial, 27 nov). Circa trei săptămâni; țintă: Lecce (18 dec) sau Supercupa cu Lazio (22 dec)."
     },
     {
       "player": "Piotr Zieliński",
